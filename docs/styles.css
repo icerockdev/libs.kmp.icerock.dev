@@ -1,0 +1,47 @@
+.site-ribbon {
+    width: 100%;
+    height: 40vh;
+    background-color: #673AB7;
+    flex-shrink: 0;
+}
+
+.site-main {
+    margin-top: -35vh;
+    flex-shrink: 0;
+}
+
+.site-header .mdl-layout__header-row {
+    padding-left: 40px;
+}
+
+.site-container {
+    max-width: 1600px;
+    width: calc(100% - 16px);
+    margin: 0 auto;
+}
+
+.site-content {
+    border-radius: 2px;
+    padding: 80px 56px;
+    margin-bottom: 80px;
+}
+
+.site-layout.is-small-screen .site-content {
+    padding: 40px 28px;
+}
+
+.site-content h3 {
+    margin-top: 48px;
+}
+
+.site-footer {
+    padding-left: 40px;
+}
+
+.site-footer .mdl-mini-footer--link-list a {
+    font-size: 13px;
+}
+
+.site-card {
+    margin: 16px;
+}
