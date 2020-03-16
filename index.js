@@ -34,6 +34,8 @@ Promise.all(infoPromises)
   });
 
 function parseMavenMetadata(metadata) {
+  console.log("parseMavenMetadata " + metadata);
+
   let versioning = metadata.versioning[0];
 
   return {
@@ -46,6 +48,8 @@ function parseMavenMetadata(metadata) {
 }
 
 function fetchVersionsInfo(baseUrl, metadata) {
+  console.log("fetchVersionsInfo " + baseUrl + " " + metadata);
+
   let versionPromises = metadata.versions
     .map(version => fetchVersionInfo(baseUrl, metadata, version));
 
@@ -57,18 +61,13 @@ function fetchVersionsInfo(baseUrl, metadata) {
 }
 
 function fetchVersionInfo(baseUrl, metadata, version) {
+  console.log("fetchVersionInfo " + baseUrl + " metadata " + metadata + " version " + version);
+
   return axios.get(baseUrl + version + "/" + metadata.artifactId + "-" + version + ".module")
     .then(response => {
       let versionInfo = response.data;
-      return fetchDependencies(baseUrl, metadata, versionInfo)
-        .then(dependencies => {
-          var kotlinVersion = "unknown";
-          if (dependencies.length > 0) {
-            let kotlinDependency = dependencies
-              .find(dep => dep.startsWith("org.jetbrains.kotlin:kotlin-stdlib"));
-            kotlinVersion = kotlinDependency.split(":").pop();
-          }
-
+      return fetchKotlinVersion(baseUrl, metadata, versionInfo)
+        .then(kotlinVersion => {
           return {
             version: version,
             gradle: versionInfo.createdBy.gradle.version,
@@ -79,25 +78,40 @@ function fetchVersionInfo(baseUrl, metadata, version) {
                 target: variant.attributes["org.jetbrains.kotlin.native.target"]
               };
               return map;
-            }, {}),
-            dependencies: dependencies
+            }, {})
           };
         });
     });
 }
 
-function fetchDependencies(baseUrl, metadata, versionInfo) {
-  let commonVariant = versionInfo.variants
-    .find(variant => variant.attributes["org.jetbrains.kotlin.platform.type"] === "common");
+function fetchKotlinVersion(baseUrl, metadata, versionInfo) {
+  console.log("fetchKotlinVersion " + baseUrl + " metadata " + metadata + " versionInfo " + versionInfo);
+  return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, versionInfo.variants, 0);
+}
 
-  return axios.get(baseUrl + versionInfo.component.version + "/" + commonVariant["available-at"]["url"])
+function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx) {
+  console.log("fetchKotlinVersionFromVariant " + baseUrl + " metadata " + metadata + " versionInfo " + versionInfo + " variants " + variants + " idx " + idx);
+
+  return axios.get(baseUrl + versionInfo.component.version + "/" + variants[idx]["available-at"]["url"])
     .then(function (response) {
       let dependencies = response.data.variants[0].dependencies;
       if (dependencies == null) {
-        return [];
+        return undefined;
       }
-      return dependencies.map(dep => {
-        return dep.group + ":" + dep.module + ":" + dep.version.requires;
-      });
+      let kotlinDependency = dependencies
+        .find(dep => {
+          return dep.group === "org.jetbrains.kotlin" && dep.module.startsWith("kotlin-stdlib");
+        });
+      return kotlinDependency.version.requires;
+    }).then(version => {
+      if (version === undefined) {
+        if (idx < variants.length - 1) {
+          return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, ++idx);
+        } else {
+          return undefined;
+        }
+      } else {
+        return version;
+      }
     });
 }
