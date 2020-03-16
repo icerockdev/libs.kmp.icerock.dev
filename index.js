@@ -28,6 +28,9 @@ Promise.all(infoPromises)
     if (!fs.existsSync("docs")) fs.mkdirSync("docs");
 
     fs.writeFileSync("docs/data.json", JSON.stringify(data));
+  })
+  .catch(error => {
+    console.log(error);
   });
 
 function parseMavenMetadata(metadata) {
