@@ -1,5 +1,5 @@
 # Summary
-List of Kotlin Multiplatform libraries. 
+List of Kotlin Multiplatform libraries - https://libs.kmp.icerock.dev/. 
 All info about libraries automatically fetch from maven everyday by GitHub Scheduled Action.
 
 # How to add own lib
