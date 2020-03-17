@@ -6,7 +6,7 @@ const axios = require('axios').default;
 const xml2js = require('xml2js');
 const fs = require('fs');
 
-let libraries = require('./libraries.json');
+let libraries = require('../libraries.json');
 
 let parser = new xml2js.Parser();
 let infoPromises = libraries.map(function (value) {
@@ -25,9 +25,7 @@ let infoPromises = libraries.map(function (value) {
 });
 Promise.all(infoPromises)
   .then(data => {
-    if (!fs.existsSync("docs")) fs.mkdirSync("docs");
-
-    fs.writeFileSync("docs/data.json", JSON.stringify(data));
+    fs.writeFileSync("public/data.json", JSON.stringify(data));
   })
   .catch(error => {
     console.log(error);
