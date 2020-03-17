@@ -1,70 +1,102 @@
 [
   {
-    "github": "https://github.com/icerockdev/moko-widgets/",
+    "github": "icerockdev/moko-widgets",
+    "category": "UI",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/widgets/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-mvvm/",
+    "github": "icerockdev/moko-mvvm",
+    "category": "Architecture",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/mvvm/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-network",
+    "github": "icerockdev/moko-network",
+    "category": "Network",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/network/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-resources/",
+    "github": "icerockdev/moko-resources",
+    "category": "Device",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/resources/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-permissions/",
+    "github": "icerockdev/moko-permissions",
+    "category": "Architecture",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/permissions/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-media/",
+    "github": "icerockdev/moko-media",
+    "category": "Device",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/media/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-fields/",
+    "github": "icerockdev/moko-fields",
+    "category": "Logic",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/fields/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-units/",
+    "github": "icerockdev/moko-units",
+    "category": "UI",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/units/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-graphics/",
+    "github": "icerockdev/moko-graphics",
+    "category": "UI",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/graphics/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-parcelize/",
+    "github": "icerockdev/moko-parcelize",
+    "category": "Utils",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/parcelize/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-time/",
+    "github": "icerockdev/moko-time",
+    "category": "Time",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/time/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-maps/",
+    "github": "icerockdev/moko-maps",
+    "category": "Integrations",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/maps/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-geo/",
+    "github": "icerockdev/moko-geo",
+    "category": "Device",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/geo/"
   },
   {
-    "github": "https://github.com/icerockdev/moko-paging/",
+    "github": "icerockdev/moko-paging",
+    "category": "Logic",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/paging/"
   },
   {
-    "github": "https://github.com/korlibs/klock",
+    "github": "korlibs/klock",
+    "category": "Time",
     "maven": "https://dl.bintray.com/korlibs/korlibs/com/soywiz/korlibs/klock/klock/"
   },
   {
-    "github": "https://github.com/russhwolf/multiplatform-settings",
+    "github": "russhwolf/multiplatform-settings",
+    "category": "Storage",
     "maven": "https://jcenter.bintray.com/com/russhwolf/multiplatform-settings/"
   },
   {
-    "github": "https://github.com/kuuuurt/multiplatform-paging",
+    "github": "kuuuurt/multiplatform-paging",
+    "category": "Logic",
     "maven": "https://dl.bintray.com/kuuuurt/libraries/com/kuuuurt/multiplatform-paging/"
+  },
+  {
+    "github": "Kotlin/kotlinx.coroutines",
+    "category": "Async",
+    "maven": "https://kotlin.bintray.com/kotlinx/org/jetbrains/kotlinx/kotlinx-coroutines-core-native/"
+  },
+  {
+    "github": "Kotlin/kotlinx.serialization",
+    "category": "Serialization",
+    "maven": "https://kotlin.bintray.com/kotlinx/org/jetbrains/kotlinx/kotlinx-serialization-runtime-native/"
+  },
+  {
+    "github": "ktorio/ktor",
+    "category": "Network",
+    "maven": "https://kotlin.bintray.com/ktor/io/ktor/ktor-client-core-native/"
   }
 ]

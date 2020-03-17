@@ -6,11 +6,13 @@ const axios = require('axios').default;
 const xml2js = require('xml2js');
 const fs = require('fs');
 
+const githubToken = process.argv[2];
+
 let libraries = require('../libraries.json');
 
 let parser = new xml2js.Parser();
 let infoPromises = libraries.map(function (value) {
-  let gitHubUrl = value.github;
+  let gitHubRepo = value.github;
   let mavenUrl = value.maven;
   return axios
     .get(mavenUrl + "maven-metadata.xml")
@@ -19,26 +21,30 @@ let infoPromises = libraries.map(function (value) {
     .then(parseMavenMetadata)
     .then(metadata => fetchVersionsInfo(mavenUrl, metadata))
     .then(metadata => {
-      metadata.github = gitHubUrl;
+      return appendGitHubInfo(metadata, gitHubRepo);
+    })
+    .then(metadata => {
+      metadata.category = value.category;
       return metadata;
     });
 });
 Promise.all(infoPromises)
   .then(data => {
-    fs.writeFileSync("public/data.json", JSON.stringify(data));
+    fs.writeFileSync("public/data.json", JSON.stringify(data,null,' '));
   })
   .catch(error => {
     console.log(error);
   });
 
 function parseMavenMetadata(metadata) {
-  console.log("parseMavenMetadata " + metadata);
+  console.log("parseMavenMetadata ");
 
   let versioning = metadata.versioning[0];
 
   return {
     groupId: metadata.groupId[0],
     artifactId: metadata.artifactId[0],
+    path: metadata.groupId[0] + ":" + metadata.artifactId[0],
     latestVersion: versioning.latest[0],
     lastUpdated: versioning.lastUpdated[0],
     versions: versioning.versions[0].version
@@ -46,20 +52,20 @@ function parseMavenMetadata(metadata) {
 }
 
 function fetchVersionsInfo(baseUrl, metadata) {
-  console.log("fetchVersionsInfo " + baseUrl + " " + metadata);
+  console.log("fetchVersionsInfo " + baseUrl);
 
   let versionPromises = metadata.versions
     .map(version => fetchVersionInfo(baseUrl, metadata, version));
 
   return Promise.all(versionPromises)
     .then(function (versions) {
-      metadata.versions = versions;
+      metadata.versions = versions.filter(version => version.mpp === true);
       return metadata;
     });
 }
 
 function fetchVersionInfo(baseUrl, metadata, version) {
-  console.log("fetchVersionInfo " + baseUrl + " metadata " + metadata + " version " + version);
+  console.log("fetchVersionInfo " + baseUrl + " version " + version);
 
   return axios.get(baseUrl + version + "/" + metadata.artifactId + "-" + version + ".module")
     .then(response => {
@@ -68,6 +74,7 @@ function fetchVersionInfo(baseUrl, metadata, version) {
         .then(kotlinVersion => {
           return {
             version: version,
+            mpp: true,
             gradle: versionInfo.createdBy.gradle.version,
             kotlin: kotlinVersion,
             targets: versionInfo.variants.reduce(function (map, variant) {
@@ -79,16 +86,22 @@ function fetchVersionInfo(baseUrl, metadata, version) {
             }, {})
           };
         });
+    })
+    .catch(error => {
+      return {
+        version: version,
+        mpp: false
+      }
     });
 }
 
 function fetchKotlinVersion(baseUrl, metadata, versionInfo) {
-  console.log("fetchKotlinVersion " + baseUrl + " metadata " + metadata + " versionInfo " + versionInfo);
+  console.log("fetchKotlinVersion " + baseUrl);
   return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, versionInfo.variants, 0);
 }
 
 function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx) {
-  console.log("fetchKotlinVersionFromVariant " + baseUrl + " metadata " + metadata + " versionInfo " + versionInfo + " variants " + variants + " idx " + idx);
+  console.log("fetchKotlinVersionFromVariant " + baseUrl + " idx " + idx);
 
   return axios.get(baseUrl + versionInfo.component.version + "/" + variants[idx]["available-at"]["url"])
     .then(function (response) {
@@ -111,5 +124,34 @@ function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants,
       } else {
         return version;
       }
+    });
+}
+
+function appendGitHubInfo(metadata, githubRepo) {
+  console.log("appendGitHubInfo " + githubRepo);
+
+  return axios.get("https://api.github.com/repos/" + githubRepo,
+    {
+      headers: {
+        "Authorization": "token " + githubToken,
+        "Accept": "application/vnd.github.mercy-preview+json"
+      }
+    })
+    .then(response => response.data)
+    .then(repoInfo => {
+      metadata.github = {
+        name: repoInfo.name,
+        full_name: repoInfo.full_name,
+        html_url: repoInfo.html_url,
+        description: repoInfo.description,
+        stars_count: repoInfo.stargazers_count,
+        watchers_count: repoInfo.subscribers_count,
+        issues_count: repoInfo.open_issues_count,
+        forks_count: repoInfo.forks_count,
+        license: repoInfo.license.name,
+        topics: repoInfo.topics
+      };
+
+      return metadata;
     });
 }

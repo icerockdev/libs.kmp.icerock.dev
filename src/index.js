@@ -137,7 +137,7 @@ class Body extends React.Component {
       </div>;
 
       let items = libraries.map(library => {
-        let name = library.groupId + ":" + library.artifactId;
+        let name = library.path;
         let latestVersion = library.versions[library.versions.length - 1];
         let platforms = Object.keys(latestVersion.targets)
           .map(key => {
