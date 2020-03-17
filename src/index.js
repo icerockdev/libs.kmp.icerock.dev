@@ -70,7 +70,8 @@ class Body extends React.Component {
     this.state = {
       libraries: null,
       selectedKotlinVersion: null,
-      selectedCategory: null
+      selectedCategory: null,
+      selectedTarget: null
     };
   }
 
@@ -98,6 +99,11 @@ class Body extends React.Component {
       newState.selectedCategory = event.target.value;
       this.setState(newState);
     };
+    const handleTargetChange = event => {
+      let newState = this.state;
+      newState.selectedTarget = event.target.value;
+      this.setState(newState);
+    };
 
     let containerButtons;
     let containerGrid;
@@ -111,6 +117,11 @@ class Body extends React.Component {
         .filter((v, i, a) => a.indexOf(v) === i);
       let categories = libraries
         .map(library => library.category)
+        .filter((v, i, a) => a.indexOf(v) === i);
+      let targets = libraries
+        .flatMap(library => library.versions)
+        .flatMap(libraryVersion => Object.values(libraryVersion.targets))
+        .map(target => target.target)
         .filter((v, i, a) => a.indexOf(v) === i);
 
       let filterStyle = {
@@ -151,24 +162,42 @@ class Body extends React.Component {
               </Select>
             </FormControl>
           </Grid>
+          <Grid item>
+            <FormControl variant="outlined" style={filterStyle}>
+              <InputLabel>Target</InputLabel>
+              <Select
+                id="target-version-selector"
+                value={this.state.selectedTarget}
+                onChange={handleTargetChange}
+                labelWidth={120}
+              >
+                <MenuItem value="">
+                  <em>None</em>
+                </MenuItem>
+                {targets.map(item => <MenuItem value={item}>{item}</MenuItem>)}
+              </Select>
+            </FormControl>
+          </Grid>
         </Grid>
       </div>;
 
       let category = this.state.selectedCategory;
       let kotlin = this.state.selectedKotlinVersion;
+      let target = this.state.selectedTarget;
       let filterLibraries = libraries.filter(library => {
-        return library.category === category || category === "" || category == null
+        return category === "" || category == null || library.category === category;
       }).map(library => {
         let newLib = {};
         Object.assign(newLib, library);
         newLib.versions = library.versions.filter(version => {
-          return version.kotlin === kotlin || kotlin === "" || kotlin == null
+          return kotlin === "" || kotlin == null || version.kotlin === kotlin;
+        }).filter(version => {
+          return target == null || target === "" || Object.values(version.targets).map(target => target.target).includes(target);
         });
         return newLib;
       }).filter(lib => lib.versions.length > 0);
 
       let items = filterLibraries.map(library => {
-        let name = library.path;
         let latestVersion = library.versions[library.versions.length - 1];
         let platforms = Object.keys(latestVersion.targets)
           .map(key => {
@@ -178,28 +207,24 @@ class Body extends React.Component {
           })
           .filter((v, i, a) => a.indexOf(v) === i);
 
-        let latestVersionName = "Latest: " + latestVersion.version;
-        let kotlin = "Kotlin:" + latestVersion.kotlin;
-        let targets = "Targets: " + platforms.join(", ");
+        let targets = platforms.join(", ");
 
-        return <Grid item key={library} xs={12} sm={6} >
-          {/*md={4}*/}
+        let descriptionStyle = {
+          margin: "8px 0"
+        };
+
+        return <Grid item key={library} xs={12} sm={6}>
           <Card className={this.props.classes.card}>
-            {/*<CardMedia*/}
-            {/*  className={this.props.classes.cardMedia}*/}
-            {/*  image="https://source.unsplash.com/random"*/}
-            {/*  title="Image title"*/}
-            {/*/>*/}
             <CardContent className={this.props.classes.cardContent}>
-              <Typography gutterBottom variant="h5" component="h2">
-                {name}
-              </Typography>
-              <Typography>{latestVersionName}</Typography>
-              <Typography>{kotlin}</Typography>
-              <Typography>{targets}</Typography>
+              <Typography gutterBottom variant="h5" component="h2">{library.github.name}</Typography>
+              <Typography style={descriptionStyle}>{library.github.description}</Typography>
+              <Typography>Category: {library.category}</Typography>
+              <Typography>Gradle: {library.path + ":" + latestVersion.version}</Typography>
+              <Typography>Kotlin: {latestVersion.kotlin}</Typography>
+              <Typography>Targets: {targets}</Typography>
             </CardContent>
             <CardActions>
-              <Button size="small" color="primary" href={library.github} target={"_blank"}>
+              <Button size="small" color="primary" href={library.github.html_url} target={"_blank"}>
                 GitHub
               </Button>
             </CardActions>
@@ -243,12 +268,6 @@ function App() {
       <Body classes={classes}/>
       {/* Footer */}
       <footer className={classes.footer}>
-        {/*<Typography variant="h6" align="center" gutterBottom>*/}
-        {/*  Footer*/}
-        {/*</Typography>*/}
-        {/*<Typography variant="subtitle1" align="center" color="textSecondary" component="p">*/}
-        {/*  Something here to give the footer a purpose!*/}
-        {/*</Typography>*/}
         <Copyright/>
       </footer>
       {/* End footer */}
