@@ -8,7 +8,8 @@ Add in `libraries.json` new object in array:
 [
   ...,
   {
-    "github": "your github repo url",
+    "github": "org/name",
+    "category": "category name",
     "maven": "url to your metadata artifact on maven repo"
   }
 ]
