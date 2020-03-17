@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf docs && node src/fetchLibs.js && react-scripts build && mv build docs",
+    "build": "rm -rf docs && node src/fetchLibs.js && react-scripts build && mv build docs && cp CNAME docs/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
