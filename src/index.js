@@ -14,6 +14,10 @@ import {makeStyles} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import * as ReactDOM from "react-dom";
+import Select from "@material-ui/core/Select";
+import MenuItem from "@material-ui/core/MenuItem";
+import FormControl from "@material-ui/core/FormControl";
+import InputLabel from "@material-ui/core/InputLabel";
 
 function Copyright() {
   return (
@@ -65,6 +69,8 @@ class Body extends React.Component {
     super(props);
     this.state = {
       libraries: null,
+      selectedKotlinVersion: null,
+      selectedCategory: null
     };
   }
 
@@ -73,39 +79,6 @@ class Body extends React.Component {
       .then(response => response.json())
       .then(libraries => {
         this.setState({libraries: libraries});
-
-        // libraries.forEach(library => {
-        // let cardRoot = template.cloneNode(true);
-        // cardRoot.attributes.removeNamedItem("id");
-        //
-        // let titleNode = cardRoot.querySelector("#library-title");
-        // titleNode.attributes.removeNamedItem("id");
-        // titleNode.textContent = library.groupId + ":" + library.artifactId;
-        //
-        // let descriptionNode = cardRoot.querySelector("#library-description");
-        // descriptionNode.attributes.removeNamedItem("id");
-        // descriptionNode.textContent = null;
-        // library.versions.forEach(version => {
-        //   let versionParagraph = document.createElement("p");
-        //   let platforms = Object.keys(version.targets)
-        //     .map(key => {
-        //       let target = version.targets[key];
-        //       if (target.target != null) return target.target;
-        //       else return target.platform;
-        //     })
-        //     .filter((v, i, a) => a.indexOf(v) === i)
-        //     .reduce((result, platform) => result + ", " + platform, "");
-        //   versionParagraph.textContent = version.version + " - kotlin " + version.kotlin + platforms;
-        //   descriptionNode.appendChild(versionParagraph);
-        // });
-        //
-        // let githubLinkNode = cardRoot.querySelector("#library-github");
-        // githubLinkNode.attributes.removeNamedItem("id");
-        // githubLinkNode.setAttribute("href", library.github);
-        //
-        // componentHandler.upgradeElement(cardRoot);
-        // content.appendChild(cardRoot);
-        // });
       })
       .catch(error => {
         // let textNode = document.createTextNode(error);
@@ -115,28 +88,86 @@ class Body extends React.Component {
 
   render() {
     const libraries = this.state.libraries;
+    const handleKotlinVersionChange = event => {
+      let newState = this.state;
+      newState.selectedKotlinVersion = event.target.value;
+      this.setState(newState);
+    };
+    const handleCategoryChange = event => {
+      let newState = this.state;
+      newState.selectedCategory = event.target.value;
+      this.setState(newState);
+    };
+
     let containerButtons;
     let containerGrid;
     if (libraries == null) {
       containerButtons = <div/>;
       containerGrid = <Grid container spacing={4}/>;
     } else {
+      let kotlinVersions = libraries
+        .flatMap(library => library.versions)
+        .map(libraryVersion => libraryVersion.kotlin)
+        .filter((v, i, a) => a.indexOf(v) === i);
+      let categories = libraries
+        .map(library => library.category)
+        .filter((v, i, a) => a.indexOf(v) === i);
+
+      let filterStyle = {
+        minWidth: 120
+      };
+
       containerButtons = <div className={this.props.classes.heroButtons}>
         <Grid container spacing={2} justify="center">
           <Grid item>
-            <Button variant="contained" color="primary">
-              Main call to action
-            </Button>
+            <FormControl variant="outlined" style={filterStyle}>
+              <InputLabel>Kotlin</InputLabel>
+              <Select
+                id="kotlin-version-selector"
+                value={this.state.selectedKotlinVersion}
+                onChange={handleKotlinVersionChange}
+                labelWidth={120}
+              >
+                <MenuItem value="">
+                  <em>None</em>
+                </MenuItem>
+                {kotlinVersions.map(version => <MenuItem value={version}>{version}</MenuItem>)}
+              </Select>
+            </FormControl>
           </Grid>
           <Grid item>
-            <Button variant="outlined" color="primary">
-              Secondary action
-            </Button>
+            <FormControl variant="outlined" style={filterStyle}>
+              <InputLabel>Category</InputLabel>
+              <Select
+                id="category-version-selector"
+                value={this.state.selectedCategory}
+                onChange={handleCategoryChange}
+                labelWidth={120}
+              >
+                <MenuItem value="">
+                  <em>None</em>
+                </MenuItem>
+                {categories.map(item => <MenuItem value={item}>{item}</MenuItem>)}
+              </Select>
+            </FormControl>
           </Grid>
         </Grid>
       </div>;
 
-      let items = libraries.map(library => {
+      let category = this.state.selectedCategory;
+      let kotlin = this.state.selectedKotlinVersion;
+      let filterLibraries = libraries.filter(library => {
+        return library.category === category || category === "" || category == null
+      }).map(library => {
+        let newLib = {};
+        Object.assign(newLib, library);
+        newLib.versions = library.versions.filter(version => {
+          return version.kotlin === kotlin || kotlin === "" || kotlin == null
+        });
+        return newLib;
+      }).filter(lib => lib.versions.length > 0);
+
+      let items = filterLibraries.map(library => {
         let name = library.path;
         let latestVersion = library.versions[library.versions.length - 1];
         let platforms = Object.keys(latestVersion.targets)
