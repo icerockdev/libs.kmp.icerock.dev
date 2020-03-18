@@ -124,8 +124,28 @@ class Body extends React.Component {
         .map(target => target.target)
         .filter((v, i, a) => a.indexOf(v) === i);
 
+      let category = this.state.selectedCategory;
+      let kotlin = this.state.selectedKotlinVersion;
+      let target = this.state.selectedTarget;
+      let filterLibraries = libraries.filter(library => {
+        return category === "" || category == null || library.category === category;
+      }).map(library => {
+        let newLib = {};
+        Object.assign(newLib, library);
+        newLib.versions = library.versions.filter(version => {
+          return kotlin === "" || kotlin == null || version.kotlin === kotlin;
+        }).filter(version => {
+          return target == null || target === "" || Object.values(version.targets).map(target => target.target).includes(target);
+        });
+        return newLib;
+      }).filter(lib => lib.versions.length > 0);
+
       let filterStyle = {
         minWidth: 120
+      };
+      let resultsCountStyle = {
+        margin: "16px auto 0",
+        width: "fit-content"
       };
 
       containerButtons = <div className={this.props.classes.heroButtons}>
@@ -179,23 +199,8 @@ class Body extends React.Component {
             </FormControl>
           </Grid>
         </Grid>
+        <Typography style={resultsCountStyle}>Results: {filterLibraries.length}</Typography>
       </div>;
-
-      let category = this.state.selectedCategory;
-      let kotlin = this.state.selectedKotlinVersion;
-      let target = this.state.selectedTarget;
-      let filterLibraries = libraries.filter(library => {
-        return category === "" || category == null || library.category === category;
-      }).map(library => {
-        let newLib = {};
-        Object.assign(newLib, library);
-        newLib.versions = library.versions.filter(version => {
-          return kotlin === "" || kotlin == null || version.kotlin === kotlin;
-        }).filter(version => {
-          return target == null || target === "" || Object.values(version.targets).map(target => target.target).includes(target);
-        });
-        return newLib;
-      }).filter(lib => lib.versions.length > 0);
 
       let items = filterLibraries
         .sort((a, b) => {
