@@ -197,40 +197,53 @@ class Body extends React.Component {
         return newLib;
       }).filter(lib => lib.versions.length > 0);
 
-      let items = filterLibraries.map(library => {
-        let latestVersion = library.versions[library.versions.length - 1];
-        let platforms = Object.keys(latestVersion.targets)
-          .map(key => {
-            let target = latestVersion.targets[key];
-            if (target.target != null) return target.target;
-            else return target.platform;
-          })
-          .filter((v, i, a) => a.indexOf(v) === i);
+      let items = filterLibraries
+        .sort((a, b) => {
+          if (a.github.stars_count === b.github.stars_count) return 0;
+          else if (a.github.stars_count > b.github.stars_count) return -1;
+          else return 1;
+        })
+        .map(library => {
+          let latestVersion = library.versions[library.versions.length - 1];
+          let platforms = Object.keys(latestVersion.targets)
+            .map(key => {
+              let target = latestVersion.targets[key];
+              if (target.target != null) return target.target;
+              else return target.platform;
+            })
+            .filter((v, i, a) => a.indexOf(v) === i);
 
-        let targets = platforms.join(", ");
+          let targets = platforms.join(", ");
 
-        let descriptionStyle = {
-          margin: "8px 0"
-        };
+          let descriptionStyle = {
+            margin: "8px 0"
+          };
+          let titleStyle = {
+            display: "flex",
+            "justify-content": "space-between"
+          };
 
-        return <Grid item key={library} xs={12} sm={6}>
-          <Card className={this.props.classes.card}>
-            <CardContent className={this.props.classes.cardContent}>
-              <Typography gutterBottom variant="h5" component="h2">{library.github.name}</Typography>
-              <Typography style={descriptionStyle}>{library.github.description}</Typography>
-              <Typography>Category: {library.category}</Typography>
-              <Typography>Gradle: {library.path + ":" + latestVersion.version}</Typography>
-              <Typography>Kotlin: {latestVersion.kotlin}</Typography>
-              <Typography>Targets: {targets}</Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small" color="primary" href={library.github.html_url} target={"_blank"}>
-                GitHub
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>;
-      });
+          return <Grid item key={library} xs={12} sm={6}>
+            <Card className={this.props.classes.card}>
+              <CardContent className={this.props.classes.cardContent}>
+                <Typography gutterBottom variant="h5" component="h2" style={titleStyle}>
+                  {library.github.name}
+                  <div>★ {library.github.stars_count}</div>
+                </Typography>
+                <Typography style={descriptionStyle}>{library.github.description}</Typography>
+                <Typography>Category: {library.category}</Typography>
+                <Typography>Gradle: {library.path + ":" + latestVersion.version}</Typography>
+                <Typography>Kotlin: {latestVersion.kotlin}</Typography>
+                <Typography>Targets: {targets}</Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" color="primary" href={library.github.html_url} target={"_blank"}>
+                  GitHub
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>;
+        });
 
       containerGrid = <Grid container spacing={4}>{items}</Grid>;
     }
