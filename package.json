@@ -5,6 +5,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "rm -rf docs && node src/fetchLibs.js && react-scripts build && mv build docs && cp CNAME docs/",
+    "fetch": "node src/fetchLibs.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

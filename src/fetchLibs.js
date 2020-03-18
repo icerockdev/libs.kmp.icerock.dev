@@ -37,7 +37,7 @@ Promise.all(infoPromises)
   });
 
 function parseMavenMetadata(metadata) {
-  console.log("parseMavenMetadata ");
+  // console.log("parseMavenMetadata ");
 
   let versioning = metadata.versioning[0];
 
@@ -52,7 +52,7 @@ function parseMavenMetadata(metadata) {
 }
 
 function fetchVersionsInfo(baseUrl, metadata) {
-  console.log("fetchVersionsInfo " + baseUrl);
+  // console.log("fetchVersionsInfo " + baseUrl);
 
   let versionPromises = metadata.versions
     .map(version => fetchVersionInfo(baseUrl, metadata, version));
@@ -65,9 +65,12 @@ function fetchVersionsInfo(baseUrl, metadata) {
 }
 
 function fetchVersionInfo(baseUrl, metadata, version) {
-  console.log("fetchVersionInfo " + baseUrl + " version " + version);
+  // console.log("fetchVersionInfo " + baseUrl + " version " + version);
 
-  return axios.get(baseUrl + version + "/" + metadata.artifactId + "-" + version + ".module")
+  let url = baseUrl + version + "/" + metadata.artifactId + "-" + version + ".module";
+  return axios.get(url, {
+    maxRedirects: 50
+  })
     .then(response => {
       let versionInfo = response.data;
       return fetchKotlinVersion(baseUrl, metadata, versionInfo)
@@ -88,6 +91,11 @@ function fetchVersionInfo(baseUrl, metadata, version) {
         });
     })
     .catch(error => {
+      if(error.config != null) {
+        console.log(metadata.path + ":" + version + " not multiplatform - " + error.config.url + " not found");
+      } else {
+        console.log(error);
+      }
       return {
         version: version,
         mpp: false
@@ -96,14 +104,20 @@ function fetchVersionInfo(baseUrl, metadata, version) {
 }
 
 function fetchKotlinVersion(baseUrl, metadata, versionInfo) {
-  console.log("fetchKotlinVersion " + baseUrl);
+  // console.log("fetchKotlinVersion " + baseUrl);
   return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, versionInfo.variants, 0);
 }
 
 function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx) {
-  console.log("fetchKotlinVersionFromVariant " + baseUrl + " idx " + idx);
+  // console.log("fetchKotlinVersionFromVariant " + baseUrl + " idx " + idx);
+  let variant = variants[idx];
+  if(variant == null) return Promise.resolve(undefined);
+  let available = variant["available-at"];
+  if(available == null) return Promise.resolve(undefined);
+  let url = available["url"];
+  if(url == null) return Promise.resolve(undefined);
 
-  return axios.get(baseUrl + versionInfo.component.version + "/" + variants[idx]["available-at"]["url"])
+  return axios.get(baseUrl + versionInfo.component.version + "/" + url)
     .then(function (response) {
       let dependencies = response.data.variants[0].dependencies;
       if (dependencies == null) {
@@ -113,6 +127,9 @@ function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants,
         .find(dep => {
           return dep.group === "org.jetbrains.kotlin" && dep.module.startsWith("kotlin-stdlib");
         });
+      if(kotlinDependency === undefined) {
+        return undefined;
+      }
       return kotlinDependency.version.requires;
     }).then(version => {
       if (version === undefined) {
@@ -123,6 +140,12 @@ function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants,
         }
       } else {
         return version;
+      }
+    }).catch(error => {
+      if (idx < variants.length - 1) {
+        return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, ++idx);
+      } else {
+        return undefined;
       }
     });
 }
@@ -139,6 +162,8 @@ function appendGitHubInfo(metadata, githubRepo) {
     })
     .then(response => response.data)
     .then(repoInfo => {
+      let license = "unknown";
+      if(repoInfo.license != null) license = repoInfo.license.name;
       metadata.github = {
         name: repoInfo.name,
         full_name: repoInfo.full_name,
@@ -148,7 +173,7 @@ function appendGitHubInfo(metadata, githubRepo) {
         watchers_count: repoInfo.subscribers_count,
         issues_count: repoInfo.open_issues_count,
         forks_count: repoInfo.forks_count,
-        license: repoInfo.license.name,
+        license: license,
         topics: repoInfo.topics
       };
 
