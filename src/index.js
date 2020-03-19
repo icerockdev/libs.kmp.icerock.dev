@@ -64,6 +64,23 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+function SubmitButton() {
+  let style = {
+    margin: "0 auto 16px",
+    width: "fit-content",
+    display: "block"
+  };
+  return <Button
+    variant="contained"
+    color="primary"
+    style={style}
+    href="https://github.com/icerockdev/multiplatform-libraries#how-to-add-own-lib"
+    target="_blank"
+  >
+    Submit library
+  </Button>;
+}
+
 class Body extends React.Component {
   constructor(props) {
     super(props);
@@ -149,6 +166,7 @@ class Body extends React.Component {
       };
 
       containerButtons = <div className={this.props.classes.heroButtons}>
+        <SubmitButton/>
         <Grid container spacing={2} justify="center">
           <Grid item>
             <FormControl variant="outlined" style={filterStyle}>
