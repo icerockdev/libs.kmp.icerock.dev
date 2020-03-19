@@ -68,7 +68,9 @@ function fetchVersionInfo(baseUrl, metadata, version) {
   // console.log("fetchVersionInfo " + baseUrl + " version " + version);
 
   let url = baseUrl + version + "/" + metadata.artifactId + "-" + version + ".module";
-  return axios.get(url, {
+  let targetUrl = new URL(url).href;
+
+  return axios.get(targetUrl, {
     maxRedirects: 50
   })
     .then(response => {
