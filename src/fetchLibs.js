@@ -30,7 +30,7 @@ let infoPromises = libraries.map(function (value) {
 });
 Promise.all(infoPromises)
   .then(data => {
-    fs.writeFileSync("public/data.json", JSON.stringify(data,null,' '));
+    fs.writeFileSync("public/data.json", JSON.stringify(data, null, ' '));
   })
   .catch(error => {
     console.log(error);
@@ -75,6 +75,9 @@ function fetchVersionInfo(baseUrl, metadata, version) {
       let versionInfo = response.data;
       return fetchKotlinVersion(baseUrl, metadata, versionInfo)
         .then(kotlinVersion => {
+          if(kotlinVersion === undefined) {
+            console.log(metadata.path + ":" + version + " unknown kotlin");
+          }
           return {
             version: version,
             mpp: true,
@@ -91,7 +94,7 @@ function fetchVersionInfo(baseUrl, metadata, version) {
         });
     })
     .catch(error => {
-      if(error.config != null) {
+      if (error.config != null) {
         console.log(metadata.path + ":" + version + " not multiplatform - " + error.config.url + " not found");
       } else {
         console.log(error);
@@ -111,21 +114,26 @@ function fetchKotlinVersion(baseUrl, metadata, versionInfo) {
 function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx) {
   // console.log("fetchKotlinVersionFromVariant " + baseUrl + " idx " + idx);
   let variant = variants[idx];
-  if(variant == null) return Promise.resolve(undefined);
+  if (variant == null) return Promise.resolve(undefined);
 
   // try found kotlin in implicit version dependencies
   let variantKotlinVersion = getKotlinVersionFromDependencies(variant.dependencies);
-  if(variantKotlinVersion != null) return Promise.resolve(variantKotlinVersion);
+  if (variantKotlinVersion != null) return Promise.resolve(variantKotlinVersion);
 
   let available = variant["available-at"];
-  if(available == null) return Promise.resolve(undefined);
+  if (available == null) return Promise.resolve(undefined);
   let url = available["url"];
-  if(url == null) return Promise.resolve(undefined);
+  if (url == null) return Promise.resolve(undefined);
 
-  return axios.get(baseUrl + versionInfo.component.version + "/" + url)
+  let targetUrl = new URL(baseUrl + versionInfo.component.version + "/" + url).href;
+
+  return axios
+    .get(targetUrl)
     .then(function (response) {
-      let dependencies = response.data.variants[0].dependencies;
-      return getKotlinVersionFromDependencies(dependencies);
+      let variants = response.data.variants;
+      return variants
+        .map(variant => getKotlinVersionFromDependencies(variant.dependencies))
+        .find(version => version !== undefined);
     }).then(version => {
       if (version === undefined) {
         if (idx < variants.length - 1) {
@@ -158,7 +166,7 @@ function appendGitHubInfo(metadata, githubRepo) {
     .then(response => response.data)
     .then(repoInfo => {
       let license = "unknown";
-      if(repoInfo.license != null) license = repoInfo.license.name;
+      if (repoInfo.license != null) license = repoInfo.license.name;
       metadata.github = {
         name: repoInfo.name,
         full_name: repoInfo.full_name,
@@ -184,7 +192,7 @@ function getKotlinVersionFromDependencies(dependencies) {
       return dep.group === "org.jetbrains.kotlin" && dep.module.startsWith("kotlin-stdlib");
     });
 
-  if(kotlinDependency === undefined) return undefined;
+  if (kotlinDependency === undefined) return undefined;
 
   return kotlinDependency.version.requires;
 }
