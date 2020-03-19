@@ -112,6 +112,11 @@ function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants,
   // console.log("fetchKotlinVersionFromVariant " + baseUrl + " idx " + idx);
   let variant = variants[idx];
   if(variant == null) return Promise.resolve(undefined);
+
+  // try found kotlin in implicit version dependencies
+  let variantKotlinVersion = getKotlinVersionFromDependencies(variant.dependencies);
+  if(variantKotlinVersion != null) return Promise.resolve(variantKotlinVersion);
+
   let available = variant["available-at"];
   if(available == null) return Promise.resolve(undefined);
   let url = available["url"];
@@ -120,17 +125,7 @@ function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants,
   return axios.get(baseUrl + versionInfo.component.version + "/" + url)
     .then(function (response) {
       let dependencies = response.data.variants[0].dependencies;
-      if (dependencies == null) {
-        return undefined;
-      }
-      let kotlinDependency = dependencies
-        .find(dep => {
-          return dep.group === "org.jetbrains.kotlin" && dep.module.startsWith("kotlin-stdlib");
-        });
-      if(kotlinDependency === undefined) {
-        return undefined;
-      }
-      return kotlinDependency.version.requires;
+      return getKotlinVersionFromDependencies(dependencies);
     }).then(version => {
       if (version === undefined) {
         if (idx < variants.length - 1) {
@@ -179,4 +174,17 @@ function appendGitHubInfo(metadata, githubRepo) {
 
       return metadata;
     });
+}
+
+function getKotlinVersionFromDependencies(dependencies) {
+  if (dependencies == null) return undefined;
+
+  let kotlinDependency = dependencies
+    .find(dep => {
+      return dep.group === "org.jetbrains.kotlin" && dep.module.startsWith("kotlin-stdlib");
+    });
+
+  if(kotlinDependency === undefined) return undefined;
+
+  return kotlinDependency.version.requires;
 }
