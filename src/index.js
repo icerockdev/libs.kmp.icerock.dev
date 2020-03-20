@@ -18,6 +18,8 @@ import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
+import GitHubButton from 'react-github-btn';
+import StackGrid from "react-stack-grid";
 
 function Copyright() {
   return (
@@ -66,7 +68,7 @@ const useStyles = makeStyles(theme => ({
 
 function SubmitButton() {
   let style = {
-    margin: "0 auto 16px",
+    margin: "0 16px",
     width: "fit-content",
     display: "block"
   };
@@ -79,6 +81,61 @@ function SubmitButton() {
   >
     Submit library
   </Button>;
+}
+
+function SiteButtons() {
+  let style = {
+    margin: "0 auto 16px",
+    display: "flex",
+    "justify-content": "center",
+    "align-items": "center"
+  };
+  return <div style={style}>
+    <GitHubButton
+      href="https://github.com/icerockdev/multiplatform-libraries"
+      data-icon="octicon-star"
+      data-size="large"
+      data-show-count="true"
+      aria-label="Star icerockdev/multiplatform-libraries on GitHub"
+    >Star</GitHubButton>
+    <SubmitButton/>
+    <GitHubButton
+      href="https://github.com/icerockdev/multiplatform-libraries/subscription"
+      data-icon="octicon-eye"
+      data-size="large"
+      data-show-count="true"
+      aria-label="Watch icerockdev/multiplatform-libraries on GitHub"
+    >Watch</GitHubButton>
+  </div>
+}
+
+function LibraryCard(library, latestVersion, targets) {
+  let descriptionStyle = {
+    margin: "8px 0"
+  };
+  let titleStyle = {
+    display: "flex",
+    "justify-content": "space-between"
+  };
+
+  return <Card className={this.props.classes.card}>
+    <CardContent className={this.props.classes.cardContent}>
+      <Typography gutterBottom variant="h5" component="h2" style={titleStyle}>
+        {library.github.name}
+        <Typography variant="subtitle1">★ {library.github.stars_count}</Typography>
+      </Typography>
+      <Typography style={descriptionStyle}>{library.github.description}</Typography>
+      <Typography>Category: {library.category}</Typography>
+      <Typography>Gradle: {library.path + ":" + latestVersion.version}</Typography>
+      <Typography>Kotlin: {latestVersion.kotlin}</Typography>
+      <Typography>Targets: {targets}</Typography>
+    </CardContent>
+    <CardActions>
+      <Button size="small" color="primary" href={library.github.html_url} target={"_blank"}>
+        GitHub
+      </Button>
+    </CardActions>
+  </Card>;
 }
 
 class Body extends React.Component {
@@ -166,7 +223,7 @@ class Body extends React.Component {
       };
 
       containerButtons = <div className={this.props.classes.heroButtons}>
-        <SubmitButton/>
+        <SiteButtons/>
         <Grid container spacing={2} justify="center">
           <Grid item>
             <FormControl variant="outlined" style={filterStyle}>
@@ -238,37 +295,17 @@ class Body extends React.Component {
 
           let targets = platforms.join(", ");
 
-          let descriptionStyle = {
-            margin: "8px 0"
-          };
-          let titleStyle = {
-            display: "flex",
-            "justify-content": "space-between"
-          };
-
-          return <Grid item key={library} xs={12} sm={6}>
-            <Card className={this.props.classes.card}>
-              <CardContent className={this.props.classes.cardContent}>
-                <Typography gutterBottom variant="h5" component="h2" style={titleStyle}>
-                  {library.github.name}
-                  <div>★ {library.github.stars_count}</div>
-                </Typography>
-                <Typography style={descriptionStyle}>{library.github.description}</Typography>
-                <Typography>Category: {library.category}</Typography>
-                <Typography>Gradle: {library.path + ":" + latestVersion.version}</Typography>
-                <Typography>Kotlin: {latestVersion.kotlin}</Typography>
-                <Typography>Targets: {targets}</Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small" color="primary" href={library.github.html_url} target={"_blank"}>
-                  GitHub
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>;
+          return LibraryCard.call(this, library, latestVersion, targets);
         });
 
-      containerGrid = <Grid container spacing={4}>{items}</Grid>;
+      const isMobile = window.innerWidth < 480;
+
+      containerGrid = <StackGrid
+        columnWidth={isMobile ? "100%" : "50%"}
+        gutterWidth={16}
+        gutterHeight={16}
+        container
+      >{items}</StackGrid>;
     }
 
     return (
