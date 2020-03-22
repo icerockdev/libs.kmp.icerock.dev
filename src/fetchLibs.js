@@ -33,7 +33,7 @@ Promise.all(infoPromises)
     fs.writeFileSync("public/data.json", JSON.stringify(data, null, ' '));
   })
   .catch(error => {
-    console.log(error);
+    console.log("FATAL ERROR: " + error);
   });
 
 function parseMavenMetadata(metadata) {
