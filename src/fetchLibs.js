@@ -35,7 +35,7 @@ let infoPromises = libraries.map(function (value) {
 });
 Promise.all(infoPromises)
   .then(data => {
-    let validData = data.filter(data => data != null);
+    let validData = data.filter(item => item != null);
     fs.writeFileSync("public/data.json", JSON.stringify(validData, null, ' '));
   })
   .catch(error => {
