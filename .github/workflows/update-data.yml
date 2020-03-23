@@ -22,5 +22,6 @@ jobs:
         run: npm install
       - name: Refetch libs
         run: npm run build
-      - name: Push changes if needed
-        run: ./gitPushIfChanges.sh ${{ secrets.GITHUB_TOKEN }}
+      # temporary disable - github runners got 401 when work with github api :(
+      #- name: Push changes if needed
+      #  run: ./gitPushIfChanges.sh ${{ secrets.GITHUB_TOKEN }}
