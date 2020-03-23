@@ -9,7 +9,7 @@ if git diff-index --quiet HEAD --; then
 else
     echo "have changes"
 
-    git commit -m "Update versions"
+    git commit -m "Update versions" -a
     remote_repo="https://${GITHUB_ACTOR}:$2}@github.com/${GITHUB_REPOSITORY}.git"
     git push "${remote_repo}" HEAD:master
 fi
