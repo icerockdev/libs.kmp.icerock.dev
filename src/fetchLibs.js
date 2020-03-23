@@ -6,7 +6,7 @@ const axios = require('axios').default;
 const xml2js = require('xml2js');
 const fs = require('fs');
 
-const githubToken = process.env.GITHUB_TOKEN || process.argv[2];
+const githubToken = process.env.GITHUB_AUTH || process.argv[2];
 
 let libraries = require('../libraries.json');
 
