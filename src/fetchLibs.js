@@ -26,14 +26,21 @@ let infoPromises = libraries.map(function (value) {
     .then(metadata => {
       metadata.category = value.category;
       return metadata;
+    })
+    .catch(error => {
+      console.log("Library error: ");
+      console.log(error);
+      return null;
     });
 });
 Promise.all(infoPromises)
   .then(data => {
-    fs.writeFileSync("public/data.json", JSON.stringify(data, null, ' '));
+    let validData = data.filter(data => data != null);
+    fs.writeFileSync("public/data.json", JSON.stringify(validData, null, ' '));
   })
   .catch(error => {
-    console.log("FATAL ERROR: " + error);
+    console.log("FATAL ERROR: ");
+    console.log(error);
   });
 
 function parseMavenMetadata(metadata) {
