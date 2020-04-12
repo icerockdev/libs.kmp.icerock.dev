@@ -24,6 +24,5 @@ jobs:
         run: npm run build 
         env:
           GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN }}
-      # temporary disable - github runners got 401 when work with github api :(
-      #- name: Push changes if needed
-      #  run: ./gitPushIfChanges.sh ${{ secrets.GITHUB_TOKEN }}
+      - name: Push changes if needed
+        run: ./gitPushIfChanges.sh ${{ secrets.GITHUB_TOKEN }}
