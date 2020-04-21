@@ -944,7 +944,7 @@
    "full_name": "icerockdev/moko-mvvm",
    "html_url": "https://github.com/icerockdev/moko-mvvm",
    "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 157,
+   "stars_count": 158,
    "watchers_count": 8,
    "issues_count": 10,
    "forks_count": 28,
@@ -5904,8 +5904,8 @@
    "html_url": "https://github.com/korlibs/klock",
    "description": "Multiplatform Date and time library for Kotlin",
    "stars_count": 443,
-   "watchers_count": 13,
-   "issues_count": 8,
+   "watchers_count": 12,
+   "issues_count": 6,
    "forks_count": 33,
    "license": "Creative Commons Zero v1.0 Universal",
    "topics": [
@@ -9438,10 +9438,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 7223,
+   "stars_count": 7228,
    "watchers_count": 268,
-   "issues_count": 247,
-   "forks_count": 989,
+   "issues_count": 239,
+   "forks_count": 991,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -11310,10 +11310,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 1990,
+   "stars_count": 1993,
    "watchers_count": 88,
-   "issues_count": 232,
-   "forks_count": 170,
+   "issues_count": 235,
+   "forks_count": 169,
    "license": "Apache License 2.0",
    "topics": [
     "cbor",
@@ -13164,8 +13164,8 @@
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
    "stars_count": 6598,
    "watchers_count": 159,
-   "issues_count": 518,
-   "forks_count": 531,
+   "issues_count": 521,
+   "forks_count": 530,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -15994,8 +15994,8 @@
   "groupId": "com.mirego.trikot",
   "artifactId": "streams",
   "path": "com.mirego.trikot:streams",
-  "latestVersion": "0.60.1",
-  "lastUpdated": "20200407210611",
+  "latestVersion": "0.61.1",
+  "lastUpdated": "20200420132852",
   "versions": [
    {
     "version": "0.0.1",
@@ -17822,6 +17822,49 @@
       "target": "tvos_x64"
      }
     }
+   },
+   {
+    "version": "0.61.1",
+    "mpp": true,
+    "gradle": "5.6.4",
+    "kotlin": "1.3.70",
+    "targets": {
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -17831,7 +17874,7 @@
    "description": "Reactive Streams for Kotlin Multiplatform with mutability checks",
    "stars_count": 16,
    "watchers_count": 27,
-   "issues_count": 2,
+   "issues_count": 1,
    "forks_count": 0,
    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
    "topics": [
@@ -20824,7 +20867,7 @@
    "description": "Korim: Kotlin cORoutines IMaging, Bitmap and Vector graphics for Multiplatform Kotlin",
    "stars_count": 44,
    "watchers_count": 4,
-   "issues_count": 10,
+   "issues_count": 9,
    "forks_count": 10,
    "license": "Other",
    "topics": [
@@ -25003,7 +25046,6 @@
     "version": "0.10.6",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25053,7 +25095,6 @@
     "version": "0.11.1",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25103,7 +25144,6 @@
     "version": "0.11.3",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25178,7 +25218,6 @@
     "version": "0.12.2",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25328,7 +25367,6 @@
     "version": "0.14.1",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25353,7 +25391,6 @@
     "version": "0.15.0",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25453,7 +25490,6 @@
     "version": "0.16.0",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25503,7 +25539,6 @@
     "version": "0.16.2",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25728,7 +25763,6 @@
     "version": "0.17.5",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25903,7 +25937,6 @@
     "version": "0.17.12s",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25928,7 +25961,6 @@
     "version": "0.17.13",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25953,7 +25985,6 @@
     "version": "0.17.14",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -26078,7 +26109,6 @@
     "version": "0.18.4",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -26178,7 +26208,6 @@
     "version": "0.18.8",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -26303,7 +26332,6 @@
     "version": "0.18.13",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -27810,9 +27838,9 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3134,
-   "watchers_count": 106,
-   "issues_count": 197,
+   "stars_count": 3135,
+   "watchers_count": 107,
+   "issues_count": 199,
    "forks_count": 241,
    "license": "Apache License 2.0",
    "topics": [
@@ -29891,7 +29919,7 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 560,
+   "stars_count": 559,
    "watchers_count": 17,
    "issues_count": 16,
    "forks_count": 25,
@@ -32096,7 +32124,7 @@
    "full_name": "touchlab/Stately",
    "html_url": "https://github.com/touchlab/Stately",
    "description": "Kotlin Multiplatform State Library",
-   "stars_count": 195,
+   "stars_count": 196,
    "watchers_count": 12,
    "issues_count": 13,
    "forks_count": 14,
@@ -32332,7 +32360,6 @@
     "version": "0.2.0",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.20",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -32468,7 +32495,6 @@
     "version": "0.3.2",
     "mpp": true,
     "gradle": "5.5.1",
-    "kotlin": "1.3.41",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -32869,7 +32895,6 @@
     "version": "0.1.11-beta.1",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -32903,7 +32928,6 @@
     "version": "0.1.11-beta.3",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -32920,7 +32944,6 @@
     "version": "0.1.11-beta.4",
     "mpp": true,
     "gradle": "5.4.1",
-    "kotlin": "1.3.31",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -32970,7 +32993,6 @@
     "version": "0.2.1",
     "mpp": true,
     "gradle": "5.6.3",
-    "kotlin": "1.3.50",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -33403,7 +33425,7 @@
    "full_name": "AAkira/Napier",
    "html_url": "https://github.com/AAkira/Napier",
    "description": "Logging library for Kotlin Multiplatform",
-   "stars_count": 81,
+   "stars_count": 84,
    "watchers_count": 5,
    "issues_count": 1,
    "forks_count": 10,
@@ -35190,7 +35212,7 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2245,
+   "stars_count": 2247,
    "watchers_count": 51,
    "issues_count": 10,
    "forks_count": 138,
@@ -36303,7 +36325,7 @@
    "full_name": "benasher44/uuid",
    "html_url": "https://github.com/benasher44/uuid",
    "description": "Kotlin Multiplatform UUID",
-   "stars_count": 88,
+   "stars_count": 89,
    "watchers_count": 6,
    "issues_count": 4,
    "forks_count": 4,
@@ -36433,7 +36455,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 6929,
+   "stars_count": 6930,
    "watchers_count": 276,
    "issues_count": 48,
    "forks_count": 997,
@@ -39520,10 +39542,10 @@
    "full_name": "Kotlin/kotlinx.atomicfu",
    "html_url": "https://github.com/Kotlin/kotlinx.atomicfu",
    "description": "The idiomatic way to use atomic operations in Kotlin",
-   "stars_count": 266,
+   "stars_count": 265,
    "watchers_count": 37,
    "issues_count": 27,
-   "forks_count": 25,
+   "forks_count": 24,
    "license": "unknown",
    "topics": [
     "atomic",
@@ -39886,7 +39908,6 @@
     "version": "0.1.5-dev-1",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.20",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -40761,7 +40782,7 @@
    "full_name": "Dominaezzz/kgl",
    "html_url": "https://github.com/Dominaezzz/kgl",
    "description": "Thin multiplatform wrappers for graphics.",
-   "stars_count": 37,
+   "stars_count": 38,
    "watchers_count": 4,
    "issues_count": 12,
    "forks_count": 4,
@@ -40973,7 +40994,7 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 368,
+   "stars_count": 369,
    "watchers_count": 16,
    "issues_count": 11,
    "forks_count": 22,
@@ -41260,7 +41281,7 @@
    "full_name": "arkivanov/MVIKotlin",
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "MVI framework for Kotlin Multiplatform",
-   "stars_count": 155,
+   "stars_count": 157,
    "watchers_count": 8,
    "issues_count": 4,
    "forks_count": 7,
@@ -41912,7 +41933,6 @@
     "version": "0.1.4",
     "mpp": true,
     "gradle": "5.5",
-    "kotlin": "1.3.41",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -42097,7 +42117,6 @@
     "version": "0.1.11",
     "mpp": true,
     "gradle": "5.5",
-    "kotlin": "1.3.41",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -42159,7 +42178,6 @@
     "version": "0.2.1",
     "mpp": true,
     "gradle": "5.5",
-    "kotlin": "1.3.41",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -42376,7 +42394,6 @@
     "version": "0.2.8",
     "mpp": true,
     "gradle": "5.5",
-    "kotlin": "1.3.41",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -42665,7 +42682,7 @@
    "full_name": "AAkira/Napier",
    "html_url": "https://github.com/AAkira/Napier",
    "description": "Logging library for Kotlin Multiplatform",
-   "stars_count": 81,
+   "stars_count": 84,
    "watchers_count": 5,
    "issues_count": 1,
    "forks_count": 10,
@@ -42763,9 +42780,9 @@
    "full_name": "h0tk3y/better-parse",
    "html_url": "https://github.com/h0tk3y/better-parse",
    "description": "A nice parser combinator library for Kotlin",
-   "stars_count": 171,
+   "stars_count": 172,
    "watchers_count": 13,
-   "issues_count": 14,
+   "issues_count": 15,
    "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
