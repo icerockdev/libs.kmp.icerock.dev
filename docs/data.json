@@ -2002,7 +2002,7 @@
     "version": "0.3.0-dev-2",
     "mpp": true,
     "gradle": "5.5.1",
-    "kotlin": "1.3.60",
+    "kotlin": "1.3.61",
     "targets": {
      "android-debugApiElements": {
       "platform": "androidJvm"
@@ -9440,7 +9440,7 @@
    "description": "Library support for Kotlin coroutines ",
    "stars_count": 7239,
    "watchers_count": 268,
-   "issues_count": 231,
+   "issues_count": 230,
    "forks_count": 991,
    "license": "Apache License 2.0",
    "topics": [
@@ -13163,7 +13163,7 @@
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
    "stars_count": 6604,
-   "watchers_count": 159,
+   "watchers_count": 160,
    "issues_count": 523,
    "forks_count": 529,
    "license": "Apache License 2.0",
@@ -24971,6 +24971,7 @@
     "version": "0.10.3",
     "mpp": true,
     "gradle": "6.2.2",
+    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -25595,6 +25596,7 @@
     "version": "0.16.4",
     "mpp": true,
     "gradle": "6.2.2",
+    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -32373,6 +32375,7 @@
     "version": "0.2.0",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.20",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -32613,7 +32616,6 @@
     "version": "0.5.1",
     "mpp": true,
     "gradle": "5.6.4",
-    "kotlin": "1.3.71",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -32909,6 +32911,7 @@
     "version": "0.1.11-beta.1",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -32925,6 +32928,7 @@
     "version": "0.1.11-beta.2",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -32941,6 +32945,7 @@
     "version": "0.1.11-beta.3",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -32957,7 +32962,6 @@
     "version": "0.1.11-beta.4",
     "mpp": true,
     "gradle": "5.4.1",
-    "kotlin": "1.3.31",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -36472,7 +36476,7 @@
    "description": "A modern I/O library for Android, Kotlin, and Java.",
    "stars_count": 6931,
    "watchers_count": 276,
-   "issues_count": 48,
+   "issues_count": 49,
    "forks_count": 997,
    "license": "Apache License 2.0",
    "topics": []
@@ -39785,6 +39789,7 @@
     "version": "0.1.4-dev-4-5-gb59c131",
     "mpp": true,
     "gradle": "5.1",
+    "kotlin": "1.3.20",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -41009,7 +41014,7 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 370,
+   "stars_count": 371,
    "watchers_count": 16,
    "issues_count": 11,
    "forks_count": 22,
@@ -41931,7 +41936,6 @@
     "version": "0.1.3",
     "mpp": true,
     "gradle": "5.5",
-    "kotlin": "1.3.41",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -41965,7 +41969,6 @@
     "version": "0.1.5",
     "mpp": true,
     "gradle": "5.5",
-    "kotlin": "1.3.41",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -42813,5 +42816,89 @@
    ]
   },
   "category": "Serialization"
+ },
+ {
+  "groupId": "dev.garage.kmp",
+  "artifactId": "rpm",
+  "path": "dev.garage.kmp:rpm",
+  "latestVersion": "0.1.0-beta",
+  "lastUpdated": "20200413164507",
+  "versions": [
+   {
+    "version": "0.0.1-alpha",
+    "mpp": true,
+    "gradle": "6.1.1",
+    "kotlin": "1.3.71",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.1.0-beta",
+    "mpp": true,
+    "gradle": "6.1.1",
+    "kotlin": "1.3.71",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "reaktive-pm",
+   "full_name": "vchernyshov/reaktive-pm",
+   "html_url": "https://github.com/vchernyshov/reaktive-pm",
+   "description": "KotlinMultiplatform implementation of RxPm ",
+   "stars_count": 6,
+   "watchers_count": 1,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "MIT License",
+   "topics": []
+  },
+  "category": "Architecture"
  }
 ]
