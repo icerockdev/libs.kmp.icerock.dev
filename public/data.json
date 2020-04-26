@@ -2002,7 +2002,7 @@
     "version": "0.3.0-dev-2",
     "mpp": true,
     "gradle": "5.5.1",
-    "kotlin": "1.3.60",
+    "kotlin": "1.3.61",
     "targets": {
      "android-debugApiElements": {
       "platform": "androidJvm"
@@ -3844,8 +3844,8 @@
   "groupId": "com.soywiz.korlibs.klock",
   "artifactId": "klock",
   "path": "com.soywiz.korlibs.klock:klock",
-  "latestVersion": "1.10.5",
-  "lastUpdated": "20200412212623",
+  "latestVersion": "1.10.6",
+  "lastUpdated": "20200426000159",
   "versions": [
    {
     "version": "1.4.0",
@@ -5896,6 +5896,101 @@
       "target": "watchos_x86"
      }
     }
+   },
+   {
+    "version": "1.10.6",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.71",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "androidNativeArm32-api": {
+      "platform": "native",
+      "target": "android_arm32"
+     },
+     "androidNativeArm64-api": {
+      "platform": "native",
+      "target": "android_arm64"
+     },
+     "androidNativeX64-api": {
+      "platform": "native",
+      "target": "android_x64"
+     },
+     "androidNativeX86-api": {
+      "platform": "native",
+      "target": "android_x86"
+     },
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
    }
   ],
   "github": {
@@ -5905,7 +6000,7 @@
    "description": "Multiplatform Date and time library for Kotlin",
    "stars_count": 445,
    "watchers_count": 12,
-   "issues_count": 8,
+   "issues_count": 6,
    "forks_count": 33,
    "license": "Creative Commons Zero v1.0 Universal",
    "topics": [
@@ -5932,6 +6027,7 @@
     "version": "0.2",
     "mpp": true,
     "gradle": "5.1",
+    "kotlin": "1.3.20",
     "targets": {
      "android-releaseApiElements": {
       "platform": "androidJvm"
@@ -9468,9 +9564,9 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 7264,
-   "watchers_count": 271,
-   "issues_count": 231,
+   "stars_count": 7267,
+   "watchers_count": 270,
+   "issues_count": 234,
    "forks_count": 996,
    "license": "Apache License 2.0",
    "topics": [
@@ -11343,7 +11439,7 @@
    "stars_count": 2003,
    "watchers_count": 88,
    "issues_count": 242,
-   "forks_count": 170,
+   "forks_count": 171,
    "license": "Apache License 2.0",
    "topics": [
     "cbor",
@@ -13192,9 +13288,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 6619,
+   "stars_count": 6620,
    "watchers_count": 160,
-   "issues_count": 528,
+   "issues_count": 527,
    "forks_count": 530,
    "license": "Apache License 2.0",
    "topics": [
@@ -32171,7 +32267,7 @@
    "description": "Kotlin Multiplatform State Library",
    "stars_count": 195,
    "watchers_count": 12,
-   "issues_count": 15,
+   "issues_count": 14,
    "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
@@ -32343,6 +32439,7 @@
     "version": "0.1.0",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.20",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -32435,6 +32532,7 @@
     "version": "0.2.1",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.21",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -32469,6 +32567,7 @@
     "version": "0.2.2",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.30",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -32956,6 +33055,7 @@
     "version": "0.1.11-beta.2",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -32989,6 +33089,7 @@
     "version": "0.1.11-beta.4",
     "mpp": true,
     "gradle": "5.4.1",
+    "kotlin": "1.3.31",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -35944,6 +36045,7 @@
     "version": "0.2.0-pre-alpha.1",
     "mpp": true,
     "gradle": "5.4",
+    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -41092,10 +41194,10 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 376,
+   "stars_count": 377,
    "watchers_count": 16,
    "issues_count": 11,
-   "forks_count": 22,
+   "forks_count": 23,
    "license": "MIT License",
    "topics": [
     "desktop",
@@ -42031,6 +42133,7 @@
     "version": "0.1.4",
     "mpp": true,
     "gradle": "5.5",
+    "kotlin": "1.3.41",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -43018,9 +43121,9 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":pager: A strongly-typed, caching GraphQL client for Android and the JVM",
-   "stars_count": 2243,
+   "stars_count": 2244,
    "watchers_count": 92,
-   "issues_count": 86,
+   "issues_count": 84,
    "forks_count": 417,
    "license": "MIT License",
    "topics": [
@@ -43284,7 +43387,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 35,
+   "stars_count": 36,
    "watchers_count": 7,
    "issues_count": 2,
    "forks_count": 3,
@@ -43395,7 +43498,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 35,
+   "stars_count": 36,
    "watchers_count": 7,
    "issues_count": 2,
    "forks_count": 3,
@@ -43506,7 +43609,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 35,
+   "stars_count": 36,
    "watchers_count": 7,
    "issues_count": 2,
    "forks_count": 3,
@@ -43617,7 +43720,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 35,
+   "stars_count": 36,
    "watchers_count": 7,
    "issues_count": 2,
    "forks_count": 3,
@@ -43728,7 +43831,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 35,
+   "stars_count": 36,
    "watchers_count": 7,
    "issues_count": 2,
    "forks_count": 3,
