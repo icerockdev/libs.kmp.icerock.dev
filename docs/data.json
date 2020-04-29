@@ -2002,7 +2002,7 @@
     "version": "0.3.0-dev-2",
     "mpp": true,
     "gradle": "5.5.1",
-    "kotlin": "1.3.61",
+    "kotlin": "1.3.60",
     "targets": {
      "android-debugApiElements": {
       "platform": "androidJvm"
@@ -9802,7 +9802,7 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 7287,
+   "stars_count": 7290,
    "watchers_count": 270,
    "issues_count": 234,
    "forks_count": 999,
@@ -30688,7 +30688,7 @@
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
    "stars_count": 565,
    "watchers_count": 18,
-   "issues_count": 16,
+   "issues_count": 17,
    "forks_count": 25,
    "license": "Apache License 2.0",
    "topics": [
@@ -33065,7 +33065,6 @@
     "version": "0.1.0",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.20",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -33096,7 +33095,6 @@
     "version": "0.1.1",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.20",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -33157,7 +33155,6 @@
     "version": "0.2.1",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.21",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33192,7 +33189,6 @@
     "version": "0.2.2",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.30",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33227,7 +33223,6 @@
     "version": "0.3.1",
     "mpp": true,
     "gradle": "5.5.1",
-    "kotlin": "1.3.41",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33262,7 +33257,6 @@
     "version": "0.3.2",
     "mpp": true,
     "gradle": "5.5.1",
-    "kotlin": "1.3.41",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33297,7 +33291,6 @@
     "version": "0.4.0",
     "mpp": true,
     "gradle": "5.6.1",
-    "kotlin": "1.3.50",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33332,7 +33325,6 @@
     "version": "0.4.2",
     "mpp": true,
     "gradle": "5.6.1",
-    "kotlin": "1.3.61",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33367,6 +33359,7 @@
     "version": "0.5.1",
     "mpp": true,
     "gradle": "5.6.4",
+    "kotlin": "1.3.71",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -33397,7 +33390,6 @@
     "version": "0.5.2",
     "mpp": true,
     "gradle": "6.3",
-    "kotlin": "1.3.71",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33662,6 +33654,7 @@
     "version": "0.1.11-beta.1",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -33695,6 +33688,7 @@
     "version": "0.1.11-beta.3",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -33711,6 +33705,7 @@
     "version": "0.1.11-beta.4",
     "mpp": true,
     "gradle": "5.4.1",
+    "kotlin": "1.3.31",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -35980,7 +35975,7 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2262,
+   "stars_count": 2263,
    "watchers_count": 51,
    "issues_count": 12,
    "forks_count": 139,
@@ -37345,7 +37340,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 6946,
+   "stars_count": 6945,
    "watchers_count": 275,
    "issues_count": 49,
    "forks_count": 996,
@@ -42807,6 +42802,7 @@
     "version": "0.1.3",
     "mpp": true,
     "gradle": "5.5",
+    "kotlin": "1.3.41",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -43811,7 +43807,7 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":pager: A strongly-typed, caching GraphQL client for Android and the JVM",
-   "stars_count": 2265,
+   "stars_count": 2266,
    "watchers_count": 92,
    "issues_count": 83,
    "forks_count": 418,
@@ -44538,5 +44534,449 @@
    ]
   },
   "category": "Integration"
+ },
+ {
+  "groupId": "com.github.insanusmokrassar",
+  "artifactId": "TelegramBotAPI",
+  "path": "com.github.insanusmokrassar:TelegramBotAPI",
+  "latestVersion": "0.27.1",
+  "lastUpdated": "20200425042620",
+  "versions": [
+   {
+    "version": "0.22.0",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.22.1",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.22.2",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.23.0",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.23.1",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.23.2",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.23.3",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.24.0",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.24.1",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.3.61",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.25.0",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.70",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.25.1",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.71",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.26.0",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.71",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.26.1",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.71",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.26.2",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.71",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.26.3",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.71",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.26.4",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.71",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.27.0",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.72",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.27.1",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.72",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "TelegramBotAPI",
+   "full_name": "InsanusMokrassar/TelegramBotAPI",
+   "html_url": "https://github.com/InsanusMokrassar/TelegramBotAPI",
+   "description": "Object-oriented strong-typed library for work with Telegram Bot API",
+   "stars_count": 9,
+   "watchers_count": 1,
+   "issues_count": 1,
+   "forks_count": 2,
+   "license": "Apache License 2.0",
+   "topics": [
+    "kotlin",
+    "kotlin-js",
+    "kotlin-jvm",
+    "kotlin-library",
+    "kotlin-multiplatform",
+    "telegram-bot-api",
+    "telegrambotapi"
+   ]
+  },
+  "category": "Social"
  }
 ]
