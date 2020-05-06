@@ -1345,8 +1345,8 @@
   "groupId": "dev.icerock.moko",
   "artifactId": "resources",
   "path": "dev.icerock.moko:resources",
-  "latestVersion": "0.9.1",
-  "lastUpdated": "20200404073303",
+  "latestVersion": "0.10.0",
+  "lastUpdated": "20200505165147",
   "versions": [
    {
     "version": "0.1.0",
@@ -1812,6 +1812,37 @@
       "platform": "common"
      }
     }
+   },
+   {
+    "version": "0.10.0",
+    "mpp": true,
+    "gradle": "6.3",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
    }
   ],
   "github": {
@@ -1821,7 +1852,7 @@
    "description": "Resources access for mobile (android & ios) Kotlin Multiplatform development",
    "stars_count": 54,
    "watchers_count": 4,
-   "issues_count": 7,
+   "issues_count": 3,
    "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": [
@@ -2002,7 +2033,7 @@
     "version": "0.3.0-dev-2",
     "mpp": true,
     "gradle": "5.5.1",
-    "kotlin": "1.3.60",
+    "kotlin": "1.3.61",
     "targets": {
      "android-debugApiElements": {
       "platform": "androidJvm"
@@ -9897,10 +9928,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 7330,
+   "stars_count": 7333,
    "watchers_count": 271,
    "issues_count": 241,
-   "forks_count": 1000,
+   "forks_count": 1001,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -11769,9 +11800,9 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2023,
+   "stars_count": 2025,
    "watchers_count": 87,
-   "issues_count": 248,
+   "issues_count": 251,
    "forks_count": 174,
    "license": "Apache License 2.0",
    "topics": [
@@ -13621,10 +13652,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 6653,
+   "stars_count": 6652,
    "watchers_count": 161,
-   "issues_count": 540,
-   "forks_count": 531,
+   "issues_count": 542,
+   "forks_count": 532,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -20062,7 +20093,7 @@
    "full_name": "korlibs/krypto",
    "html_url": "https://github.com/korlibs/krypto",
    "description": "Pure Kotlin cryptography library for Multiplatform Kotlin 1.3",
-   "stars_count": 49,
+   "stars_count": 50,
    "watchers_count": 6,
    "issues_count": 10,
    "forks_count": 9,
@@ -24271,7 +24302,7 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 62,
+   "stars_count": 63,
    "watchers_count": 7,
    "issues_count": 5,
    "forks_count": 1,
@@ -26384,7 +26415,6 @@
     "version": "0.10.5",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -26409,7 +26439,6 @@
     "version": "0.10.6",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -26434,7 +26463,6 @@
     "version": "0.11.0",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -26484,7 +26512,6 @@
     "version": "0.11.2",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -26659,7 +26686,6 @@
     "version": "0.12.5",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -27434,7 +27460,6 @@
     "version": "0.18.2",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -27734,7 +27759,6 @@
     "version": "0.18.14",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.70",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -27842,7 +27866,7 @@
    "description": null,
    "stars_count": 24,
    "watchers_count": 1,
-   "issues_count": 0,
+   "issues_count": 1,
    "forks_count": 2,
    "license": "unknown",
    "topics": []
@@ -28288,7 +28312,7 @@
    "stars_count": 40,
    "watchers_count": 2,
    "issues_count": 1,
-   "forks_count": 6,
+   "forks_count": 5,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -31357,10 +31381,10 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 571,
+   "stars_count": 573,
    "watchers_count": 16,
-   "issues_count": 18,
-   "forks_count": 25,
+   "issues_count": 17,
+   "forks_count": 26,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -32414,8 +32438,8 @@
    "full_name": "Autodesk/coroutineworker",
    "html_url": "https://github.com/Autodesk/coroutineworker",
    "description": "Kotlin Coroutine-based workers for native",
-   "stars_count": 209,
-   "watchers_count": 7,
+   "stars_count": 210,
+   "watchers_count": 8,
    "issues_count": 0,
    "forks_count": 12,
    "license": "Apache License 2.0",
@@ -33562,7 +33586,7 @@
    "full_name": "touchlab/Stately",
    "html_url": "https://github.com/touchlab/Stately",
    "description": "Kotlin Multiplatform State Library",
-   "stars_count": 196,
+   "stars_count": 197,
    "watchers_count": 12,
    "issues_count": 12,
    "forks_count": 14,
@@ -33767,7 +33791,6 @@
     "version": "0.1.1",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.20",
     "targets": {
      "iosArm64-api": {
       "platform": "native",
@@ -33828,7 +33851,6 @@
     "version": "0.2.1",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.21",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33863,7 +33885,6 @@
     "version": "0.2.2",
     "mpp": true,
     "gradle": "5.1.1",
-    "kotlin": "1.3.30",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -33898,7 +33919,6 @@
     "version": "0.3.1",
     "mpp": true,
     "gradle": "5.5.1",
-    "kotlin": "1.3.41",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -34068,7 +34088,6 @@
     "version": "0.5.2",
     "mpp": true,
     "gradle": "6.3",
-    "kotlin": "1.3.71",
     "targets": {
      "iosArm32-api": {
       "platform": "native",
@@ -34365,6 +34384,7 @@
     "version": "0.1.11-beta.3",
     "mpp": true,
     "gradle": "5.1.1",
+    "kotlin": "1.3.30",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -36000,7 +36020,7 @@
     "version": "6.4.0",
     "mpp": true,
     "gradle": "5.4.1",
-    "kotlin": "1.3.50",
+    "kotlin": "1.3.41",
     "targets": {
      "androidArm32-api": {
       "platform": "native",
@@ -38050,10 +38070,10 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 6960,
-   "watchers_count": 275,
+   "stars_count": 6963,
+   "watchers_count": 276,
    "issues_count": 49,
-   "forks_count": 998,
+   "forks_count": 999,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -38247,7 +38267,7 @@
   "artifactId": "atomicfu-native",
   "path": "org.jetbrains.kotlinx:atomicfu-native",
   "latestVersion": "0.14.3-1.4-M1",
-  "lastUpdated": "20200330090722",
+  "lastUpdated": "20200505122350",
   "versions": [
    {
     "version": "0.10.3-native",
@@ -41956,7 +41976,6 @@
     "version": "0.1.8-dev-6",
     "mpp": true,
     "gradle": "5.6",
-    "kotlin": "1.3.50",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -42590,7 +42609,7 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 383,
+   "stars_count": 384,
    "watchers_count": 16,
    "issues_count": 12,
    "forks_count": 23,
@@ -42877,9 +42896,9 @@
    "full_name": "arkivanov/MVIKotlin",
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "MVI framework for Kotlin Multiplatform",
-   "stars_count": 167,
+   "stars_count": 168,
    "watchers_count": 8,
-   "issues_count": 0,
+   "issues_count": 1,
    "forks_count": 8,
    "license": "unknown",
    "topics": [
@@ -43494,6 +43513,7 @@
     "version": "0.1.1",
     "mpp": true,
     "gradle": "5.5",
+    "kotlin": "1.3.41",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -43542,6 +43562,7 @@
     "version": "0.1.5",
     "mpp": true,
     "gradle": "5.5",
+    "kotlin": "1.3.41",
     "targets": {
      "jvm-api": {
       "platform": "jvm"
@@ -44111,7 +44132,6 @@
     "version": "1.0.0",
     "mpp": true,
     "gradle": "5.4.1",
-    "kotlin": "1.3.50",
     "targets": {
      "android-releaseApiElements": {
       "platform": "androidJvm"
@@ -44152,7 +44172,6 @@
     "version": "1.1.0",
     "mpp": true,
     "gradle": "5.4.1",
-    "kotlin": "1.3.60",
     "targets": {
      "android-releaseApiElements": {
       "platform": "androidJvm"
@@ -44478,8 +44497,8 @@
   "groupId": "com.apollographql.apollo",
   "artifactId": "apollo-api",
   "path": "com.apollographql.apollo:apollo-api",
-  "latestVersion": "2.0.1",
-  "lastUpdated": "20200429224132",
+  "latestVersion": "2.0.2",
+  "lastUpdated": "20200505200907",
   "versions": [
    {
     "version": "2.0.0",
@@ -44530,6 +44549,31 @@
       "platform": "common"
      }
     }
+   },
+   {
+    "version": "2.0.2",
+    "mpp": true,
+    "gradle": "6.2.2",
+    "kotlin": "1.3.72",
+    "targets": {
+     "ios-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSim-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
    }
   ],
   "github": {
@@ -44538,8 +44582,8 @@
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":pager: A strongly-typed, caching GraphQL client for Android and the JVM",
    "stars_count": 2278,
-   "watchers_count": 92,
-   "issues_count": 87,
+   "watchers_count": 91,
+   "issues_count": 86,
    "forks_count": 417,
    "license": "MIT License",
    "topics": [
@@ -44705,7 +44749,8 @@
     "sdk-java",
     "social-network",
     "vk",
-    "vk-api"
+    "vk-api",
+    "vk-sdk"
    ]
   },
   "category": "Social"
@@ -44805,7 +44850,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 50,
    "watchers_count": 6,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 4,
    "license": "Apache License 2.0",
    "topics": [
@@ -44916,7 +44961,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 50,
    "watchers_count": 6,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 4,
    "license": "Apache License 2.0",
    "topics": [
@@ -45027,7 +45072,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 50,
    "watchers_count": 6,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 4,
    "license": "Apache License 2.0",
    "topics": [
@@ -45138,7 +45183,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 50,
    "watchers_count": 6,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 4,
    "license": "Apache License 2.0",
    "topics": [
@@ -45249,7 +45294,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 50,
    "watchers_count": 6,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 4,
    "license": "Apache License 2.0",
    "topics": [
@@ -45299,7 +45344,6 @@
     "version": "0.22.1",
     "mpp": true,
     "gradle": "6.0.1",
-    "kotlin": "1.3.61",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -45368,7 +45412,6 @@
     "version": "0.23.1",
     "mpp": true,
     "gradle": "6.0.1",
-    "kotlin": "1.3.61",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -45414,7 +45457,6 @@
     "version": "0.23.3",
     "mpp": true,
     "gradle": "6.0.1",
-    "kotlin": "1.3.61",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -45529,7 +45571,6 @@
     "version": "0.26.0",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.71",
     "targets": {
      "js-api": {
       "platform": "js"
@@ -45598,7 +45639,6 @@
     "version": "0.26.3",
     "mpp": true,
     "gradle": "6.2.2",
-    "kotlin": "1.3.71",
     "targets": {
      "js-api": {
       "platform": "js"
