@@ -944,7 +944,7 @@
    "full_name": "icerockdev/moko-mvvm",
    "html_url": "https://github.com/icerockdev/moko-mvvm",
    "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 164,
+   "stars_count": 168,
    "watchers_count": 9,
    "issues_count": 12,
    "forks_count": 31,
@@ -1850,7 +1850,7 @@
    "full_name": "icerockdev/moko-resources",
    "html_url": "https://github.com/icerockdev/moko-resources",
    "description": "Resources access for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 55,
+   "stars_count": 56,
    "watchers_count": 4,
    "issues_count": 9,
    "forks_count": 10,
@@ -9995,10 +9995,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 7401,
+   "stars_count": 7409,
    "watchers_count": 274,
    "issues_count": 234,
-   "forks_count": 1009,
+   "forks_count": 1013,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -11867,10 +11867,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2042,
+   "stars_count": 2044,
    "watchers_count": 86,
-   "issues_count": 255,
-   "forks_count": 175,
+   "issues_count": 256,
+   "forks_count": 176,
    "license": "Apache License 2.0",
    "topics": [
     "cbor",
@@ -13719,10 +13719,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 6677,
+   "stars_count": 6686,
    "watchers_count": 160,
-   "issues_count": 549,
-   "forks_count": 535,
+   "issues_count": 551,
+   "forks_count": 536,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -13861,8 +13861,8 @@
   "groupId": "com.mirego.trikot",
   "artifactId": "http",
   "path": "com.mirego.trikot:http",
-  "latestVersion": "0.20.1",
-  "lastUpdated": "20200330132816",
+  "latestVersion": "0.21.1",
+  "lastUpdated": "20200513174744",
   "versions": [
    {
     "version": "0.0.1",
@@ -14578,6 +14578,49 @@
    },
    {
     "version": "0.20.1",
+    "mpp": true,
+    "gradle": "5.6.4",
+    "kotlin": "1.3.70",
+    "targets": {
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     }
+    }
+   },
+   {
+    "version": "0.21.1",
     "mpp": true,
     "gradle": "5.6.4",
     "kotlin": "1.3.70",
@@ -16635,7 +16678,7 @@
    "description": "Meta abstraction of visual components for Kotlin Multiplatform",
    "stars_count": 5,
    "watchers_count": 25,
-   "issues_count": 1,
+   "issues_count": 0,
    "forks_count": 0,
    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
    "topics": [
@@ -24627,7 +24670,7 @@
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
    "stars_count": 63,
    "watchers_count": 7,
-   "issues_count": 5,
+   "issues_count": 6,
    "forks_count": 1,
    "license": "MIT License",
    "topics": [
@@ -29720,10 +29763,10 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3170,
+   "stars_count": 3172,
    "watchers_count": 106,
    "issues_count": 206,
-   "forks_count": 244,
+   "forks_count": 245,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -37245,7 +37288,7 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2276,
+   "stars_count": 2278,
    "watchers_count": 50,
    "issues_count": 13,
    "forks_count": 139,
@@ -37815,8 +37858,8 @@
    "description": "A Bluetooth kotlin multiplatform \"Cross-Platform\" library for iOS and Android",
    "stars_count": 76,
    "watchers_count": 3,
-   "issues_count": 0,
-   "forks_count": 6,
+   "issues_count": 1,
+   "forks_count": 7,
    "license": "MIT License",
    "topics": []
   },
@@ -38645,8 +38688,8 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 6972,
-   "watchers_count": 276,
+   "stars_count": 6974,
+   "watchers_count": 275,
    "issues_count": 49,
    "forks_count": 1000,
    "license": "Apache License 2.0",
@@ -41732,7 +41775,7 @@
    "full_name": "Kotlin/kotlinx.atomicfu",
    "html_url": "https://github.com/Kotlin/kotlinx.atomicfu",
    "description": "The idiomatic way to use atomic operations in Kotlin",
-   "stars_count": 272,
+   "stars_count": 274,
    "watchers_count": 36,
    "issues_count": 28,
    "forks_count": 24,
@@ -43566,7 +43609,7 @@
    "full_name": "arkivanov/MVIKotlin",
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "MVI framework for Kotlin Multiplatform",
-   "stars_count": 206,
+   "stars_count": 207,
    "watchers_count": 9,
    "issues_count": 1,
    "forks_count": 9,
@@ -45193,7 +45236,7 @@
    "stars_count": 8,
    "watchers_count": 1,
    "issues_count": 0,
-   "forks_count": 1,
+   "forks_count": 0,
    "license": "MIT License",
    "topics": []
   },
@@ -45312,10 +45355,10 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for Android and the JVM",
-   "stars_count": 2293,
+   "stars_count": 2295,
    "watchers_count": 91,
-   "issues_count": 81,
-   "forks_count": 419,
+   "issues_count": 80,
+   "forks_count": 420,
    "license": "MIT License",
    "topics": [
     "android",
@@ -45469,7 +45512,7 @@
    "full_name": "vksdk/vk-sdk-kotlin",
    "html_url": "https://github.com/vksdk/vk-sdk-kotlin",
    "description": "Unofficial VK SDK, written in Kotlin: make bots, use the API",
-   "stars_count": 48,
+   "stars_count": 49,
    "watchers_count": 1,
    "issues_count": 0,
    "forks_count": 17,
@@ -45478,6 +45521,7 @@
     "bot",
     "java",
     "kotlin",
+    "kotlin-multiplatform",
     "multiplatform",
     "sdk-java",
     "social-network",
@@ -45581,9 +45625,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 56,
+   "stars_count": 57,
    "watchers_count": 8,
-   "issues_count": 8,
+   "issues_count": 6,
    "forks_count": 5,
    "license": "Apache License 2.0",
    "topics": [
@@ -45692,9 +45736,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 56,
+   "stars_count": 57,
    "watchers_count": 8,
-   "issues_count": 8,
+   "issues_count": 6,
    "forks_count": 5,
    "license": "Apache License 2.0",
    "topics": [
@@ -45803,9 +45847,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 56,
+   "stars_count": 57,
    "watchers_count": 8,
-   "issues_count": 8,
+   "issues_count": 6,
    "forks_count": 5,
    "license": "Apache License 2.0",
    "topics": [
@@ -45914,9 +45958,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 56,
+   "stars_count": 57,
    "watchers_count": 8,
-   "issues_count": 8,
+   "issues_count": 6,
    "forks_count": 5,
    "license": "Apache License 2.0",
    "topics": [
@@ -46025,9 +46069,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 56,
+   "stars_count": 57,
    "watchers_count": 8,
-   "issues_count": 8,
+   "issues_count": 6,
    "forks_count": 5,
    "license": "Apache License 2.0",
    "topics": [
@@ -46493,9 +46537,9 @@
    "full_name": "InsanusMokrassar/TelegramBotAPI",
    "html_url": "https://github.com/InsanusMokrassar/TelegramBotAPI",
    "description": "Object-oriented strong-typed library for work with Telegram Bot API",
-   "stars_count": 10,
+   "stars_count": 11,
    "watchers_count": 1,
-   "issues_count": 1,
+   "issues_count": 3,
    "forks_count": 2,
    "license": "Apache License 2.0",
    "topics": [
@@ -46551,7 +46595,7 @@
    "description": "A multiplatform assertion library for Kotlin",
    "stars_count": 268,
    "watchers_count": 21,
-   "issues_count": 52,
+   "issues_count": 51,
    "forks_count": 121,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -46606,7 +46650,7 @@
    "description": "A multiplatform assertion library for Kotlin",
    "stars_count": 268,
    "watchers_count": 21,
-   "issues_count": 52,
+   "issues_count": 51,
    "forks_count": 121,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -46977,7 +47021,7 @@
    "full_name": "touchlab/Kermit",
    "html_url": "https://github.com/touchlab/Kermit",
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
-   "stars_count": 64,
+   "stars_count": 67,
    "watchers_count": 4,
    "issues_count": 11,
    "forks_count": 3,
@@ -47054,10 +47098,10 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1109,
+   "stars_count": 1110,
    "watchers_count": 12,
    "issues_count": 3,
-   "forks_count": 58,
+   "forks_count": 59,
    "license": "Apache License 2.0",
    "topics": [
     "argument-parser",
