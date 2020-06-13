@@ -944,7 +944,7 @@
    "full_name": "icerockdev/moko-mvvm",
    "html_url": "https://github.com/icerockdev/moko-mvvm",
    "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 192,
+   "stars_count": 193,
    "watchers_count": 10,
    "issues_count": 12,
    "forks_count": 35,
@@ -7262,7 +7262,7 @@
    "full_name": "korlibs/klock",
    "html_url": "https://github.com/korlibs/klock",
    "description": "Multiplatform Date and time library for Kotlin",
-   "stars_count": 476,
+   "stars_count": 477,
    "watchers_count": 12,
    "issues_count": 4,
    "forks_count": 34,
@@ -11425,7 +11425,7 @@
    "description": "Library support for Kotlin coroutines ",
    "stars_count": 7594,
    "watchers_count": 287,
-   "issues_count": 243,
+   "issues_count": 244,
    "forks_count": 1047,
    "license": "Apache License 2.0",
    "topics": [
@@ -13295,7 +13295,7 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2104,
+   "stars_count": 2106,
    "watchers_count": 89,
    "issues_count": 272,
    "forks_count": 186,
@@ -15147,10 +15147,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 6821,
+   "stars_count": 6826,
    "watchers_count": 161,
-   "issues_count": 569,
-   "forks_count": 556,
+   "issues_count": 572,
+   "forks_count": 557,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -20877,7 +20877,7 @@
    "description": "Logger for Multiplatform Kotlin 1.3",
    "stars_count": 11,
    "watchers_count": 5,
-   "issues_count": 1,
+   "issues_count": 0,
    "forks_count": 3,
    "license": "MIT License",
    "topics": []
@@ -26817,8 +26817,8 @@
   "groupId": "org.reduxkotlin",
   "artifactId": "redux-kotlin",
   "path": "org.reduxkotlin:redux-kotlin",
-  "latestVersion": "0.4.0",
-  "lastUpdated": "20200320013533",
+  "latestVersion": "0.5.0",
+  "lastUpdated": "20200612190808",
   "versions": [
    {
     "version": "0.2",
@@ -27580,6 +27580,65 @@
       "target": "mingw_x64"
      }
     }
+   },
+   {
+    "version": "0.5.0",
+    "mpp": true,
+    "gradle": "6.5",
+    "kotlin": "1.3.72",
+    "targets": {
+     "ios-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSim-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "lin64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "linArm32-api": {
+      "platform": "native",
+      "target": "linux_arm32_hfp"
+     },
+     "linMips32-api": {
+      "platform": "native",
+      "target": "linux_mips32"
+     },
+     "linMipsel32-api": {
+      "platform": "native",
+      "target": "linux_mipsel32"
+     },
+     "macos-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "wasm-api": {
+      "platform": "native",
+      "target": "wasm32"
+     },
+     "win-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -27587,9 +27646,9 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 70,
+   "stars_count": 71,
    "watchers_count": 7,
-   "issues_count": 7,
+   "issues_count": 5,
    "forks_count": 3,
    "license": "MIT License",
    "topics": [
@@ -27865,7 +27924,7 @@
    "description": "MVU for Kotlin Multiplatform",
    "stars_count": 142,
    "watchers_count": 9,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 5,
    "license": "Apache License 2.0",
    "topics": [
@@ -32772,10 +32831,10 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3233,
+   "stars_count": 3236,
    "watchers_count": 107,
    "issues_count": 153,
-   "forks_count": 253,
+   "forks_count": 254,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -38634,7 +38693,7 @@
    "full_name": "AAkira/Napier",
    "html_url": "https://github.com/AAkira/Napier",
    "description": "Logging library for Kotlin Multiplatform",
-   "stars_count": 111,
+   "stars_count": 112,
    "watchers_count": 5,
    "issues_count": 3,
    "forks_count": 12,
@@ -40422,7 +40481,7 @@
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
    "stars_count": 2329,
-   "watchers_count": 50,
+   "watchers_count": 51,
    "issues_count": 12,
    "forks_count": 139,
    "license": "MIT License",
@@ -41270,7 +41329,7 @@
    "full_name": "sellmair/kompass",
    "html_url": "https://github.com/sellmair/kompass",
    "description": "Kotlin Multiplatform Router for Android and iOS",
-   "stars_count": 313,
+   "stars_count": 314,
    "watchers_count": 12,
    "issues_count": 8,
    "forks_count": 9,
@@ -41890,10 +41949,10 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7037,
-   "watchers_count": 272,
-   "issues_count": 54,
-   "forks_count": 1000,
+   "stars_count": 7038,
+   "watchers_count": 273,
+   "issues_count": 55,
+   "forks_count": 999,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -44977,10 +45036,10 @@
    "full_name": "Kotlin/kotlinx.atomicfu",
    "html_url": "https://github.com/Kotlin/kotlinx.atomicfu",
    "description": "The idiomatic way to use atomic operations in Kotlin",
-   "stars_count": 285,
+   "stars_count": 286,
    "watchers_count": 36,
-   "issues_count": 27,
-   "forks_count": 28,
+   "issues_count": 28,
+   "forks_count": 29,
    "license": "unknown",
    "topics": [
     "atomic",
@@ -46894,8 +46953,8 @@
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "MVI framework for Kotlin Multiplatform",
    "stars_count": 236,
-   "watchers_count": 11,
-   "issues_count": 6,
+   "watchers_count": 10,
+   "issues_count": 5,
    "forks_count": 15,
    "license": "unknown",
    "topics": [
@@ -48325,7 +48384,7 @@
    "full_name": "AAkira/Napier",
    "html_url": "https://github.com/AAkira/Napier",
    "description": "Logging library for Kotlin Multiplatform",
-   "stars_count": 111,
+   "stars_count": 112,
    "watchers_count": 5,
    "issues_count": 3,
    "forks_count": 12,
@@ -48423,10 +48482,10 @@
    "full_name": "h0tk3y/better-parse",
    "html_url": "https://github.com/h0tk3y/better-parse",
    "description": "A nice parser combinator library for Kotlin",
-   "stars_count": 181,
+   "stars_count": 182,
    "watchers_count": 13,
    "issues_count": 17,
-   "forks_count": 14,
+   "forks_count": 15,
    "license": "Apache License 2.0",
    "topics": [
     "dsl",
@@ -48716,9 +48775,9 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin native",
-   "stars_count": 2354,
+   "stars_count": 2356,
    "watchers_count": 95,
-   "issues_count": 92,
+   "issues_count": 90,
    "forks_count": 434,
    "license": "MIT License",
    "topics": [
@@ -49187,9 +49246,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 63,
-   "watchers_count": 8,
-   "issues_count": 8,
+   "stars_count": 67,
+   "watchers_count": 9,
+   "issues_count": 9,
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
@@ -49298,9 +49357,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 63,
-   "watchers_count": 8,
-   "issues_count": 8,
+   "stars_count": 67,
+   "watchers_count": 9,
+   "issues_count": 9,
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
@@ -49409,9 +49468,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 63,
-   "watchers_count": 8,
-   "issues_count": 8,
+   "stars_count": 67,
+   "watchers_count": 9,
+   "issues_count": 9,
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
@@ -49520,9 +49579,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 63,
-   "watchers_count": 8,
-   "issues_count": 8,
+   "stars_count": 67,
+   "watchers_count": 9,
+   "issues_count": 9,
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
@@ -49631,9 +49690,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 63,
-   "watchers_count": 8,
-   "issues_count": 8,
+   "stars_count": 67,
+   "watchers_count": 9,
+   "issues_count": 9,
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
@@ -51603,7 +51662,7 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
-   "stars_count": 5545,
+   "stars_count": 5555,
    "watchers_count": 106,
    "issues_count": 114,
    "forks_count": 373,
