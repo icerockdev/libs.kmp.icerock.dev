@@ -1352,10 +1352,10 @@
    "full_name": "icerockdev/moko-network",
    "html_url": "https://github.com/icerockdev/moko-network",
    "description": "Network components with codegeneration for Resources access for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 22,
+   "stars_count": 23,
    "watchers_count": 8,
    "issues_count": 6,
-   "forks_count": 5,
+   "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -12009,9 +12009,9 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 7776,
+   "stars_count": 7780,
    "watchers_count": 294,
-   "issues_count": 261,
+   "issues_count": 263,
    "forks_count": 1074,
    "license": "Apache License 2.0",
    "topics": [
@@ -13881,7 +13881,7 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2170,
+   "stars_count": 2171,
    "watchers_count": 89,
    "issues_count": 244,
    "forks_count": 193,
@@ -15735,7 +15735,7 @@
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
    "stars_count": 6961,
    "watchers_count": 162,
-   "issues_count": 596,
+   "issues_count": 597,
    "forks_count": 578,
    "license": "Apache License 2.0",
    "topics": [
@@ -29217,7 +29217,7 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 82,
+   "stars_count": 83,
    "watchers_count": 6,
    "issues_count": 4,
    "forks_count": 3,
@@ -29614,7 +29614,7 @@
    "full_name": "oolong-kt/oolong",
    "html_url": "https://github.com/oolong-kt/oolong",
    "description": "MVU for Kotlin Multiplatform",
-   "stars_count": 197,
+   "stars_count": 198,
    "watchers_count": 9,
    "issues_count": 5,
    "forks_count": 7,
@@ -33491,7 +33491,7 @@
    "full_name": "florent37/Multiplatform-Preferences",
    "html_url": "https://github.com/florent37/Multiplatform-Preferences",
    "description": "Kotlin Multi Platform Preferences, for android an ios : SharedPreferences & NSUserDefault",
-   "stars_count": 66,
+   "stars_count": 67,
    "watchers_count": 2,
    "issues_count": 2,
    "forks_count": 9,
@@ -34646,7 +34646,7 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3304,
+   "stars_count": 3305,
    "watchers_count": 108,
    "issues_count": 116,
    "forks_count": 258,
@@ -37109,7 +37109,7 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 603,
+   "stars_count": 605,
    "watchers_count": 17,
    "issues_count": 15,
    "forks_count": 31,
@@ -38205,7 +38205,7 @@
    "description": "Kotlin Coroutine-based workers for native",
    "stars_count": 226,
    "watchers_count": 6,
-   "issues_count": 0,
+   "issues_count": 1,
    "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
@@ -40579,8 +40579,8 @@
   "groupId": "io.islandtime",
   "artifactId": "core",
   "path": "io.islandtime:core",
-  "latestVersion": "0.2.2",
-  "lastUpdated": "20200520233729",
+  "latestVersion": "0.2.3",
+  "lastUpdated": "20200712214051",
   "versions": [
    {
     "version": "0.1.0",
@@ -40745,6 +40745,51 @@
       "target": "watchos_x86"
      }
     }
+   },
+   {
+    "version": "0.2.3",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
    }
   ],
   "github": {
@@ -40754,7 +40799,7 @@
    "description": "A Kotlin Multiplatform library for working with dates and times",
    "stars_count": 54,
    "watchers_count": 2,
-   "issues_count": 12,
+   "issues_count": 13,
    "forks_count": 5,
    "license": "Apache License 2.0",
    "topics": [
@@ -42566,7 +42611,7 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2352,
+   "stars_count": 2351,
    "watchers_count": 50,
    "issues_count": 16,
    "forks_count": 142,
@@ -43554,8 +43599,8 @@
   "groupId": "com.benasher44",
   "artifactId": "uuid",
   "path": "com.benasher44:uuid",
-  "latestVersion": "0.1.0",
-  "lastUpdated": "20200304155712",
+  "latestVersion": "0.1.1",
+  "lastUpdated": "20200712220725",
   "versions": [
    {
     "version": "0.0.1",
@@ -43952,6 +43997,57 @@
       "target": "mingw_x64"
      }
     }
+   },
+   {
+    "version": "0.1.1",
+    "mpp": true,
+    "gradle": "6.3",
+    "kotlin": "1.3.72",
+    "targets": {
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxArm32Hfp-api": {
+      "platform": "native",
+      "target": "linux_arm32_hfp"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -44157,7 +44253,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7089,
+   "stars_count": 7091,
    "watchers_count": 277,
    "issues_count": 55,
    "forks_count": 998,
@@ -49351,9 +49447,9 @@
    "full_name": "arkivanov/MVIKotlin",
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "MVI framework for Kotlin Multiplatform",
-   "stars_count": 273,
+   "stars_count": 274,
    "watchers_count": 11,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 16,
    "license": "unknown",
    "topics": [
@@ -50911,7 +51007,7 @@
    "stars_count": 185,
    "watchers_count": 13,
    "issues_count": 17,
-   "forks_count": 16,
+   "forks_count": 17,
    "license": "Apache License 2.0",
    "topics": [
     "dsl",
@@ -51251,8 +51347,8 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin multiplatform",
-   "stars_count": 2402,
-   "watchers_count": 96,
+   "stars_count": 2403,
+   "watchers_count": 97,
    "issues_count": 91,
    "forks_count": 434,
    "license": "MIT License",
@@ -52843,7 +52939,7 @@
    "description": "A multiplatform assertion library for Kotlin",
    "stars_count": 291,
    "watchers_count": 21,
-   "issues_count": 42,
+   "issues_count": 46,
    "forks_count": 129,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -52899,7 +52995,7 @@
    "description": "A multiplatform assertion library for Kotlin",
    "stars_count": 291,
    "watchers_count": 21,
-   "issues_count": 42,
+   "issues_count": 46,
    "forks_count": 129,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -54320,7 +54416,7 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
-   "stars_count": 5705,
+   "stars_count": 5706,
    "watchers_count": 109,
    "issues_count": 119,
    "forks_count": 381,
