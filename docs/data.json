@@ -12200,10 +12200,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 7859,
+   "stars_count": 7861,
    "watchers_count": 291,
-   "issues_count": 265,
-   "forks_count": 1084,
+   "issues_count": 266,
+   "forks_count": 1085,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -14074,7 +14074,7 @@
    "description": "Kotlin multiplatform / multi-format serialization ",
    "stars_count": 2201,
    "watchers_count": 87,
-   "issues_count": 182,
+   "issues_count": 183,
    "forks_count": 199,
    "license": "Apache License 2.0",
    "topics": [
@@ -15924,9 +15924,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 7017,
+   "stars_count": 7021,
    "watchers_count": 165,
-   "issues_count": 592,
+   "issues_count": 593,
    "forks_count": 584,
    "license": "Apache License 2.0",
    "topics": [
@@ -37756,7 +37756,7 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 610,
+   "stars_count": 611,
    "watchers_count": 18,
    "issues_count": 17,
    "forks_count": 32,
@@ -41565,7 +41565,7 @@
    "description": "A Kotlin Multiplatform library for working with dates and times",
    "stars_count": 55,
    "watchers_count": 2,
-   "issues_count": 13,
+   "issues_count": 14,
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
@@ -43379,7 +43379,7 @@
    "description": "Painless Kotlin Dependency Injection",
    "stars_count": 2359,
    "watchers_count": 49,
-   "issues_count": 12,
+   "issues_count": 13,
    "forks_count": 142,
    "license": "MIT License",
    "topics": [
@@ -43398,8 +43398,8 @@
   "groupId": "dev.bluefalcon",
   "artifactId": "library",
   "path": "dev.bluefalcon:library",
-  "latestVersion": "0.7.0",
-  "lastUpdated": "20200629070230",
+  "latestVersion": "0.7.1",
+  "lastUpdated": "20200725213608",
   "versions": [
    {
     "version": "0.0.1",
@@ -44046,6 +44046,41 @@
    },
    {
     "version": "0.7.0",
+    "mpp": true,
+    "gradle": "5.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-api": {
+      "platform": "jvm"
+     },
+     "android-runtime": {
+      "platform": "jvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.7.1",
     "mpp": true,
     "gradle": "5.5.1",
     "kotlin": "1.3.72",
@@ -45019,7 +45054,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7105,
+   "stars_count": 7107,
    "watchers_count": 276,
    "issues_count": 57,
    "forks_count": 998,
@@ -49754,8 +49789,8 @@
   "groupId": "com.arkivanov.mvikotlin",
   "artifactId": "mvikotlin",
   "path": "com.arkivanov.mvikotlin:mvikotlin",
-  "latestVersion": "2.0.0-rc2",
-  "lastUpdated": "20200724230459",
+  "latestVersion": "2.0.0-preview4",
+  "lastUpdated": "20200725152753",
   "versions": [
    {
     "version": "2.0.0-beta1",
@@ -49996,6 +50031,57 @@
     "version": "2.0.0-rc1",
     "mpp": true,
     "gradle": "5.6.4",
+    "kotlin": "1.3.70",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "2.0.0-rc2",
+    "mpp": true,
+    "gradle": "6.5",
     "kotlin": "1.3.70",
     "targets": {
      "android-debugApiElements": {
@@ -50393,9 +50479,9 @@
    "html_url": "https://github.com/freeletics/FlowRedux",
    "description": "Kotlin Multiplatform Statemachine library with nice DSL based on Flow from Kotlin Coroutine's.",
    "stars_count": 168,
-   "watchers_count": 9,
+   "watchers_count": 10,
    "issues_count": 14,
-   "forks_count": 10,
+   "forks_count": 9,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -52169,10 +52255,10 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin multiplatform",
-   "stars_count": 2420,
+   "stars_count": 2422,
    "watchers_count": 100,
-   "issues_count": 94,
-   "forks_count": 440,
+   "issues_count": 95,
+   "forks_count": 441,
    "license": "MIT License",
    "topics": [
     "android",
@@ -55216,7 +55302,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1200,
+   "stars_count": 1202,
    "watchers_count": 13,
    "issues_count": 8,
    "forks_count": 62,
@@ -55423,7 +55509,7 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
-   "stars_count": 5744,
+   "stars_count": 5746,
    "watchers_count": 108,
    "issues_count": 123,
    "forks_count": 383,
