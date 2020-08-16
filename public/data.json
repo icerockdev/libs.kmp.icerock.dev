@@ -4186,7 +4186,7 @@
   "artifactId": "klock",
   "path": "com.soywiz.korlibs.klock:klock",
   "latestVersion": "2.0.0-alpha-3",
-  "lastUpdated": "20200728125727",
+  "lastUpdated": "20200815072937",
   "versions": [
    {
     "version": "1.4.0",
@@ -7664,6 +7664,107 @@
     }
    },
    {
+    "version": "1.12.0",
+    "mpp": true,
+    "gradle": "6.6",
+    "kotlin": "1.4.0",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "androidNativeArm32-api": {
+      "platform": "native",
+      "target": "android_arm32"
+     },
+     "androidNativeArm64-api": {
+      "platform": "native",
+      "target": "android_arm64"
+     },
+     "androidNativeX64-api": {
+      "platform": "native",
+      "target": "android_x64"
+     },
+     "androidNativeX86-api": {
+      "platform": "native",
+      "target": "android_x86"
+     },
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacy-api": {
+      "platform": "js"
+     },
+     "jsLegacy-runtime": {
+      "platform": "js"
+     },
+     "jsIr-api": {
+      "platform": "js"
+     },
+     "jsIr-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
+   },
+   {
     "version": "2.0.0-alpha-1",
     "mpp": true,
     "gradle": "6.5",
@@ -8074,8 +8175,8 @@
    "html_url": "https://github.com/korlibs/klock",
    "description": "Multiplatform Date and time library for Kotlin",
    "stars_count": 499,
-   "watchers_count": 12,
-   "issues_count": 9,
+   "watchers_count": 11,
+   "issues_count": 10,
    "forks_count": 37,
    "license": "Creative Commons Zero v1.0 Universal",
    "topics": [
@@ -12301,10 +12402,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 7974,
-   "watchers_count": 295,
+   "stars_count": 7980,
+   "watchers_count": 297,
    "issues_count": 280,
-   "forks_count": 1104,
+   "forks_count": 1107,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -14173,10 +14274,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2242,
-   "watchers_count": 86,
-   "issues_count": 199,
-   "forks_count": 207,
+   "stars_count": 2244,
+   "watchers_count": 87,
+   "issues_count": 198,
+   "forks_count": 206,
    "license": "Apache License 2.0",
    "topics": [
     "cbor",
@@ -16025,9 +16126,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 7092,
+   "stars_count": 7095,
    "watchers_count": 166,
-   "issues_count": 588,
+   "issues_count": 586,
    "forks_count": 595,
    "license": "Apache License 2.0",
    "topics": [
@@ -27191,7 +27292,7 @@
    "full_name": "korlibs/korim",
    "html_url": "https://github.com/korlibs/korim",
    "description": "Korim: Kotlin cORoutines IMaging, Bitmap and Vector graphics for Multiplatform Kotlin",
-   "stars_count": 59,
+   "stars_count": 60,
    "watchers_count": 7,
    "issues_count": 12,
    "forks_count": 12,
@@ -29167,8 +29268,8 @@
   "groupId": "org.reduxkotlin",
   "artifactId": "redux-kotlin",
   "path": "org.reduxkotlin:redux-kotlin",
-  "latestVersion": "0.5.3",
-  "lastUpdated": "20200706003330",
+  "latestVersion": "0.5.5",
+  "lastUpdated": "20200815232354",
   "versions": [
    {
     "version": "0.2",
@@ -30105,6 +30206,166 @@
      "win-api": {
       "platform": "native",
       "target": "mingw_x64"
+     }
+    }
+   },
+   {
+    "version": "0.5.5",
+    "mpp": true,
+    "gradle": "6.6",
+    "kotlin": "1.4.0",
+    "targets": {
+     "androidNativeArm32-api": {
+      "platform": "native",
+      "target": "android_arm32"
+     },
+     "androidNativeArm64-api": {
+      "platform": "native",
+      "target": "android_arm64"
+     },
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm32-iosArm32MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacy-api": {
+      "platform": "js"
+     },
+     "jsLegacy-runtime": {
+      "platform": "js"
+     },
+     "jsIr-api": {
+      "platform": "js"
+     },
+     "jsIr-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxArm32Hfp-api": {
+      "platform": "native",
+      "target": "linux_arm32_hfp"
+     },
+     "linuxArm64-api": {
+      "platform": "native",
+      "target": "linux_arm64"
+     },
+     "linuxMips32-api": {
+      "platform": "native",
+      "target": "linux_mips32"
+     },
+     "linuxMips32-linuxMips32MetadataElements": {
+      "platform": "native",
+      "target": "linux_mips32"
+     },
+     "linuxMipsel32-api": {
+      "platform": "native",
+      "target": "linux_mipsel32"
+     },
+     "linuxMipsel32-linuxMipsel32MetadataElements": {
+      "platform": "native",
+      "target": "linux_mipsel32"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64-macosX64MetadataElements": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwX64-mingwX64MetadataElements": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwX86-api": {
+      "platform": "native",
+      "target": "mingw_x86"
+     },
+     "mingwX86-mingwX86MetadataElements": {
+      "platform": "native",
+      "target": "mingw_x86"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64-tvosArm64MetadataElements": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64-tvosX64MetadataElements": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "wasm32-api": {
+      "platform": "native",
+      "target": "wasm32"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm32-watchosArm32MetadataElements": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64-watchosArm64MetadataElements": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     },
+     "watchosX86-watchosX86MetadataElements": {
+      "platform": "native",
+      "target": "watchos_x86"
      }
     }
    }
@@ -35674,9 +35935,9 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3363,
+   "stars_count": 3364,
    "watchers_count": 106,
-   "issues_count": 136,
+   "issues_count": 137,
    "forks_count": 265,
    "license": "Apache License 2.0",
    "topics": [
@@ -38216,7 +38477,7 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 619,
+   "stars_count": 620,
    "watchers_count": 18,
    "issues_count": 18,
    "forks_count": 35,
@@ -38475,7 +38736,7 @@
    "full_name": "lightningkite/lokalize",
    "html_url": "https://github.com/lightningkite/lokalize",
    "description": "Cross-platform locale information and time calculations",
-   "stars_count": 16,
+   "stars_count": 15,
    "watchers_count": 1,
    "issues_count": 0,
    "forks_count": 2,
@@ -39355,7 +39616,7 @@
    "description": "Kotlin Coroutine-based workers for native",
    "stars_count": 234,
    "watchers_count": 6,
-   "issues_count": 1,
+   "issues_count": 3,
    "forks_count": 15,
    "license": "Apache License 2.0",
    "topics": [
@@ -42850,7 +43111,7 @@
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
    "stars_count": 80,
    "watchers_count": 2,
-   "issues_count": 8,
+   "issues_count": 9,
    "forks_count": 11,
    "license": "Apache License 2.0",
    "topics": [
@@ -45172,7 +45433,7 @@
    "stars_count": 318,
    "watchers_count": 12,
    "issues_count": 8,
-   "forks_count": 10,
+   "forks_count": 11,
    "license": "MIT License",
    "topics": [
     "android",
@@ -48995,7 +49256,7 @@
    "full_name": "Kotlin/kotlinx.atomicfu",
    "html_url": "https://github.com/Kotlin/kotlinx.atomicfu",
    "description": "The idiomatic way to use atomic operations in Kotlin",
-   "stars_count": 307,
+   "stars_count": 308,
    "watchers_count": 37,
    "issues_count": 33,
    "forks_count": 30,
@@ -50649,10 +50910,10 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 436,
+   "stars_count": 437,
    "watchers_count": 15,
    "issues_count": 14,
-   "forks_count": 30,
+   "forks_count": 31,
    "license": "MIT License",
    "topics": [
     "desktop",
@@ -51179,7 +51440,7 @@
    "full_name": "arkivanov/MVIKotlin",
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "MVI framework for Kotlin Multiplatform",
-   "stars_count": 286,
+   "stars_count": 287,
    "watchers_count": 11,
    "issues_count": 5,
    "forks_count": 18,
@@ -53195,8 +53456,8 @@
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin multiplatform",
    "stars_count": 2441,
    "watchers_count": 101,
-   "issues_count": 103,
-   "forks_count": 452,
+   "issues_count": 102,
+   "forks_count": 453,
    "license": "MIT License",
    "topics": [
     "android",
@@ -56495,7 +56756,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1222,
+   "stars_count": 1224,
    "watchers_count": 11,
    "issues_count": 8,
    "forks_count": 64,
@@ -56703,9 +56964,9 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
-   "stars_count": 5830,
+   "stars_count": 5834,
    "watchers_count": 110,
-   "issues_count": 135,
+   "issues_count": 136,
    "forks_count": 391,
    "license": "Apache License 2.0",
    "topics": [
@@ -56839,7 +57100,7 @@
    "full_name": "MicroUtils/kotlin-logging",
    "html_url": "https://github.com/MicroUtils/kotlin-logging",
    "description": "Lightweight logging framework for Kotlin. A convenient and performant logging library wrapping slf4j with Kotlin extensions",
-   "stars_count": 1166,
+   "stars_count": 1167,
    "watchers_count": 17,
    "issues_count": 8,
    "forks_count": 61,
