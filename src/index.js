@@ -196,7 +196,12 @@ class Body extends React.Component {
       let kotlinVersions = libraries
         .flatMap(library => library.versions)
         .map(libraryVersion => libraryVersion.kotlin)
-        .filter((v, i, a) => a.indexOf(v) === i);
+        .filter((v, i, a) => a.indexOf(v) === i)
+        .sort()
+        .sort((a, b) => {
+          if(a.includes("-")) return 1;
+          else return -1;
+        });
       let categories = libraries
         .map(library => library.category)
         .filter((v, i, a) => a.indexOf(v) === i);
