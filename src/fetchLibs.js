@@ -126,7 +126,7 @@ function fetchKotlinVersion(baseUrl, metadata, versionInfo) {
     return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, versionInfo.variants, 0);
 }
 
-function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx) {
+function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx, retryCount) {
     // console.log("fetchKotlinVersionFromVariant " + baseUrl + " idx " + idx);
     let variant = variants[idx];
     if (variant == null) return Promise.resolve(undefined);
@@ -160,7 +160,17 @@ function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants,
                 return version;
             }
         }).catch(error => {
-            return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx);
+            console.log("Error of loading variant, will retry: " + error.response.status);
+
+            if(retryCount < 3) {
+                let newRetryCount = retryCount + 1;
+                console.log("retry loading variant " + newRetryCount);
+                return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx, newRetryCount);
+            } if (idx < variants.length - 1) {
+                return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, ++idx);
+            } else {
+                return undefined;
+            }
         });
 }
 
