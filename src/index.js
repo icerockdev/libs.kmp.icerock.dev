@@ -163,20 +163,25 @@ class Body extends React.Component {
 
   render() {
     const libraries = this.state.libraries;
+    const updateState = newState => {
+      // FIXME remove duplicated call (now used for correct relayout of cards grid)
+      this.setState(newState);
+      this.setState(newState);
+    }
     const handleKotlinVersionChange = event => {
       let newState = this.state;
       newState.selectedKotlinVersion = event.target.value;
-      this.setState(newState);
+      updateState(newState);
     };
     const handleCategoryChange = event => {
       let newState = this.state;
       newState.selectedCategory = event.target.value;
-      this.setState(newState);
+      updateState(newState);
     };
     const handleTargetChange = event => {
       let newState = this.state;
       newState.selectedTarget = event.target.value;
-      this.setState(newState);
+      updateState(newState);
     };
 
     let containerButtons;
