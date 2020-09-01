@@ -166,7 +166,10 @@ class Body extends React.Component {
     const updateState = newState => {
       // FIXME remove duplicated call (now used for correct relayout of cards grid)
       this.setState(newState);
-      this.setState(newState);
+      const self = this;
+      setTimeout(function() {
+        self.setState(newState);
+      }, 50)
     }
     const handleKotlinVersionChange = event => {
       let newState = this.state;
