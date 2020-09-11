@@ -89,7 +89,11 @@ function fetchVersionInfo(baseUrl, metadata, currentInfo, version) {
     if (currentInfo !== undefined && currentInfo.versions !== undefined) {
         let currentVersionInfo = currentInfo.versions.find(item => item.version === version);
         if (currentVersionInfo !== undefined) {
-            if(currentVersionInfo.mpp === false || currentVersionInfo.kotlin !== undefined) {
+            if(currentVersionInfo.mpp === false) {
+                console.log("used cached version info " + version + " of " + metadata.path + " - not mpp");
+                return currentVersionInfo;
+            }
+            else if(currentVersionInfo.kotlin !== undefined) {
                 console.log("used cached version info " + version + " of " + metadata.path);
                 return currentVersionInfo;
             } else {
@@ -131,14 +135,15 @@ function fetchVersionInfo(baseUrl, metadata, currentInfo, version) {
                 });
         })
         .catch(error => {
-            if (error.config != null) {
+            if(error.response !== undefined && error.response.status == 404) {
                 console.log(metadata.path + ":" + version + " not multiplatform - " + error.config.url + " not found");
+                return {
+                    version: version,
+                    mpp: false
+                }
             } else {
-                console.log(error);
-            }
-            return {
-                version: version,
-                mpp: false
+                console.log(error.config.url + " error: " + error);
+                return fetchVersionInfo(baseUrl, metadata, currentInfo, version);
             }
         });
 }
