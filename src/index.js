@@ -195,6 +195,7 @@ class Body extends React.Component {
     } else {
       let kotlinVersions = libraries
         .flatMap(library => library.versions)
+        .filter(libraryVersion => libraryVersion.mpp === true)
         .map(libraryVersion => libraryVersion.kotlin)
         .filter((v, i, a) => a.indexOf(v) === i)
         .sort()
@@ -207,6 +208,7 @@ class Body extends React.Component {
         .filter((v, i, a) => a.indexOf(v) === i);
       let targets = libraries
         .flatMap(library => library.versions)
+        .filter(libraryVersion => libraryVersion.mpp === true)
         .flatMap(libraryVersion => Object.values(libraryVersion.targets))
         .map(target => target.target)
         .filter((v, i, a) => a.indexOf(v) === i);
@@ -219,11 +221,14 @@ class Body extends React.Component {
       }).map(library => {
         let newLib = {};
         Object.assign(newLib, library);
-        newLib.versions = library.versions.filter(version => {
-          return kotlin === "" || kotlin == null || version.kotlin === kotlin;
-        }).filter(version => {
-          return target == null || target === "" || Object.values(version.targets).map(target => target.target).includes(target);
-        });
+        newLib.versions = library.versions
+            .filter(libraryVersion => libraryVersion.mpp === true)
+            .filter(version => {
+              return kotlin === "" || kotlin == null || version.kotlin === kotlin;
+            })
+            .filter(version => {
+              return target == null || target === "" || Object.values(version.targets).map(target => target.target).includes(target);
+            });
         return newLib;
       }).filter(lib => lib.versions.length > 0);
 
