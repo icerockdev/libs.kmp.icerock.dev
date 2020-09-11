@@ -78,7 +78,7 @@ function fetchVersionsInfo(baseUrl, metadata, currentInfo) {
 
     return Promise.all(versionPromises)
         .then(function (versions) {
-            metadata.versions = versions.filter(version => version.mpp === true);
+            metadata.versions = versions;
             return metadata;
         });
 }
@@ -89,7 +89,7 @@ function fetchVersionInfo(baseUrl, metadata, currentInfo, version) {
     if (currentInfo !== undefined && currentInfo.versions !== undefined) {
         let currentVersionInfo = currentInfo.versions.find(item => item.version === version);
         if (currentVersionInfo !== undefined) {
-            if(currentVersionInfo.kotlin !== undefined) {
+            if(currentVersionInfo.mpp === false || currentVersionInfo.kotlin !== undefined) {
                 console.log("used cached version info " + version + " of " + metadata.path);
                 return currentVersionInfo;
             } else {
@@ -98,6 +98,8 @@ function fetchVersionInfo(baseUrl, metadata, currentInfo, version) {
         } else {
             console.log("can't use cache for " + version + " of " + metadata.path + " because version not found in cache");
         }
+    } else {
+        console.log("versions of " + metadata.path + " not stored in cache");
     }
 
     let url = baseUrl + version + "/" + metadata.artifactId + "-" + version + ".module";
@@ -180,17 +182,23 @@ function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants,
                 return version;
             }
         }).catch(error => {
-            console.log("Error of loading variant, will retry: " + error.response.status);
+            if(error.response.status === 404 || retryCount === 3) {
+                if (idx < variants.length - 1) {
+                    return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, ++idx);
+                } else {
+                    return undefined;
+                }
+            }
+
+            console.log("Error of loading variant " + variant.name +
+                " of " + metadata.path +
+                " (" + versionInfo.component.version +
+                "), will retry: " + error.response.status);
 
             if (retryCount < 3) {
                 let newRetryCount = retryCount + 1;
                 console.log("retry loading variant " + newRetryCount);
                 return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx, newRetryCount);
-            }
-            if (idx < variants.length - 1) {
-                return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, ++idx);
-            } else {
-                return undefined;
             }
         });
 }
@@ -236,5 +244,10 @@ function getKotlinVersionFromDependencies(dependencies) {
 
     if (kotlinDependency === undefined) return undefined;
 
-    return kotlinDependency.version.requires;
+    let ver = kotlinDependency.version
+    if(ver.requires !== undefined) return ver.requires;
+    if(ver.prefers !== undefined) return ver.prefers;
+
+    console.log("kotlin dependency found but version not got " + ver);
+    return undefined;
 }
