@@ -9,36 +9,15 @@ const fs = require('fs');
 const githubToken = process.env.GITHUB_AUTH || process.argv[2];
 
 let libraries = require('../libraries.json');
+let currentData = require('../public/data.json');
 
 let parser = new xml2js.Parser();
 
-function loadLibraryInfo(library, retryCount) {
-    let gitHubRepo = library.github;
-    let mavenUrl = library.maven;
-    return axios
-        .get(mavenUrl + "maven-metadata.xml")
-        .then(response => parser.parseStringPromise(response.data))
-        .then(data => data.metadata)
-        .then(parseMavenMetadata)
-        .then(metadata => fetchVersionsInfo(mavenUrl, metadata))
-        .then(metadata => appendGitHubInfo(metadata, gitHubRepo))
-        .then(metadata => {
-            metadata.category = library.category;
-            return metadata;
-        })
-        .catch(error => {
-            console.log("Library error: ");
-            console.log(error);
+let infoPromises = libraries.map(value => {
+    let currentInfo = currentData.find(item => item.maven === value.maven);
+    return loadLibraryInfo(value, currentInfo, 0)
+});
 
-            if (retryCount < 3) {
-                let newRetryCount = retryCount + 1;
-                console.log(newRetryCount + " retry");
-                return loadLibraryInfo(library, newRetryCount);
-            } else return null;
-        });
-}
-
-let infoPromises = libraries.map(value => loadLibraryInfo(value, 0));
 Promise.all(infoPromises)
     .then(data => {
         let validData = data.filter(item => item != null);
@@ -48,6 +27,33 @@ Promise.all(infoPromises)
         console.log("FATAL ERROR: ");
         console.log(error);
     });
+
+function loadLibraryInfo(library, currentInfo, retryCount) {
+    let gitHubRepo = library.github;
+    let mavenUrl = library.maven;
+    return axios
+        .get(mavenUrl + "maven-metadata.xml")
+        .then(response => parser.parseStringPromise(response.data))
+        .then(data => data.metadata)
+        .then(parseMavenMetadata)
+        .then(metadata => fetchVersionsInfo(mavenUrl, metadata, currentInfo))
+        .then(metadata => appendGitHubInfo(metadata, gitHubRepo))
+        .then(metadata => {
+            metadata.category = library.category;
+            metadata.maven = library.maven;
+            return metadata;
+        })
+        .catch(error => {
+            let errorPrefix = "Library " + library.github + " error: "
+            console.log(errorPrefix + error);
+
+            if (retryCount < 3) {
+                let newRetryCount = retryCount + 1;
+                console.log(newRetryCount + " retry");
+                return loadLibraryInfo(library, newRetryCount);
+            } else return null;
+        });
+}
 
 function parseMavenMetadata(metadata) {
     // console.log("parseMavenMetadata ");
@@ -64,11 +70,11 @@ function parseMavenMetadata(metadata) {
     };
 }
 
-function fetchVersionsInfo(baseUrl, metadata) {
+function fetchVersionsInfo(baseUrl, metadata, currentInfo) {
     // console.log("fetchVersionsInfo " + baseUrl);
 
     let versionPromises = metadata.versions
-        .map(version => fetchVersionInfo(baseUrl, metadata, version));
+        .map(version => fetchVersionInfo(baseUrl, metadata, currentInfo, version));
 
     return Promise.all(versionPromises)
         .then(function (versions) {
@@ -77,8 +83,22 @@ function fetchVersionsInfo(baseUrl, metadata) {
         });
 }
 
-function fetchVersionInfo(baseUrl, metadata, version) {
+function fetchVersionInfo(baseUrl, metadata, currentInfo, version) {
     // console.log("fetchVersionInfo " + baseUrl + " version " + version);
+
+    if (currentInfo !== undefined && currentInfo.versions !== undefined) {
+        let currentVersionInfo = currentInfo.versions.find(item => item.version === version);
+        if (currentVersionInfo !== undefined) {
+            if(currentVersionInfo.kotlin !== undefined) {
+                console.log("used cached version info " + version + " of " + metadata.path);
+                return currentVersionInfo;
+            } else {
+                console.log("can't use cache for " + version + " of " + metadata.path + " because kotlin undefined");
+            }
+        } else {
+            console.log("can't use cache for " + version + " of " + metadata.path + " because version not found in cache");
+        }
+    }
 
     let url = baseUrl + version + "/" + metadata.artifactId + "-" + version + ".module";
     let targetUrl = new URL(url).href;
@@ -162,11 +182,12 @@ function fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants,
         }).catch(error => {
             console.log("Error of loading variant, will retry: " + error.response.status);
 
-            if(retryCount < 3) {
+            if (retryCount < 3) {
                 let newRetryCount = retryCount + 1;
                 console.log("retry loading variant " + newRetryCount);
                 return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, idx, newRetryCount);
-            } if (idx < variants.length - 1) {
+            }
+            if (idx < variants.length - 1) {
                 return fetchKotlinVersionFromVariant(baseUrl, metadata, versionInfo, variants, ++idx);
             } else {
                 return undefined;
