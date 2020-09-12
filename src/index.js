@@ -335,7 +335,7 @@ class Body extends React.Component {
               Kotlin Multiplatform libraries
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Here is list of Kotlin Multiplatform libraries with auto-fetch information directly from maven
+              Here is a list of Kotlin Multiplatform libraries with auto-fetch information directly from maven
               repositories.
             </Typography>
             {containerButtons}
