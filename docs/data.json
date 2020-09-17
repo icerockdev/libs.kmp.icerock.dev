@@ -632,7 +632,7 @@
    "full_name": "icerockdev/moko-widgets",
    "html_url": "https://github.com/icerockdev/moko-widgets",
    "description": "Multiplatform UI DSL with screen management in common code for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 161,
+   "stars_count": 162,
    "watchers_count": 10,
    "issues_count": 40,
    "forks_count": 24,
@@ -1080,7 +1080,7 @@
    "full_name": "icerockdev/moko-mvvm",
    "html_url": "https://github.com/icerockdev/moko-mvvm",
    "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 220,
+   "stars_count": 222,
    "watchers_count": 13,
    "issues_count": 11,
    "forks_count": 39,
@@ -1531,9 +1531,9 @@
    "full_name": "icerockdev/moko-network",
    "html_url": "https://github.com/icerockdev/moko-network",
    "description": "Network components with codegeneration for Resources access for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 32,
+   "stars_count": 33,
    "watchers_count": 8,
-   "issues_count": 6,
+   "issues_count": 7,
    "forks_count": 8,
    "license": "Apache License 2.0",
    "topics": [
@@ -9168,7 +9168,7 @@
    "full_name": "korlibs/klock",
    "html_url": "https://github.com/korlibs/klock",
    "description": "Multiplatform Date and time library for Kotlin",
-   "stars_count": 512,
+   "stars_count": 513,
    "watchers_count": 12,
    "issues_count": 11,
    "forks_count": 38,
@@ -10119,7 +10119,7 @@
    "full_name": "russhwolf/multiplatform-settings",
    "html_url": "https://github.com/russhwolf/multiplatform-settings",
    "description": "A Kotlin Multiplatform library for saving simple key-value data",
-   "stars_count": 359,
+   "stars_count": 361,
    "watchers_count": 9,
    "issues_count": 17,
    "forks_count": 21,
@@ -13441,10 +13441,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 8161,
-   "watchers_count": 307,
-   "issues_count": 287,
-   "forks_count": 1146,
+   "stars_count": 8183,
+   "watchers_count": 308,
+   "issues_count": 284,
+   "forks_count": 1148,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -15314,10 +15314,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2366,
+   "stars_count": 2373,
    "watchers_count": 88,
-   "issues_count": 195,
-   "forks_count": 224,
+   "issues_count": 201,
+   "forks_count": 228,
    "license": "Apache License 2.0",
    "topics": [
     "cbor",
@@ -17177,10 +17177,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 7231,
+   "stars_count": 7242,
    "watchers_count": 170,
-   "issues_count": 590,
-   "forks_count": 604,
+   "issues_count": 593,
+   "forks_count": 605,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -17565,8 +17565,8 @@
   "groupId": "com.mirego.trikot",
   "artifactId": "http",
   "path": "com.mirego.trikot:http",
-  "latestVersion": "1.0.0",
-  "lastUpdated": "20200909203328",
+  "latestVersion": "1.0.1",
+  "lastUpdated": "20200915190534",
   "versions": [
    {
     "version": "0.0.1",
@@ -18753,6 +18753,72 @@
    },
    {
     "version": "1.0.0",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.0",
+    "targets": {
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm32-iosArm32MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64-tvosArm64MetadataElements": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64-tvosX64MetadataElements": {
+      "platform": "native",
+      "target": "tvos_x64"
+     }
+    }
+   },
+   {
+    "version": "1.0.1",
     "mpp": true,
     "gradle": "6.5.1",
     "kotlin": "1.4.0",
@@ -32068,7 +32134,7 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 97,
+   "stars_count": 98,
    "watchers_count": 7,
    "issues_count": 6,
    "forks_count": 3,
@@ -36585,7 +36651,7 @@
    "stars_count": 70,
    "watchers_count": 2,
    "issues_count": 2,
-   "forks_count": 9,
+   "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -38050,10 +38116,10 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3440,
+   "stars_count": 3441,
    "watchers_count": 110,
-   "issues_count": 118,
-   "forks_count": 280,
+   "issues_count": 119,
+   "forks_count": 281,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -38961,7 +39027,7 @@
    "stars_count": 54,
    "watchers_count": 8,
    "issues_count": 11,
-   "forks_count": 12,
+   "forks_count": 13,
    "license": "unknown",
    "topics": [
     "kotlin-library",
@@ -40739,7 +40805,7 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 634,
+   "stars_count": 635,
    "watchers_count": 19,
    "issues_count": 20,
    "forks_count": 35,
@@ -46188,7 +46254,7 @@
    "full_name": "ionspin/kotlin-multiplatform-bignum",
    "html_url": "https://github.com/ionspin/kotlin-multiplatform-bignum",
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
-   "stars_count": 83,
+   "stars_count": 84,
    "watchers_count": 2,
    "issues_count": 6,
    "forks_count": 11,
@@ -47497,7 +47563,7 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2397,
+   "stars_count": 2399,
    "watchers_count": 49,
    "issues_count": 18,
    "forks_count": 144,
@@ -48270,7 +48336,7 @@
    "full_name": "Reedyuk/blue-falcon",
    "html_url": "https://github.com/Reedyuk/blue-falcon",
    "description": "A Bluetooth kotlin multiplatform \"Cross-Platform\" library for iOS and Android",
-   "stars_count": 97,
+   "stars_count": 101,
    "watchers_count": 3,
    "issues_count": 4,
    "forks_count": 8,
@@ -49197,7 +49263,7 @@
    "full_name": "benasher44/uuid",
    "html_url": "https://github.com/benasher44/uuid",
    "description": "Kotlin Multiplatform UUID",
-   "stars_count": 119,
+   "stars_count": 120,
    "watchers_count": 6,
    "issues_count": 5,
    "forks_count": 7,
@@ -49557,10 +49623,10 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7179,
+   "stars_count": 7185,
    "watchers_count": 275,
-   "issues_count": 63,
-   "forks_count": 1008,
+   "issues_count": 64,
+   "forks_count": 1010,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -52681,8 +52747,8 @@
    "html_url": "https://github.com/Kotlin/kotlinx.atomicfu",
    "description": "The idiomatic way to use atomic operations in Kotlin",
    "stars_count": 328,
-   "watchers_count": 41,
-   "issues_count": 32,
+   "watchers_count": 42,
+   "issues_count": 31,
    "forks_count": 28,
    "license": "unknown",
    "topics": [
@@ -52698,8 +52764,8 @@
   "groupId": "com.kgl",
   "artifactId": "kgl-core",
   "path": "com.kgl:kgl-core",
-  "latestVersion": "0.1.9-dev-13",
-  "lastUpdated": "20200823142436",
+  "latestVersion": "0.1.10",
+  "lastUpdated": "20200916135832",
   "versions": [
    {
     "version": "0.1.1",
@@ -54148,6 +54214,52 @@
       "target": "mingw_x64"
      }
     }
+   },
+   {
+    "version": "0.1.10",
+    "mpp": true,
+    "gradle": "6.0.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64-macosX64MetadataElements": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwX64-mingwX64MetadataElements": {
+      "platform": "native",
+      "target": "mingw_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -54394,10 +54506,10 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 452,
+   "stars_count": 454,
    "watchers_count": 15,
-   "issues_count": 14,
-   "forks_count": 33,
+   "issues_count": 15,
+   "forks_count": 34,
    "license": "MIT License",
    "topics": [
     "desktop",
@@ -56647,8 +56759,8 @@
    "description": "A nice parser combinator library for Kotlin",
    "stars_count": 203,
    "watchers_count": 15,
-   "issues_count": 19,
-   "forks_count": 18,
+   "issues_count": 20,
+   "forks_count": 19,
    "license": "Apache License 2.0",
    "topics": [
     "dsl",
@@ -57248,9 +57360,9 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin multiplatform",
-   "stars_count": 2477,
+   "stars_count": 2481,
    "watchers_count": 102,
-   "issues_count": 100,
+   "issues_count": 104,
    "forks_count": 453,
    "license": "MIT License",
    "topics": [
@@ -57959,10 +58071,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 98,
+   "stars_count": 100,
    "watchers_count": 8,
    "issues_count": 15,
-   "forks_count": 13,
+   "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
     "firebase",
@@ -58108,10 +58220,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 98,
+   "stars_count": 100,
    "watchers_count": 8,
    "issues_count": 15,
-   "forks_count": 13,
+   "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
     "firebase",
@@ -58257,10 +58369,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 98,
+   "stars_count": 100,
    "watchers_count": 8,
    "issues_count": 15,
-   "forks_count": 13,
+   "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
     "firebase",
@@ -58406,10 +58518,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 98,
+   "stars_count": 100,
    "watchers_count": 8,
    "issues_count": 15,
-   "forks_count": 13,
+   "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
     "firebase",
@@ -58555,10 +58667,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 98,
+   "stars_count": 100,
    "watchers_count": 8,
    "issues_count": 15,
-   "forks_count": 13,
+   "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
     "firebase",
@@ -58578,8 +58690,8 @@
   "groupId": "com.github.insanusmokrassar",
   "artifactId": "TelegramBotAPI",
   "path": "com.github.insanusmokrassar:TelegramBotAPI",
-  "latestVersion": "0.28.1",
-  "lastUpdated": "20200912181107",
+  "latestVersion": "0.28.2",
+  "lastUpdated": "20200916061000",
   "versions": [
    {
     "version": "0.8",
@@ -59438,6 +59550,35 @@
       "platform": "common"
      }
     }
+   },
+   {
+    "version": "0.28.2",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "jsLegacy-api": {
+      "platform": "js"
+     },
+     "jsLegacy-runtime": {
+      "platform": "js"
+     },
+     "jsIr-api": {
+      "platform": "js"
+     },
+     "jsIr-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
    }
   ],
   "github": {
@@ -59445,9 +59586,9 @@
    "full_name": "InsanusMokrassar/TelegramBotAPI",
    "html_url": "https://github.com/InsanusMokrassar/TelegramBotAPI",
    "description": "Object-oriented strong-typed library for work with Telegram Bot API",
-   "stars_count": 17,
+   "stars_count": 18,
    "watchers_count": 1,
-   "issues_count": 2,
+   "issues_count": 1,
    "forks_count": 2,
    "license": "Apache License 2.0",
    "topics": [
@@ -59554,7 +59695,7 @@
    "description": "A multiplatform assertion library for Kotlin",
    "stars_count": 308,
    "watchers_count": 22,
-   "issues_count": 37,
+   "issues_count": 36,
    "forks_count": 127,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -59635,7 +59776,7 @@
    "description": "A multiplatform assertion library for Kotlin",
    "stars_count": 308,
    "watchers_count": 22,
-   "issues_count": 37,
+   "issues_count": 36,
    "forks_count": 127,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -61129,7 +61270,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1248,
+   "stars_count": 1251,
    "watchers_count": 11,
    "issues_count": 7,
    "forks_count": 66,
@@ -62145,10 +62286,10 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
-   "stars_count": 5971,
-   "watchers_count": 110,
-   "issues_count": 141,
-   "forks_count": 401,
+   "stars_count": 5981,
+   "watchers_count": 111,
+   "issues_count": 144,
+   "forks_count": 402,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -62359,8 +62500,8 @@
   "groupId": "io.github.microutils",
   "artifactId": "kotlin-logging",
   "path": "io.github.microutils:kotlin-logging",
-  "latestVersion": "1.11.3",
-  "lastUpdated": "20200913193456",
+  "latestVersion": "1.11.5",
+  "lastUpdated": "20200915200846",
   "versions": [
    {
     "version": "1.3",
@@ -62561,6 +62702,14 @@
    {
     "version": "1.11.3",
     "mpp": false
+   },
+   {
+    "version": "1.11.4",
+    "mpp": false
+   },
+   {
+    "version": "1.11.5",
+    "mpp": false
    }
   ],
   "github": {
@@ -62568,9 +62717,9 @@
    "full_name": "MicroUtils/kotlin-logging",
    "html_url": "https://github.com/MicroUtils/kotlin-logging",
    "description": "Lightweight logging framework for Kotlin. A convenient and performant logging library wrapping slf4j with Kotlin extensions",
-   "stars_count": 1197,
-   "watchers_count": 18,
-   "issues_count": 7,
+   "stars_count": 1200,
+   "watchers_count": 17,
+   "issues_count": 5,
    "forks_count": 63,
    "license": "Apache License 2.0",
    "topics": [
@@ -65161,7 +65310,7 @@
    "full_name": "RotBolt/KParser",
    "html_url": "https://github.com/RotBolt/KParser",
    "description": "Kotlin Multiplatform Arithmatic Parser",
-   "stars_count": 10,
+   "stars_count": 11,
    "watchers_count": 1,
    "issues_count": 0,
    "forks_count": 4,
@@ -67562,8 +67711,8 @@
   "groupId": "tk.skeptick",
   "artifactId": "vk-api-kotlin-client",
   "path": "tk.skeptick:vk-api-kotlin-client",
-  "latestVersion": "0.2.3",
-  "lastUpdated": "20200914173715",
+  "latestVersion": "0.2.4",
+  "lastUpdated": "20200915134455",
   "versions": [
    {
     "version": "0.1.0",
@@ -67877,6 +68026,79 @@
      "tvosX64-api": {
       "platform": "native",
       "target": "tvos_x64"
+     }
+    }
+   },
+   {
+    "version": "0.2.4",
+    "mpp": true,
+    "gradle": "6.1.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacy-api": {
+      "platform": "js"
+     },
+     "jsLegacy-runtime": {
+      "platform": "js"
+     },
+     "jsIr-api": {
+      "platform": "js"
+     },
+     "jsIr-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
      }
     }
    }
@@ -69326,8 +69548,8 @@
    "full_name": "Kotlin/kotlinx-datetime",
    "html_url": "https://github.com/Kotlin/kotlinx-datetime",
    "description": "KotlinX multiplatform date/time library",
-   "stars_count": 515,
-   "watchers_count": 55,
+   "stars_count": 518,
+   "watchers_count": 56,
    "issues_count": 12,
    "forks_count": 7,
    "license": "Apache License 2.0",
