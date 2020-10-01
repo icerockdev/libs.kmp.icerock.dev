@@ -1082,7 +1082,7 @@
    "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development",
    "stars_count": 231,
    "watchers_count": 13,
-   "issues_count": 14,
+   "issues_count": 15,
    "forks_count": 39,
    "license": "Apache License 2.0",
    "topics": [
@@ -5208,7 +5208,15 @@
    "issues_count": 1,
    "forks_count": 1,
    "license": "Apache License 2.0",
-   "topics": []
+   "topics": [
+    "android",
+    "ios",
+    "kotlin",
+    "kotlin-multiplatform",
+    "kotlin-native",
+    "moko",
+    "socket-io"
+   ]
   },
   "category": "Network",
   "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/socket-io/"
@@ -10262,7 +10270,7 @@
    "full_name": "russhwolf/multiplatform-settings",
    "html_url": "https://github.com/russhwolf/multiplatform-settings",
    "description": "A Kotlin Multiplatform library for saving simple key-value data",
-   "stars_count": 368,
+   "stars_count": 370,
    "watchers_count": 9,
    "issues_count": 17,
    "forks_count": 23,
@@ -13584,10 +13592,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 8242,
-   "watchers_count": 304,
-   "issues_count": 293,
-   "forks_count": 1158,
+   "stars_count": 8247,
+   "watchers_count": 303,
+   "issues_count": 287,
+   "forks_count": 1162,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -15459,8 +15467,8 @@
    "description": "Kotlin multiplatform / multi-format serialization ",
    "stars_count": 2418,
    "watchers_count": 92,
-   "issues_count": 199,
-   "forks_count": 230,
+   "issues_count": 203,
+   "forks_count": 231,
    "license": "Apache License 2.0",
    "topics": [
     "cbor",
@@ -17320,10 +17328,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 7308,
+   "stars_count": 7312,
    "watchers_count": 169,
-   "issues_count": 582,
-   "forks_count": 609,
+   "issues_count": 584,
+   "forks_count": 610,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -32800,7 +32808,7 @@
    "stars_count": 216,
    "watchers_count": 10,
    "issues_count": 7,
-   "forks_count": 8,
+   "forks_count": 9,
    "license": "Apache License 2.0",
    "topics": [
     "coroutines",
@@ -38320,10 +38328,10 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3474,
+   "stars_count": 3475,
    "watchers_count": 111,
    "issues_count": 123,
-   "forks_count": 283,
+   "forks_count": 285,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -41066,7 +41074,7 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 641,
+   "stars_count": 642,
    "watchers_count": 19,
    "issues_count": 19,
    "forks_count": 35,
@@ -43601,7 +43609,7 @@
    "full_name": "touchlab/Stately",
    "html_url": "https://github.com/touchlab/Stately",
    "description": "Kotlin Multiplatform State Library",
-   "stars_count": 232,
+   "stars_count": 233,
    "watchers_count": 15,
    "issues_count": 15,
    "forks_count": 15,
@@ -45957,7 +45965,7 @@
    "description": "Logging library for Kotlin Multiplatform",
    "stars_count": 131,
    "watchers_count": 5,
-   "issues_count": 2,
+   "issues_count": 3,
    "forks_count": 12,
    "license": "Apache License 2.0",
    "topics": [
@@ -47846,8 +47854,8 @@
   "groupId": "dev.bluefalcon",
   "artifactId": "library",
   "path": "dev.bluefalcon:library",
-  "latestVersion": "0.7.2",
-  "lastUpdated": "20200801205857",
+  "latestVersion": "0.8.0",
+  "lastUpdated": "20200930191746",
   "versions": [
    {
     "version": "0.0.1",
@@ -48590,6 +48598,56 @@
       "platform": "common"
      }
     }
+   },
+   {
+    "version": "0.8.0",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "android-api": {
+      "platform": "jvm"
+     },
+     "android-runtime": {
+      "platform": "jvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64-macosX64MetadataElements": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
    }
   ],
   "github": {
@@ -48597,7 +48655,7 @@
    "full_name": "Reedyuk/blue-falcon",
    "html_url": "https://github.com/Reedyuk/blue-falcon",
    "description": "A Bluetooth kotlin multiplatform \"Cross-Platform\" library for iOS and Android",
-   "stars_count": 105,
+   "stars_count": 106,
    "watchers_count": 3,
    "issues_count": 5,
    "forks_count": 8,
@@ -49884,10 +49942,10 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7202,
+   "stars_count": 7203,
    "watchers_count": 276,
    "issues_count": 66,
-   "forks_count": 1013,
+   "forks_count": 1014,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -54767,7 +54825,7 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 464,
+   "stars_count": 463,
    "watchers_count": 15,
    "issues_count": 15,
    "forks_count": 35,
@@ -55353,7 +55411,7 @@
    "full_name": "arkivanov/MVIKotlin",
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "MVI framework for Kotlin Multiplatform",
-   "stars_count": 326,
+   "stars_count": 327,
    "watchers_count": 11,
    "issues_count": 6,
    "forks_count": 20,
@@ -56913,7 +56971,7 @@
    "description": "Logging library for Kotlin Multiplatform",
    "stars_count": 131,
    "watchers_count": 5,
-   "issues_count": 2,
+   "issues_count": 3,
    "forks_count": 12,
    "license": "Apache License 2.0",
    "topics": [
@@ -57652,9 +57710,9 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin multiplatform",
-   "stars_count": 2503,
+   "stars_count": 2505,
    "watchers_count": 101,
-   "issues_count": 95,
+   "issues_count": 97,
    "forks_count": 454,
    "license": "MIT License",
    "topics": [
@@ -60043,9 +60101,9 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 310,
+   "stars_count": 311,
    "watchers_count": 23,
-   "issues_count": 37,
+   "issues_count": 39,
    "forks_count": 127,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -60124,9 +60182,9 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 310,
+   "stars_count": 311,
    "watchers_count": 23,
-   "issues_count": 37,
+   "issues_count": 39,
    "forks_count": 127,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -61620,8 +61678,8 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1261,
-   "watchers_count": 11,
+   "stars_count": 1262,
+   "watchers_count": 12,
    "issues_count": 6,
    "forks_count": 64,
    "license": "Apache License 2.0",
@@ -62640,7 +62698,7 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
-   "stars_count": 6025,
+   "stars_count": 6027,
    "watchers_count": 112,
    "issues_count": 147,
    "forks_count": 404,
@@ -65920,8 +65978,8 @@
    "description": "Secure key-value storage for Kotlin Multiplatform projects",
    "stars_count": 7,
    "watchers_count": 3,
-   "issues_count": 2,
-   "forks_count": 1,
+   "issues_count": 4,
+   "forks_count": 3,
    "license": "MIT License",
    "topics": [
     "android",
@@ -70084,10 +70142,10 @@
    "full_name": "Kotlin/kotlinx-datetime",
    "html_url": "https://github.com/Kotlin/kotlinx-datetime",
    "description": "KotlinX multiplatform date/time library",
-   "stars_count": 535,
+   "stars_count": 536,
    "watchers_count": 58,
    "issues_count": 13,
-   "forks_count": 8,
+   "forks_count": 9,
    "license": "Apache License 2.0",
    "topics": []
   },
