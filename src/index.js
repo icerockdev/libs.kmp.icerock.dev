@@ -138,6 +138,11 @@ function LibraryCard(library, latestVersion, targets) {
   </Card>;
 }
 
+function extractTargetName(target) {
+  if(target.target !== undefined) return target.target;
+  else return target.platform;
+}
+
 class Body extends React.Component {
   constructor(props) {
     super(props);
@@ -210,7 +215,7 @@ class Body extends React.Component {
         .flatMap(library => library.versions)
         .filter(libraryVersion => libraryVersion.mpp === true)
         .flatMap(libraryVersion => Object.values(libraryVersion.targets))
-        .map(target => target.target)
+        .map(extractTargetName)
         .filter((v, i, a) => a.indexOf(v) === i);
 
       let category = this.state.selectedCategory;
@@ -227,7 +232,7 @@ class Body extends React.Component {
               return kotlin === "" || kotlin == null || version.kotlin === kotlin;
             })
             .filter(version => {
-              return target == null || target === "" || Object.values(version.targets).map(target => target.target).includes(target);
+              return target == null || target === "" || Object.values(version.targets).map(extractTargetName).includes(target);
             });
         return newLib;
       }).filter(lib => lib.versions.length > 0);
