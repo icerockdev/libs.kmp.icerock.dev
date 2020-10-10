@@ -49770,7 +49770,7 @@
     "transition"
    ]
   },
-  "category": "Routing",
+  "category": "Navigation",
   "maven": "https://jcenter.bintray.com/io/sellmair/kompass-core/"
  },
  {
@@ -50795,7 +50795,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7213,
+   "stars_count": 7214,
    "watchers_count": 275,
    "issues_count": 63,
    "forks_count": 1015,
@@ -57662,230 +57662,6 @@
   "maven": "https://dl.bintray.com/scottpierce/maven/dev/scottpierce/kotlin-html/kotlin-html/"
  },
  {
-  "groupId": "com.github.aakira",
-  "artifactId": "napier-ios",
-  "path": "com.github.aakira:napier-ios",
-  "latestVersion": "1.3.0",
-  "lastUpdated": "20200407165227",
-  "versions": [
-   {
-    "version": "0.0.1",
-    "mpp": false
-   },
-   {
-    "version": "0.0.2",
-    "mpp": false
-   },
-   {
-    "version": "0.0.3",
-    "mpp": false
-   },
-   {
-    "version": "0.0.4",
-    "mpp": false
-   },
-   {
-    "version": "0.0.5",
-    "mpp": false
-   },
-   {
-    "version": "0.0.6",
-    "mpp": false
-   },
-   {
-    "version": "0.0.7",
-    "mpp": false
-   },
-   {
-    "version": "0.0.8",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0",
-    "mpp": true,
-    "gradle": "5.4.1",
-    "kotlin": "1.3.50",
-    "targets": {
-     "android-releaseApiElements": {
-      "platform": "androidJvm"
-     },
-     "android-releaseRuntimeElements": {
-      "platform": "androidJvm"
-     },
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "metadata-api": {
-      "platform": "common"
-     }
-    }
-   },
-   {
-    "version": "1.1.0",
-    "mpp": true,
-    "gradle": "5.4.1",
-    "kotlin": "1.3.60",
-    "targets": {
-     "android-releaseApiElements": {
-      "platform": "androidJvm"
-     },
-     "android-releaseRuntimeElements": {
-      "platform": "androidJvm"
-     },
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "metadata-api": {
-      "platform": "common"
-     }
-    }
-   },
-   {
-    "version": "1.2.0",
-    "mpp": true,
-    "gradle": "5.6.4",
-    "kotlin": "1.3.70",
-    "targets": {
-     "android-releaseApiElements": {
-      "platform": "androidJvm"
-     },
-     "android-releaseRuntimeElements": {
-      "platform": "androidJvm"
-     },
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "metadata-api": {
-      "platform": "common"
-     }
-    }
-   },
-   {
-    "version": "1.3.0",
-    "mpp": true,
-    "gradle": "5.6.4",
-    "kotlin": "1.3.71",
-    "targets": {
-     "android-releaseApiElements": {
-      "platform": "androidJvm"
-     },
-     "android-releaseRuntimeElements": {
-      "platform": "androidJvm"
-     },
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "metadata-api": {
-      "platform": "common"
-     }
-    }
-   }
-  ],
-  "github": {
-   "name": "Napier",
-   "full_name": "AAkira/Napier",
-   "html_url": "https://github.com/AAkira/Napier",
-   "description": "Logging library for Kotlin Multiplatform",
-   "stars_count": 132,
-   "watchers_count": 5,
-   "issues_count": 3,
-   "forks_count": 12,
-   "license": "Apache License 2.0",
-   "topics": [
-    "kotlin-js",
-    "kotlin-library",
-    "kotlin-multiplatform",
-    "kotlin-native"
-   ]
-  },
-  "category": "Logging",
-  "maven": "https://dl.bintray.com/aakira/maven/com/github/aakira/napier-ios/"
- },
- {
   "groupId": "com.github.h0tk3y.betterParse",
   "artifactId": "better-parse-multiplatform",
   "path": "com.github.h0tk3y.betterParse:better-parse-multiplatform",
@@ -62614,7 +62390,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1269,
+   "stars_count": 1270,
    "watchers_count": 13,
    "issues_count": 6,
    "forks_count": 64,
@@ -71761,5 +71537,1756 @@
   },
   "category": "Logging",
   "maven": "https://dl.bintray.com/fitpuli/fitpuli.dev/hu/fitpuli/abele/"
+ },
+ {
+  "groupId": "com.michaelpardo.max",
+  "artifactId": "uri",
+  "path": "com.michaelpardo.max:uri",
+  "latestVersion": "0.1.0-SNAPSHOT",
+  "lastUpdated": "20200609145855",
+  "versions": [
+   {
+    "version": "0.1.0-SNAPSHOT",
+    "mpp": false
+   }
+  ],
+  "github": {
+   "name": "max",
+   "full_name": "pardom/max",
+   "html_url": "https://github.com/pardom/max",
+   "description": "Navigation stack for Kotlin multiplatform",
+   "stars_count": 4,
+   "watchers_count": 0,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "java",
+    "jvm",
+    "kotlin",
+    "navigation"
+   ]
+  },
+  "category": "Navigation",
+  "maven": "https://oss.sonatype.org/service/local/repositories/snapshots/content/com/michaelpardo/max/uri/"
+ },
+ {
+  "groupId": "com.michaelpardo.max",
+  "artifactId": "navigator",
+  "path": "com.michaelpardo.max:navigator",
+  "latestVersion": "0.1.0-SNAPSHOT",
+  "lastUpdated": "20200609145228",
+  "versions": [
+   {
+    "version": "0.1.0-SNAPSHOT",
+    "mpp": false
+   }
+  ],
+  "github": {
+   "name": "max",
+   "full_name": "pardom/max",
+   "html_url": "https://github.com/pardom/max",
+   "description": "Navigation stack for Kotlin multiplatform",
+   "stars_count": 4,
+   "watchers_count": 0,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "java",
+    "jvm",
+    "kotlin",
+    "navigation"
+   ]
+  },
+  "category": "Navigation",
+  "maven": "https://oss.sonatype.org/service/local/repositories/snapshots/content/com/michaelpardo/max/navigator/"
+ },
+ {
+  "groupId": "com.michaelpardo.max",
+  "artifactId": "router",
+  "path": "com.michaelpardo.max:router",
+  "latestVersion": "0.1.0-SNAPSHOT",
+  "lastUpdated": "20200609145614",
+  "versions": [
+   {
+    "version": "0.1.0-SNAPSHOT",
+    "mpp": false
+   }
+  ],
+  "github": {
+   "name": "max",
+   "full_name": "pardom/max",
+   "html_url": "https://github.com/pardom/max",
+   "description": "Navigation stack for Kotlin multiplatform",
+   "stars_count": 4,
+   "watchers_count": 0,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "java",
+    "jvm",
+    "kotlin",
+    "navigation"
+   ]
+  },
+  "category": "Navigation",
+  "maven": "https://oss.sonatype.org/service/local/repositories/snapshots/content/com/michaelpardo/max/router/"
+ },
+ {
+  "groupId": "com.michaelpardo.max",
+  "artifactId": "matcher",
+  "path": "com.michaelpardo.max:matcher",
+  "latestVersion": "0.1.0-SNAPSHOT",
+  "lastUpdated": "20200609144602",
+  "versions": [
+   {
+    "version": "0.1.0-SNAPSHOT",
+    "mpp": false
+   }
+  ],
+  "github": {
+   "name": "max",
+   "full_name": "pardom/max",
+   "html_url": "https://github.com/pardom/max",
+   "description": "Navigation stack for Kotlin multiplatform",
+   "stars_count": 4,
+   "watchers_count": 0,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "java",
+    "jvm",
+    "kotlin",
+    "navigation"
+   ]
+  },
+  "category": "Navigation",
+  "maven": "https://oss.sonatype.org/service/local/repositories/snapshots/content/com/michaelpardo/max/matcher/"
+ },
+ {
+  "groupId": "com.chrynan.validator",
+  "artifactId": "validator-core",
+  "path": "com.chrynan.validator:validator-core",
+  "latestVersion": "0.3.0",
+  "lastUpdated": "20200923031934",
+  "versions": [
+   {
+    "version": "0.1.0",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.0",
+    "targets": {
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.2.0",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.0",
+    "targets": {
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.3.0",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.0",
+    "targets": {
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "validator",
+   "full_name": "chRyNaN/validator",
+   "html_url": "https://github.com/chRyNaN/validator",
+   "description": "A Kotlin multi-platform validation library. Simple, flexible, and not tied to any framework.",
+   "stars_count": 2,
+   "watchers_count": 0,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "kotlin",
+    "kotlin-library",
+    "kotlin-multi-platform",
+    "kotlin-multiplatform",
+    "kotlin-multiplatform-library",
+    "validation",
+    "validation-library",
+    "validator"
+   ]
+  },
+  "category": "Utils",
+  "maven": "https://dl.bintray.com/chrynan/chrynan/com/chrynan/validator/validator-core/"
+ },
+ {
+  "groupId": "com.chrynan.strings",
+  "artifactId": "strings-core",
+  "path": "com.chrynan.strings:strings-core",
+  "latestVersion": "0.2.1",
+  "lastUpdated": "20200904184126",
+  "versions": [
+   {
+    "version": "0.2.0",
+    "mpp": false
+   },
+   {
+    "version": "0.2.1",
+    "mpp": false
+   }
+  ],
+  "github": {
+   "name": "strings",
+   "full_name": "chRyNaN/strings",
+   "html_url": "https://github.com/chRyNaN/strings",
+   "description": "Kotlin Multiplatform Static String Resource Accessor and Creator Library",
+   "stars_count": 2,
+   "watchers_count": 2,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "android",
+    "ios",
+    "kotlin",
+    "kotlin-android",
+    "kotlin-ios",
+    "kotlin-library",
+    "kotlin-multiplatform",
+    "library",
+    "resources"
+   ]
+  },
+  "category": "Resources",
+  "maven": "https://dl.bintray.com/chrynan/chrynan/com/chrynan/strings/strings-core/"
+ },
+ {
+  "groupId": "com.chrynan.emoji",
+  "artifactId": "emoji-core",
+  "path": "com.chrynan.emoji:emoji-core",
+  "latestVersion": "0.1.1",
+  "lastUpdated": "20200923202958",
+  "versions": [
+   {
+    "version": "0.1.1",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "emoji",
+   "full_name": "chRyNaN/emoji",
+   "html_url": "https://github.com/chRyNaN/emoji",
+   "description": "Kotlin Multi-platform Emoji Support Library",
+   "stars_count": 0,
+   "watchers_count": 1,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "emoji",
+    "emojis",
+    "kotlin",
+    "kotlin-multi-platform",
+    "kotlin-multiplatform",
+    "kotlin-multiplatform-library"
+   ]
+  },
+  "category": "Utils",
+  "maven": "https://dl.bintray.com/chrynan/chrynan/com/chrynan/emoji/emoji-core/"
+ },
+ {
+  "groupId": "com.chrynan.presentation",
+  "artifactId": "presentation-core",
+  "path": "com.chrynan.presentation:presentation-core",
+  "latestVersion": "0.1.1",
+  "lastUpdated": "20200924204609",
+  "versions": [
+   {
+    "version": "0.1.0",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.0",
+    "targets": {
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.1.1",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.0",
+    "targets": {
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "presentation",
+   "full_name": "chRyNaN/presentation",
+   "html_url": "https://github.com/chRyNaN/presentation",
+   "description": "Kotlin Multi-platform Presentation Layer Design Pattern Library",
+   "stars_count": 2,
+   "watchers_count": 1,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "architecture",
+    "design-patterns",
+    "kotlin",
+    "kotlin-multi-platform",
+    "kotlin-multiplatform",
+    "kotlin-multiplatform-library",
+    "presentation",
+    "ui"
+   ]
+  },
+  "category": "Architecture",
+  "maven": "https://dl.bintray.com/chrynan/chrynan/com/chrynan/presentation/presentation-core/"
+ },
+ {
+  "groupId": "com.codingfeline.twitter4kt",
+  "artifactId": "core-api",
+  "path": "com.codingfeline.twitter4kt:core-api",
+  "latestVersion": "0.1.3",
+  "lastUpdated": "20201010033440",
+  "versions": [
+   {
+    "version": "0.1.0",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.1.1",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.1.2",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.1.3",
+    "mpp": true,
+    "gradle": "6.7-rc-4",
+    "kotlin": "1.4.10",
+    "targets": {
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "twitter4kt",
+   "full_name": "yshrsmz/twitter4kt",
+   "html_url": "https://github.com/yshrsmz/twitter4kt",
+   "description": "Twitter API client for KotlIn Multiplatform",
+   "stars_count": 2,
+   "watchers_count": 1,
+   "issues_count": 3,
+   "forks_count": 0,
+   "license": "Other",
+   "topics": [
+    "hacktoberfest",
+    "kotlin-multiplatform",
+    "twitter-api"
+   ]
+  },
+  "category": "Social",
+  "maven": "https://dl.bintray.com/yshrsmz/twitter4kt/com/codingfeline/twitter4kt/core-api/"
+ },
+ {
+  "groupId": "com.github.jershell",
+  "artifactId": "kbson",
+  "path": "com.github.jershell:kbson",
+  "latestVersion": "0.4.1",
+  "lastUpdated": "20201008213904",
+  "versions": [
+   {
+    "version": "0.1.3",
+    "mpp": false
+   },
+   {
+    "version": "0.1.4",
+    "mpp": false
+   },
+   {
+    "version": "0.1.5",
+    "mpp": false
+   },
+   {
+    "version": "0.2.0",
+    "mpp": false
+   },
+   {
+    "version": "0.2.1",
+    "mpp": false
+   },
+   {
+    "version": "0.2.2",
+    "mpp": false
+   },
+   {
+    "version": "0.2.3",
+    "mpp": false
+   },
+   {
+    "version": "0.3.0",
+    "mpp": false
+   },
+   {
+    "version": "0.4.0-rc",
+    "mpp": false
+   },
+   {
+    "version": "0.4.1-rc",
+    "mpp": false
+   },
+   {
+    "version": "0.4.1",
+    "mpp": false
+   }
+  ],
+  "github": {
+   "name": "kbson",
+   "full_name": "jershell/kbson",
+   "html_url": "https://github.com/jershell/kbson",
+   "description": "Mongo BSON support for kotlinx.serialization.",
+   "stars_count": 19,
+   "watchers_count": 3,
+   "issues_count": 2,
+   "forks_count": 5,
+   "license": "MIT License",
+   "topics": [
+    "bson",
+    "kotlin",
+    "kotlinx",
+    "serialization"
+   ]
+  },
+  "category": "Serialization",
+  "maven": "https://repo1.maven.org/maven2/com/github/jershell/kbson/"
+ },
+ {
+  "groupId": "io.copper-leaf",
+  "artifactId": "clog",
+  "path": "io.copper-leaf:clog",
+  "latestVersion": "3.5.5",
+  "lastUpdated": "20200912043722",
+  "versions": [
+   {
+    "version": "3.4.1",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "3.5.0",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "3.5.1",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "3.5.2",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "3.5.3",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "3.5.4",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "3.5.5",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.3.72",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "clog",
+   "full_name": "copper-leaf/clog",
+   "html_url": "https://github.com/copper-leaf/clog",
+   "description": "Zero-config Kotlin multiplatform logging utility",
+   "stars_count": 10,
+   "watchers_count": 1,
+   "issues_count": 0,
+   "forks_count": 1,
+   "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+   "topics": []
+  },
+  "category": "Logging",
+  "maven": "https://dl.bintray.com/copper-leaf/oss/io/copper-leaf/clog/"
+ },
+ {
+  "groupId": "dev.garage.kmp",
+  "artifactId": "items",
+  "path": "dev.garage.kmp:items",
+  "latestVersion": "0.0.1-alpha",
+  "lastUpdated": "20200507120511",
+  "versions": [
+   {
+    "version": "0.0.1-alpha",
+    "mpp": true,
+    "gradle": "6.1.1",
+    "kotlin": "1.3.71",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "kmp-items",
+   "full_name": "vchernyshov/kmp-items",
+   "html_url": "https://github.com/vchernyshov/kmp-items",
+   "description": "KotlinMultiplatform items for RecyclerView, UICollectionView and UITableView",
+   "stars_count": 3,
+   "watchers_count": 1,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "MIT License",
+   "topics": []
+  },
+  "category": "UI",
+  "maven": "https://dl.bintray.com/garage-dev/kmp/dev/garage/kmp/items/"
+ },
+ {
+  "groupId": "com.github.hadilq",
+  "artifactId": "log4k",
+  "path": "com.github.hadilq:log4k",
+  "latestVersion": "2.3.1",
+  "lastUpdated": "20200910155746",
+  "versions": [
+   {
+    "version": "2.0.0",
+    "mpp": false
+   },
+   {
+    "version": "2.1.0",
+    "mpp": false
+   },
+   {
+    "version": "2.3.0",
+    "mpp": false
+   },
+   {
+    "version": "2.3.1",
+    "mpp": false
+   }
+  ],
+  "github": {
+   "name": "log4k",
+   "full_name": "hadilq/log4k",
+   "html_url": "https://github.com/hadilq/log4k",
+   "description": "This is a simple library for logging in Kotlin. https://proandroiddev.com/logging-in-kotlin-8ecfb97a4840",
+   "stars_count": 5,
+   "watchers_count": 1,
+   "issues_count": 1,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "kotlin-multiplatform",
+    "log",
+    "log4j",
+    "log4k",
+    "logging",
+    "track",
+    "tracking"
+   ]
+  },
+  "category": "Logging",
+  "maven": "https://repo1.maven.org/maven2/com/github/hadilq/log4k/"
+ },
+ {
+  "groupId": "io.rsocket.kotlin",
+  "artifactId": "rsocket-core",
+  "path": "io.rsocket.kotlin:rsocket-core",
+  "latestVersion": "0.10.0-frame-logging-SNAPSHOT",
+  "lastUpdated": "20201004205050",
+  "versions": [
+   {
+    "version": "0.9-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.6-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.7-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.7-develop-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.7-feature-git-based-version-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.7-feature-hubflow-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.7-release-0.9.7-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.8-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.8-feature-reduce-allocations-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.8-feature-request-handler-on-close-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.8-release-0.9.8-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.9.9-SNAPSHOT",
+    "mpp": false
+   },
+   {
+    "version": "0.10.0-SNAPSHOT",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm32-iosArm32MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacy-api": {
+      "platform": "js"
+     },
+     "jsLegacy-runtime": {
+      "platform": "js"
+     },
+     "jsIr-api": {
+      "platform": "js"
+     },
+     "jsIr-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64-macosX64MetadataElements": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwX64-mingwX64MetadataElements": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64-tvosArm64MetadataElements": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64-tvosX64MetadataElements": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm32-watchosArm32MetadataElements": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64-watchosArm64MetadataElements": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     },
+     "watchosX86-watchosX86MetadataElements": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
+   },
+   {
+    "version": "0.10.0-frame-logging-SNAPSHOT",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.0",
+    "targets": {
+     "jsLegacy-api": {
+      "platform": "js"
+     },
+     "jsLegacy-runtime": {
+      "platform": "js"
+     },
+     "jsIr-api": {
+      "platform": "js"
+     },
+     "jsIr-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "rsocket-kotlin",
+   "full_name": "rsocket/rsocket-kotlin",
+   "html_url": "https://github.com/rsocket/rsocket-kotlin",
+   "description": "Kotlin implementation of RSocket ",
+   "stars_count": 175,
+   "watchers_count": 18,
+   "issues_count": 10,
+   "forks_count": 17,
+   "license": "Apache License 2.0",
+   "topics": [
+    "android",
+    "kotlin",
+    "request-stream",
+    "rxjava",
+    "rxjava2"
+   ]
+  },
+  "category": "Network",
+  "maven": "https://oss.jfrog.org/artifactory/oss-snapshot-local/io/rsocket/kotlin/rsocket-core/"
+ },
+ {
+  "groupId": "com.arkivanov.decompose",
+  "artifactId": "decompose",
+  "path": "com.arkivanov.decompose:decompose",
+  "latestVersion": "0.0.8",
+  "lastUpdated": "20201004230203",
+  "versions": [
+   {
+    "version": "0.0.5",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.0.6",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.0.7",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.0.8",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "metadata-api": {
+      "platform": "common"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "Decompose",
+   "full_name": "arkivanov/Decompose",
+   "html_url": "https://github.com/arkivanov/Decompose",
+   "description": "Kotlin Multiplatform lifecycle-aware business logic components (aka BLoCs) with routing functionality and pluggable UI (Jetpack Compose, SwiftUI, JS React, etc.)",
+   "stars_count": 99,
+   "watchers_count": 7,
+   "issues_count": 0,
+   "forks_count": 2,
+   "license": "Apache License 2.0",
+   "topics": [
+    "android",
+    "components",
+    "jetpack-compose",
+    "kotlin",
+    "lifecycle",
+    "lifecycle-aware-components",
+    "multiplatform",
+    "tree-structure"
+   ]
+  },
+  "category": "Architecture",
+  "maven": "https://dl.bintray.com/arkivanov/maven/com/arkivanov/decompose/decompose/"
+ },
+ {
+  "groupId": "com.github.ajalt.colormath",
+  "artifactId": "colormath",
+  "path": "com.github.ajalt.colormath:colormath",
+  "latestVersion": "2.0.0",
+  "lastUpdated": "20200912184922",
+  "versions": [
+   {
+    "version": "2.0.0",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "colormath",
+   "full_name": "ajalt/colormath",
+   "html_url": "https://github.com/ajalt/colormath",
+   "description": "Multiplatform color space conversions for Kotlin",
+   "stars_count": 139,
+   "watchers_count": 4,
+   "issues_count": 1,
+   "forks_count": 5,
+   "license": "Apache License 2.0",
+   "topics": []
+  },
+  "category": "Utils",
+  "maven": "https://repo1.maven.org/maven2/com/github/ajalt/colormath/colormath/"
+ },
+ {
+  "groupId": "org.kodein.db",
+  "artifactId": "kodein-db",
+  "path": "org.kodein.db:kodein-db",
+  "latestVersion": "0.3.0-beta",
+  "lastUpdated": "20200927173430",
+  "versions": [
+   {
+    "version": "0.2.0-beta",
+    "mpp": true,
+    "gradle": "6.3",
+    "kotlin": "1.4.0",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
+   },
+   {
+    "version": "0.3.0-beta",
+    "mpp": true,
+    "gradle": "6.3",
+    "kotlin": "1.4.0",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "Kodein-DB",
+   "full_name": "Kodein-Framework/Kodein-DB",
+   "html_url": "https://github.com/Kodein-Framework/Kodein-DB",
+   "description": "Multiplatform NoSQL database",
+   "stars_count": 130,
+   "watchers_count": 9,
+   "issues_count": 6,
+   "forks_count": 11,
+   "license": "unknown",
+   "topics": []
+  },
+  "category": "DataBase",
+  "maven": "https://dl.bintray.com/kodein-framework/Kodein-DB/org/kodein/db/kodein-db/"
  }
 ]
