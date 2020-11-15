@@ -632,7 +632,7 @@
    "full_name": "icerockdev/moko-widgets",
    "html_url": "https://github.com/icerockdev/moko-widgets",
    "description": "Multiplatform UI DSL with screen management in common code for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 198,
+   "stars_count": 199,
    "watchers_count": 13,
    "issues_count": 42,
    "forks_count": 24,
@@ -1080,9 +1080,9 @@
    "full_name": "icerockdev/moko-mvvm",
    "html_url": "https://github.com/icerockdev/moko-mvvm",
    "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 252,
+   "stars_count": 253,
    "watchers_count": 13,
-   "issues_count": 18,
+   "issues_count": 17,
    "forks_count": 41,
    "license": "Apache License 2.0",
    "topics": [
@@ -13920,10 +13920,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 8461,
+   "stars_count": 8463,
    "watchers_count": 303,
-   "issues_count": 289,
-   "forks_count": 1182,
+   "issues_count": 287,
+   "forks_count": 1183,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -15793,7 +15793,7 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2587,
+   "stars_count": 2588,
    "watchers_count": 94,
    "issues_count": 223,
    "forks_count": 267,
@@ -17656,7 +17656,7 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 7504,
+   "stars_count": 7506,
    "watchers_count": 173,
    "issues_count": 552,
    "forks_count": 624,
@@ -18044,8 +18044,8 @@
   "groupId": "com.mirego.trikot",
   "artifactId": "http",
   "path": "com.mirego.trikot:http",
-  "latestVersion": "1.0.4",
-  "lastUpdated": "20201113195126",
+  "latestVersion": "1.0.5",
+  "lastUpdated": "20201114222744",
   "versions": [
    {
     "version": "0.0.1",
@@ -19430,6 +19430,72 @@
    },
    {
     "version": "1.0.4",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.0",
+    "targets": {
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm32-iosArm32MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64-tvosArm64MetadataElements": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64-tvosX64MetadataElements": {
+      "platform": "native",
+      "target": "tvos_x64"
+     }
+    }
+   },
+   {
+    "version": "1.0.5",
     "mpp": true,
     "gradle": "6.5.1",
     "kotlin": "1.4.0",
@@ -26042,8 +26108,8 @@
   "groupId": "com.soywiz.korlibs.krypto",
   "artifactId": "krypto",
   "path": "com.soywiz.korlibs.krypto:krypto",
-  "latestVersion": "2.0.0-rc2",
-  "lastUpdated": "20201031163329",
+  "latestVersion": "2.0.0-rc3",
+  "lastUpdated": "20201114140052",
   "versions": [
    {
     "version": "1.7.1",
@@ -27227,6 +27293,107 @@
       "target": "watchos_x86"
      }
     }
+   },
+   {
+    "version": "2.0.0-rc3",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.20-M1",
+    "targets": {
+     "android-debugApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-debugRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseApiElements": {
+      "platform": "androidJvm"
+     },
+     "android-releaseRuntimeElements": {
+      "platform": "androidJvm"
+     },
+     "androidNativeArm32-api": {
+      "platform": "native",
+      "target": "android_arm32"
+     },
+     "androidNativeArm64-api": {
+      "platform": "native",
+      "target": "android_arm64"
+     },
+     "androidNativeX64-api": {
+      "platform": "native",
+      "target": "android_x64"
+     },
+     "androidNativeX86-api": {
+      "platform": "native",
+      "target": "android_x86"
+     },
+     "iosArm32-api": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacy-api": {
+      "platform": "js"
+     },
+     "jsLegacy-runtime": {
+      "platform": "js"
+     },
+     "jsIr-api": {
+      "platform": "js"
+     },
+     "jsIr-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "linuxX64-api": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64-api": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "mingwX64-api": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64-api": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64-api": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32-api": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64-api": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX86-api": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
    }
   ],
   "github": {
@@ -27236,7 +27403,7 @@
    "description": "Pure Kotlin cryptography library for Multiplatform Kotlin 1.3",
    "stars_count": 68,
    "watchers_count": 12,
-   "issues_count": 8,
+   "issues_count": 9,
    "forks_count": 12,
    "license": "Other",
    "topics": []
@@ -33864,7 +34031,7 @@
    "stars_count": 115,
    "watchers_count": 7,
    "issues_count": 5,
-   "forks_count": 6,
+   "forks_count": 7,
    "license": "MIT License",
    "topics": [
     "android",
@@ -40002,10 +40169,10 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3609,
+   "stars_count": 3610,
    "watchers_count": 112,
    "issues_count": 122,
-   "forks_count": 293,
+   "forks_count": 294,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -40970,7 +41137,7 @@
    "stars_count": 65,
    "watchers_count": 8,
    "issues_count": 13,
-   "forks_count": 15,
+   "forks_count": 14,
    "license": "unknown",
    "topics": [
     "kotlin-library",
@@ -41146,7 +41313,7 @@
    "full_name": "touchlab-lab/FirestoreKMP",
    "html_url": "https://github.com/touchlab-lab/FirestoreKMP",
    "description": "Firestore KMP Library",
-   "stars_count": 31,
+   "stars_count": 32,
    "watchers_count": 2,
    "issues_count": 6,
    "forks_count": 7,
@@ -42827,7 +42994,7 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 670,
+   "stars_count": 671,
    "watchers_count": 20,
    "issues_count": 13,
    "forks_count": 36,
@@ -48638,7 +48805,7 @@
    "full_name": "ionspin/kotlin-multiplatform-bignum",
    "html_url": "https://github.com/ionspin/kotlin-multiplatform-bignum",
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
-   "stars_count": 93,
+   "stars_count": 94,
    "watchers_count": 2,
    "issues_count": 6,
    "forks_count": 13,
@@ -48830,10 +48997,10 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2440,
+   "stars_count": 2442,
    "watchers_count": 50,
    "issues_count": 15,
-   "forks_count": 147,
+   "forks_count": 148,
    "license": "MIT License",
    "topics": [
     "android",
@@ -50959,10 +51126,10 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7272,
-   "watchers_count": 278,
-   "issues_count": 60,
-   "forks_count": 1019,
+   "stars_count": 7273,
+   "watchers_count": 279,
+   "issues_count": 61,
+   "forks_count": 1020,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -55842,7 +56009,7 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 496,
+   "stars_count": 497,
    "watchers_count": 15,
    "issues_count": 16,
    "forks_count": 36,
@@ -56656,7 +56823,7 @@
    "full_name": "freeletics/FlowRedux",
    "html_url": "https://github.com/freeletics/FlowRedux",
    "description": "Kotlin Multiplatform Statemachine library with nice DSL based on Flow from Kotlin Coroutine's.",
-   "stars_count": 183,
+   "stars_count": 184,
    "watchers_count": 11,
    "issues_count": 12,
    "forks_count": 9,
@@ -57917,7 +58084,7 @@
    "full_name": "h0tk3y/better-parse",
    "html_url": "https://github.com/h0tk3y/better-parse",
    "description": "A nice parser combinator library for Kotlin",
-   "stars_count": 216,
+   "stars_count": 218,
    "watchers_count": 15,
    "issues_count": 22,
    "forks_count": 19,
@@ -58675,8 +58842,8 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin multiplatform",
-   "stars_count": 2554,
-   "watchers_count": 102,
+   "stars_count": 2555,
+   "watchers_count": 103,
    "issues_count": 105,
    "forks_count": 462,
    "license": "MIT License",
@@ -61331,7 +61498,7 @@
    "description": "Object-oriented strong-typed library for work with Telegram Bot API",
    "stars_count": 23,
    "watchers_count": 1,
-   "issues_count": 6,
+   "issues_count": 7,
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
@@ -61353,8 +61520,8 @@
   "groupId": "ch.tutteli.atrium",
   "artifactId": "atrium-fluent-en_GB",
   "path": "ch.tutteli.atrium:atrium-fluent-en_GB",
-  "latestVersion": "0.14.0.RC1",
-  "lastUpdated": "20201030090038",
+  "latestVersion": "0.14.0",
+  "lastUpdated": "20201114125140",
   "versions": [
    {
     "version": "0.9.0-alpha",
@@ -61444,6 +61611,19 @@
       "platform": "jvm"
      }
     }
+   },
+   {
+    "version": "0.14.0",
+    "mpp": true,
+    "gradle": "6.7",
+    "targets": {
+     "apiElements": {
+      "platform": "jvm"
+     },
+     "runtimeElements": {
+      "platform": "jvm"
+     }
+    }
    }
   ],
   "github": {
@@ -61451,7 +61631,7 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 324,
+   "stars_count": 325,
    "watchers_count": 22,
    "issues_count": 56,
    "forks_count": 143,
@@ -61533,7 +61713,7 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 324,
+   "stars_count": 325,
    "watchers_count": 22,
    "issues_count": 56,
    "forks_count": 143,
@@ -63030,7 +63210,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1297,
+   "stars_count": 1298,
    "watchers_count": 12,
    "issues_count": 7,
    "forks_count": 67,
@@ -63103,988 +63283,6 @@
   },
   "category": "Architecture",
   "maven": "https://dl.bintray.com/xorum-io/ReKamp/io/xorum/ReKamp/"
- },
- {
-  "groupId": "org.koin",
-  "artifactId": "koin-core",
-  "path": "org.koin:koin-core",
-  "latestVersion": "3.0.0-alpha-4",
-  "lastUpdated": "20201111084447",
-  "versions": [
-   {
-    "version": "0.1.0",
-    "mpp": false
-   },
-   {
-    "version": "0.1.1",
-    "mpp": false
-   },
-   {
-    "version": "0.1.2",
-    "mpp": false
-   },
-   {
-    "version": "0.2.0",
-    "mpp": false
-   },
-   {
-    "version": "0.2.1",
-    "mpp": false
-   },
-   {
-    "version": "0.2.2",
-    "mpp": false
-   },
-   {
-    "version": "0.3.0",
-    "mpp": false
-   },
-   {
-    "version": "0.3.1",
-    "mpp": false
-   },
-   {
-    "version": "0.4.0",
-    "mpp": false
-   },
-   {
-    "version": "0.4.1",
-    "mpp": false
-   },
-   {
-    "version": "0.5.0",
-    "mpp": false
-   },
-   {
-    "version": "0.5.1",
-    "mpp": false
-   },
-   {
-    "version": "0.5.2",
-    "mpp": false
-   },
-   {
-    "version": "0.6.0",
-    "mpp": false
-   },
-   {
-    "version": "0.6.1-alpha1",
-    "mpp": false
-   },
-   {
-    "version": "0.6.1-alpha2",
-    "mpp": false
-   },
-   {
-    "version": "0.6.1-alpha3",
-    "mpp": false
-   },
-   {
-    "version": "0.6.1-alpha4",
-    "mpp": false
-   },
-   {
-    "version": "0.6.1",
-    "mpp": false
-   },
-   {
-    "version": "0.6.2-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "0.7.0-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "0.7.0-alpha-2",
-    "mpp": false
-   },
-   {
-    "version": "0.7.0",
-    "mpp": false
-   },
-   {
-    "version": "0.7.1-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "0.7.1",
-    "mpp": false
-   },
-   {
-    "version": "0.7.2-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "0.8.0-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "0.8.0-alpha-3",
-    "mpp": false
-   },
-   {
-    "version": "0.8.0-alpha-5",
-    "mpp": false
-   },
-   {
-    "version": "0.8.0-alpha-6",
-    "mpp": false
-   },
-   {
-    "version": "0.8.0-alpha-8",
-    "mpp": false
-   },
-   {
-    "version": "0.8.0",
-    "mpp": false
-   },
-   {
-    "version": "0.8.1-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "0.8.1-alpha-5",
-    "mpp": false
-   },
-   {
-    "version": "0.8.1-alpha-7",
-    "mpp": false
-   },
-   {
-    "version": "0.8.1-alpha-8",
-    "mpp": false
-   },
-   {
-    "version": "0.8.1-alpha-10",
-    "mpp": false
-   },
-   {
-    "version": "0.8.1",
-    "mpp": false
-   },
-   {
-    "version": "0.8.2-alpha-14",
-    "mpp": false
-   },
-   {
-    "version": "0.8.2",
-    "mpp": false
-   },
-   {
-    "version": "0.8.3-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-alpha-4",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-alpha-5",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-alpha-6",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-alpha-11",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-alpha-14",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-alpha-15",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-alpha-16",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-rc-1",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-rc-2",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-rc-3",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-rc-4",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-rc-5",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-rc-6",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-rc-7",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-rc-19",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0",
-    "mpp": false
-   },
-   {
-    "version": "0.9.0-ga-1",
-    "mpp": false
-   },
-   {
-    "version": "0.9.1-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "0.9.1-alpha-3",
-    "mpp": false
-   },
-   {
-    "version": "0.9.1-alpha-4",
-    "mpp": false
-   },
-   {
-    "version": "0.9.1-alpha-5",
-    "mpp": false
-   },
-   {
-    "version": "0.9.1-alpha-7",
-    "mpp": false
-   },
-   {
-    "version": "0.9.1-alpha-8",
-    "mpp": false
-   },
-   {
-    "version": "0.9.1",
-    "mpp": false
-   },
-   {
-    "version": "0.9.2-alpha-2",
-    "mpp": false
-   },
-   {
-    "version": "0.9.2-alpha-3",
-    "mpp": false
-   },
-   {
-    "version": "0.9.2-alpha-5",
-    "mpp": false
-   },
-   {
-    "version": "0.9.2-alpha-6",
-    "mpp": false
-   },
-   {
-    "version": "0.9.2-alpha-10",
-    "mpp": false
-   },
-   {
-    "version": "0.9.2",
-    "mpp": false
-   },
-   {
-    "version": "0.9.3",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-2",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-3",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-4",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-6",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-8",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-9",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-10",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-11",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-12",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-14",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-15",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-16",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-18",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-19",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-20",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-21",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-22",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-23",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-24",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-25",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-26",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-27",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-28",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-29",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-30",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-31",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-32",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-33",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-34",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-alpha-45",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-1",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-2",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-3",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-4",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-5",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-6",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-7",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-8",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-beta-9",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-RC-1",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-RC-2",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0-RC-3",
-    "mpp": false
-   },
-   {
-    "version": "1.0.0",
-    "mpp": false
-   },
-   {
-    "version": "1.0.1-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "1.0.1",
-    "mpp": false
-   },
-   {
-    "version": "1.0.2-alpha-7",
-    "mpp": false
-   },
-   {
-    "version": "1.0.2-alpha-9",
-    "mpp": false
-   },
-   {
-    "version": "1.0.2",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-alpha-2",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-alpha-3",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-alpha-4",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-alpha-5",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-alpha-6",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-beta-1",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-beta-2",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-beta-3",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-beta-4",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-beta-5",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-rc-1",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-rc-2",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-rc-3",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-GA",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-GA1",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-GA2",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-GA3",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-GA4",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-GA5",
-    "mpp": false
-   },
-   {
-    "version": "2.0.0-GA6",
-    "mpp": false
-   },
-   {
-    "version": "2.0.1",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-alpha-2",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-alpha-3",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-alpha-6",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-alpha-7",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-alpha-8",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-alpha-10",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-beta-1",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-beta-2",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0-beta-3",
-    "mpp": false
-   },
-   {
-    "version": "2.1.0",
-    "mpp": false
-   },
-   {
-    "version": "2.1.1-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "2.1.1-alpha-2",
-    "mpp": false
-   },
-   {
-    "version": "2.1.1",
-    "mpp": false
-   },
-   {
-    "version": "2.1.2",
-    "mpp": false
-   },
-   {
-    "version": "2.1.3-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "2.1.3",
-    "mpp": false
-   },
-   {
-    "version": "2.1.4",
-    "mpp": false
-   },
-   {
-    "version": "2.1.5",
-    "mpp": false
-   },
-   {
-    "version": "2.1.6",
-    "mpp": false
-   },
-   {
-    "version": "2.2.0-alpha-1",
-    "mpp": false
-   },
-   {
-    "version": "2.2.0-beta-1",
-    "mpp": false
-   },
-   {
-    "version": "2.2.0-beta-2",
-    "mpp": false
-   },
-   {
-    "version": "2.2.0-rc-1",
-    "mpp": false
-   },
-   {
-    "version": "2.2.0-rc-2",
-    "mpp": false
-   },
-   {
-    "version": "2.2.0-rc-3",
-    "mpp": false
-   },
-   {
-    "version": "2.2.0-rc-4",
-    "mpp": false
-   },
-   {
-    "version": "2.2.0",
-    "mpp": false
-   },
-   {
-    "version": "3.0.0-alpha-1",
-    "mpp": true,
-    "gradle": "5.6.4",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxArm32Hfp-api": {
-      "platform": "native",
-      "target": "linux_arm32_hfp"
-     },
-     "linuxMips32-api": {
-      "platform": "native",
-      "target": "linux_mips32"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "3.0.0-alpha-2",
-    "mpp": true,
-    "gradle": "5.6.4",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxArm32Hfp-api": {
-      "platform": "native",
-      "target": "linux_arm32_hfp"
-     },
-     "linuxMips32-api": {
-      "platform": "native",
-      "target": "linux_mips32"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "3.0.0-alpha-3",
-    "mpp": false
-   },
-   {
-    "version": "3.0.0-alpha-4",
-    "mpp": true,
-    "gradle": "6.5",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm32-iosArm32MetadataElements": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosArm64-iosArm64MetadataElements": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "iosX64-iosX64MetadataElements": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxArm32Hfp-api": {
-      "platform": "native",
-      "target": "linux_arm32_hfp"
-     },
-     "linuxMips32-api": {
-      "platform": "native",
-      "target": "linux_mips32"
-     },
-     "linuxMips32-linuxMips32MetadataElements": {
-      "platform": "native",
-      "target": "linux_mips32"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "macosX64-macosX64MetadataElements": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "metadata-commonMainMetadataElements": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "mingwX64-mingwX64MetadataElements": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosArm64-tvosArm64MetadataElements": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "tvosX64-tvosX64MetadataElements": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm32-watchosArm32MetadataElements": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosArm64-watchosArm64MetadataElements": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     },
-     "watchosX86-watchosX86MetadataElements": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   }
-  ],
-  "github": {
-   "name": "koin",
-   "full_name": "InsertKoinIO/koin",
-   "html_url": "https://github.com/InsertKoinIO/koin",
-   "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
-   "stars_count": 6163,
-   "watchers_count": 114,
-   "issues_count": 101,
-   "forks_count": 417,
-   "license": "Apache License 2.0",
-   "topics": [
-    "android",
-    "dependency-injection",
-    "dsl",
-    "injection",
-    "kotlin"
-   ]
-  },
-  "category": "DI",
-  "maven": "https://repo.spring.io/libs-release/org/koin/koin-core/"
  },
  {
   "groupId": "com.maximbircu",
@@ -71856,9 +71054,9 @@
    "full_name": "Kotlin/kotlinx-datetime",
    "html_url": "https://github.com/Kotlin/kotlinx-datetime",
    "description": "KotlinX multiplatform date/time library",
-   "stars_count": 635,
+   "stars_count": 636,
    "watchers_count": 57,
-   "issues_count": 21,
+   "issues_count": 22,
    "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": []
@@ -72447,7 +71645,7 @@
    "full_name": "JetBrains/skiko",
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin MPP bindings to Skia",
-   "stars_count": 151,
+   "stars_count": 152,
    "watchers_count": 23,
    "issues_count": 2,
    "forks_count": 5,
@@ -74485,7 +73683,7 @@
    "full_name": "ajalt/colormath",
    "html_url": "https://github.com/ajalt/colormath",
    "description": "Multiplatform color space conversions for Kotlin",
-   "stars_count": 144,
+   "stars_count": 143,
    "watchers_count": 4,
    "issues_count": 3,
    "forks_count": 5,
