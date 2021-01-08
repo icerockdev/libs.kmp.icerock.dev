@@ -1122,7 +1122,7 @@
    "full_name": "icerockdev/moko-mvvm",
    "html_url": "https://github.com/icerockdev/moko-mvvm",
    "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 278,
+   "stars_count": 279,
    "watchers_count": 13,
    "issues_count": 22,
    "forks_count": 44,
@@ -1657,9 +1657,9 @@
    "full_name": "icerockdev/moko-resources",
    "html_url": "https://github.com/icerockdev/moko-resources",
    "description": "Resources access for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 118,
+   "stars_count": 119,
    "watchers_count": 9,
-   "issues_count": 16,
+   "issues_count": 17,
    "forks_count": 13,
    "license": "Apache License 2.0",
    "topics": [
@@ -14118,10 +14118,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 8716,
+   "stars_count": 8726,
    "watchers_count": 302,
-   "issues_count": 300,
-   "forks_count": 1235,
+   "issues_count": 301,
+   "forks_count": 1236,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -15991,10 +15991,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2722,
+   "stars_count": 2727,
    "watchers_count": 97,
    "issues_count": 254,
-   "forks_count": 292,
+   "forks_count": 293,
    "license": "Apache License 2.0",
    "topics": [
     "cbor",
@@ -17854,9 +17854,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 7761,
-   "watchers_count": 175,
-   "issues_count": 527,
+   "stars_count": 7770,
+   "watchers_count": 177,
+   "issues_count": 528,
    "forks_count": 644,
    "license": "Apache License 2.0",
    "topics": [
@@ -36208,7 +36208,7 @@
    "full_name": "korlibs/korau",
    "html_url": "https://github.com/korlibs/korau",
    "description": "Kotlin cORoutines AUdio - Pure Kotlin WAV, MP3 and OGG vorbis decoders",
-   "stars_count": 28,
+   "stars_count": 29,
    "watchers_count": 7,
    "issues_count": 8,
    "forks_count": 6,
@@ -43585,7 +43585,7 @@
    "full_name": "gumil/Kaskade",
    "html_url": "https://github.com/gumil/Kaskade",
    "description": "[INACTIVE] Simplifying state management",
-   "stars_count": 223,
+   "stars_count": 224,
    "watchers_count": 12,
    "issues_count": 10,
    "forks_count": 6,
@@ -43661,7 +43661,7 @@
    "full_name": "florent37/Multiplatform-Preferences",
    "html_url": "https://github.com/florent37/Multiplatform-Preferences",
    "description": "Kotlin Multi Platform Preferences, for android an ios : SharedPreferences & NSUserDefault",
-   "stars_count": 76,
+   "stars_count": 75,
    "watchers_count": 2,
    "issues_count": 4,
    "forks_count": 9,
@@ -45198,9 +45198,9 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3721,
+   "stars_count": 3724,
    "watchers_count": 112,
-   "issues_count": 152,
+   "issues_count": 153,
    "forks_count": 300,
    "license": "Apache License 2.0",
    "topics": [
@@ -48101,7 +48101,7 @@
    "full_name": "badoo/Reaktive",
    "html_url": "https://github.com/badoo/Reaktive",
    "description": "Kotlin multi-platform implementation of Reactive Extensions",
-   "stars_count": 715,
+   "stars_count": 716,
    "watchers_count": 21,
    "issues_count": 9,
    "forks_count": 38,
@@ -54745,7 +54745,7 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2480,
+   "stars_count": 2481,
    "watchers_count": 50,
    "issues_count": 12,
    "forks_count": 150,
@@ -56593,8 +56593,8 @@
   "groupId": "com.squareup.okio",
   "artifactId": "okio",
   "path": "com.squareup.okio:okio",
-  "latestVersion": "2.9.0",
-  "lastUpdated": "20201005035247",
+  "latestVersion": "2.10.0",
+  "lastUpdated": "20210107233807",
   "versions": [
    {
     "version": "0.5.0",
@@ -56940,6 +56940,23 @@
       "platform": "jvm"
      },
      "metadata-api": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "2.10.0",
+    "mpp": true,
+    "gradle": "6.7.1",
+    "kotlin": "1.4.20",
+    "targets": {
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "metadataApiElements-published": {
       "platform": "common"
      }
     }
@@ -62469,7 +62486,7 @@
    "stars_count": 411,
    "watchers_count": 16,
    "issues_count": 6,
-   "forks_count": 23,
+   "forks_count": 24,
    "license": "unknown",
    "topics": [
     "android",
@@ -64728,10 +64745,10 @@
    "full_name": "apollographql/apollo-android",
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin multiplatform",
-   "stars_count": 2607,
+   "stars_count": 2608,
    "watchers_count": 102,
-   "issues_count": 110,
-   "forks_count": 471,
+   "issues_count": 112,
+   "forks_count": 472,
    "license": "MIT License",
    "topics": [
     "android",
@@ -65313,8 +65330,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-app",
   "path": "dev.gitlive:firebase-app",
-  "latestVersion": "1.1.0",
-  "lastUpdated": "20201217152244",
+  "latestVersion": "1.2.0",
+  "lastUpdated": "20210107195413",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -65542,6 +65559,42 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.2.0",
+    "mpp": true,
+    "gradle": "6.7.1",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -65549,9 +65602,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 184,
+   "stars_count": 185,
    "watchers_count": 11,
-   "issues_count": 13,
+   "issues_count": 14,
    "forks_count": 23,
    "license": "Apache License 2.0",
    "topics": [
@@ -65572,8 +65625,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-firestore",
   "path": "dev.gitlive:firebase-firestore",
-  "latestVersion": "1.1.0",
-  "lastUpdated": "20201217152359",
+  "latestVersion": "1.2.0",
+  "lastUpdated": "20210107195539",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -65801,6 +65854,42 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.2.0",
+    "mpp": true,
+    "gradle": "6.7.1",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -65808,9 +65897,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 184,
+   "stars_count": 185,
    "watchers_count": 11,
-   "issues_count": 13,
+   "issues_count": 14,
    "forks_count": 23,
    "license": "Apache License 2.0",
    "topics": [
@@ -65831,8 +65920,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-auth",
   "path": "dev.gitlive:firebase-auth",
-  "latestVersion": "1.1.0",
-  "lastUpdated": "20201217152303",
+  "latestVersion": "1.2.0",
+  "lastUpdated": "20210107195435",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -66060,6 +66149,42 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.2.0",
+    "mpp": true,
+    "gradle": "6.7.1",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -66067,9 +66192,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 184,
+   "stars_count": 185,
    "watchers_count": 11,
-   "issues_count": 13,
+   "issues_count": 14,
    "forks_count": 23,
    "license": "Apache License 2.0",
    "topics": [
@@ -66090,8 +66215,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-database",
   "path": "dev.gitlive:firebase-database",
-  "latestVersion": "1.1.0",
-  "lastUpdated": "20201217152340",
+  "latestVersion": "1.2.0",
+  "lastUpdated": "20210107195517",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -66319,6 +66444,42 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.2.0",
+    "mpp": true,
+    "gradle": "6.7.1",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -66326,9 +66487,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 184,
+   "stars_count": 185,
    "watchers_count": 11,
-   "issues_count": 13,
+   "issues_count": 14,
    "forks_count": 23,
    "license": "Apache License 2.0",
    "topics": [
@@ -66349,8 +66510,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-functions",
   "path": "dev.gitlive:firebase-functions",
-  "latestVersion": "1.1.0",
-  "lastUpdated": "20201217152416",
+  "latestVersion": "1.2.0",
+  "lastUpdated": "20210107195558",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -66578,6 +66739,42 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.2.0",
+    "mpp": true,
+    "gradle": "6.7.1",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -66585,9 +66782,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 184,
+   "stars_count": 185,
    "watchers_count": 11,
-   "issues_count": 13,
+   "issues_count": 14,
    "forks_count": 23,
    "license": "Apache License 2.0",
    "topics": [
@@ -67714,7 +67911,7 @@
    "stars_count": 339,
    "watchers_count": 23,
    "issues_count": 60,
-   "forks_count": 143,
+   "forks_count": 144,
    "license": "European Union Public License 1.2",
    "topics": [
     "assert",
@@ -67796,7 +67993,7 @@
    "stars_count": 339,
    "watchers_count": 23,
    "issues_count": 60,
-   "forks_count": 143,
+   "forks_count": 144,
    "license": "European Union Public License 1.2",
    "topics": [
     "assert",
@@ -69121,7 +69318,7 @@
    "full_name": "touchlab/Kermit",
    "html_url": "https://github.com/touchlab/Kermit",
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
-   "stars_count": 124,
+   "stars_count": 125,
    "watchers_count": 9,
    "issues_count": 14,
    "forks_count": 7,
@@ -73670,7 +73867,7 @@
    "full_name": "open-jumpco/kfsm",
    "html_url": "https://github.com/open-jumpco/kfsm",
    "description": "Finite State Machine in Kotlin",
-   "stars_count": 32,
+   "stars_count": 33,
    "watchers_count": 1,
    "issues_count": 2,
    "forks_count": 3,
@@ -77942,7 +78139,7 @@
    "html_url": "https://github.com/Kotlin/kotlinx-datetime",
    "description": "KotlinX multiplatform date/time library",
    "stars_count": 725,
-   "watchers_count": 59,
+   "watchers_count": 60,
    "issues_count": 32,
    "forks_count": 15,
    "license": "Apache License 2.0",
@@ -78532,7 +78729,7 @@
    "full_name": "JetBrains/skiko",
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin MPP bindings to Skia",
-   "stars_count": 335,
+   "stars_count": 336,
    "watchers_count": 27,
    "issues_count": 4,
    "forks_count": 8,
@@ -78857,11 +79054,53 @@
   "groupId": "com.chrynan.emoji",
   "artifactId": "emoji-core",
   "path": "com.chrynan.emoji:emoji-core",
-  "latestVersion": "0.1.1",
-  "lastUpdated": "20200923202958",
+  "latestVersion": "0.2.0",
+  "lastUpdated": "20210107113030",
   "versions": [
    {
     "version": "0.1.1",
+    "mpp": true,
+    "gradle": "6.5.1",
+    "kotlin": "1.4.10",
+    "targets": {
+     "iosArm64-api": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64-iosArm64MetadataElements": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64-api": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64-iosX64MetadataElements": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "js-api": {
+      "platform": "js"
+     },
+     "js-runtime": {
+      "platform": "js"
+     },
+     "jvm-api": {
+      "platform": "jvm"
+     },
+     "jvm-runtime": {
+      "platform": "jvm"
+     },
+     "metadata-api": {
+      "platform": "common"
+     },
+     "metadata-commonMainMetadataElements": {
+      "platform": "common"
+     }
+    }
+   },
+   {
+    "version": "0.2.0",
     "mpp": true,
     "gradle": "6.5.1",
     "kotlin": "1.4.10",
@@ -80965,10 +81204,10 @@
    "full_name": "arkivanov/Decompose",
    "html_url": "https://github.com/arkivanov/Decompose",
    "description": "Kotlin Multiplatform lifecycle-aware business logic components (aka BLoCs) with routing functionality and pluggable UI (Jetpack Compose, SwiftUI, JS React, etc.)",
-   "stars_count": 226,
+   "stars_count": 227,
    "watchers_count": 14,
    "issues_count": 5,
-   "forks_count": 8,
+   "forks_count": 9,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -81302,7 +81541,7 @@
    "full_name": "Kodein-Framework/Kodein-DB",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DB",
    "description": "Multiplatform NoSQL database",
-   "stars_count": 162,
+   "stars_count": 163,
    "watchers_count": 7,
    "issues_count": 5,
    "forks_count": 11,
@@ -81473,9 +81712,9 @@
    "full_name": "corbella83/PopKorn",
    "html_url": "https://github.com/corbella83/PopKorn",
    "description": "DI can be simple. Forget about modules and components. Just use it!",
-   "stars_count": 46,
+   "stars_count": 50,
    "watchers_count": 3,
-   "issues_count": 4,
+   "issues_count": 3,
    "forks_count": 2,
    "license": "Apache License 2.0",
    "topics": [
