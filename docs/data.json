@@ -657,8 +657,8 @@
   "groupId": "dev.icerock.moko",
   "artifactId": "mvvm",
   "path": "dev.icerock.moko:mvvm",
-  "latestVersion": "0.9.0",
-  "lastUpdated": "20210110152525",
+  "latestVersion": "0.9.1",
+  "lastUpdated": "20210123065305",
   "versions": [
    {
     "version": "0.1.0",
@@ -1157,6 +1157,48 @@
       "target": "ios_x64"
      }
     }
+   },
+   {
+    "version": "0.9.1",
+    "mpp": true,
+    "gradle": "6.7.1",
+    "kotlin": "1.4.21",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -1165,8 +1207,8 @@
    "html_url": "https://github.com/icerockdev/moko-mvvm",
    "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development",
    "stars_count": 292,
-   "watchers_count": 13,
-   "issues_count": 19,
+   "watchers_count": 14,
+   "issues_count": 13,
    "forks_count": 44,
    "license": "Apache License 2.0",
    "topics": [
@@ -1192,8 +1234,8 @@
   "groupId": "dev.icerock.moko",
   "artifactId": "network",
   "path": "dev.icerock.moko:network",
-  "latestVersion": "0.9.0",
-  "lastUpdated": "20210121051631",
+  "latestVersion": "0.9.1",
+  "lastUpdated": "20210123091848",
   "versions": [
    {
     "version": "0.1.0",
@@ -1650,6 +1692,48 @@
       "target": "ios_x64"
      }
     }
+   },
+   {
+    "version": "0.9.1",
+    "mpp": true,
+    "gradle": "6.8.1",
+    "kotlin": "1.4.21",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -1659,7 +1743,7 @@
    "description": "Network components with codegeneration for Resources access for mobile (android & ios) Kotlin Multiplatform development",
    "stars_count": 44,
    "watchers_count": 9,
-   "issues_count": 16,
+   "issues_count": 11,
    "forks_count": 13,
    "license": "Apache License 2.0",
    "topics": [
@@ -1741,9 +1825,9 @@
    "full_name": "icerockdev/moko-resources",
    "html_url": "https://github.com/icerockdev/moko-resources",
    "description": "Resources access for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 121,
-   "watchers_count": 9,
-   "issues_count": 27,
+   "stars_count": 122,
+   "watchers_count": 10,
+   "issues_count": 26,
    "forks_count": 16,
    "license": "Apache License 2.0",
    "topics": [
@@ -2800,7 +2884,7 @@
    "description": "Input forms for mobile (android & ios) Kotlin Multiplatform development",
    "stars_count": 5,
    "watchers_count": 3,
-   "issues_count": 5,
+   "issues_count": 4,
    "forks_count": 3,
    "license": "Apache License 2.0",
    "topics": [
@@ -5296,7 +5380,7 @@
    "description": "Automated exceptions handler for mobile (android & ios) Kotlin Multiplatform development.",
    "stars_count": 32,
    "watchers_count": 5,
-   "issues_count": 7,
+   "issues_count": 6,
    "forks_count": 3,
    "license": "Apache License 2.0",
    "topics": [
@@ -5455,7 +5539,7 @@
    "description": "MOKO SocketIo by IceRock is Socket.IO implementation Kotlin Multiplatform library",
    "stars_count": 15,
    "watchers_count": 6,
-   "issues_count": 4,
+   "issues_count": 3,
    "forks_count": 1,
    "license": "Apache License 2.0",
    "topics": [
@@ -10371,7 +10455,7 @@
    "full_name": "korlibs/klock",
    "html_url": "https://github.com/korlibs/klock",
    "description": "Multiplatform Date and time library for Kotlin",
-   "stars_count": 555,
+   "stars_count": 557,
    "watchers_count": 10,
    "issues_count": 13,
    "forks_count": 42,
@@ -14728,10 +14812,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 8799,
+   "stars_count": 8803,
    "watchers_count": 297,
    "issues_count": 303,
-   "forks_count": 1251,
+   "forks_count": 1252,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -16601,7 +16685,7 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 2757,
+   "stars_count": 2758,
    "watchers_count": 95,
    "issues_count": 264,
    "forks_count": 295,
@@ -18464,9 +18548,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 7820,
-   "watchers_count": 175,
-   "issues_count": 524,
+   "stars_count": 7821,
+   "watchers_count": 174,
+   "issues_count": 523,
    "forks_count": 647,
    "license": "Apache License 2.0",
    "topics": [
@@ -28082,7 +28166,7 @@
    "full_name": "korlibs/klogger",
    "html_url": "https://github.com/korlibs/klogger",
    "description": "Logger for Multiplatform Kotlin 1.3",
-   "stars_count": 20,
+   "stars_count": 21,
    "watchers_count": 6,
    "issues_count": 2,
    "forks_count": 3,
@@ -38192,7 +38276,7 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 132,
+   "stars_count": 133,
    "watchers_count": 6,
    "issues_count": 6,
    "forks_count": 7,
@@ -46099,7 +46183,7 @@
    "stars_count": 3748,
    "watchers_count": 113,
    "issues_count": 157,
-   "forks_count": 306,
+   "forks_count": 307,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -55474,7 +55558,7 @@
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
    "stars_count": 109,
    "watchers_count": 1,
-   "issues_count": 6,
+   "issues_count": 7,
    "forks_count": 15,
    "license": "Apache License 2.0",
    "topics": [
@@ -55747,7 +55831,7 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2491,
+   "stars_count": 2492,
    "watchers_count": 50,
    "issues_count": 14,
    "forks_count": 150,
@@ -57986,7 +58070,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7380,
+   "stars_count": 7379,
    "watchers_count": 280,
    "issues_count": 61,
    "forks_count": 1035,
@@ -58170,7 +58254,7 @@
    "full_name": "willowtreeapps/fuzzywuzzy-kotlin",
    "html_url": "https://github.com/willowtreeapps/fuzzywuzzy-kotlin",
    "description": "Fuzzy string matching for Kotlin (JVM, native, JS, Web Assembly) - port of Fuzzy Wuzzy Python lib",
-   "stars_count": 33,
+   "stars_count": 34,
    "watchers_count": 10,
    "issues_count": 2,
    "forks_count": 4,
@@ -61109,7 +61193,7 @@
    "full_name": "Kotlin/kotlinx.atomicfu",
    "html_url": "https://github.com/Kotlin/kotlinx.atomicfu",
    "description": "The idiomatic way to use atomic operations in Kotlin",
-   "stars_count": 363,
+   "stars_count": 364,
    "watchers_count": 42,
    "issues_count": 32,
    "forks_count": 31,
@@ -62869,7 +62953,7 @@
    "full_name": "msink/kotlin-libui",
    "html_url": "https://github.com/msink/kotlin-libui",
    "description": "Kotlin/Native interop to libui: a portable GUI library",
-   "stars_count": 508,
+   "stars_count": 509,
    "watchers_count": 15,
    "issues_count": 16,
    "forks_count": 36,
@@ -63502,9 +63586,9 @@
    "full_name": "arkivanov/MVIKotlin",
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "MVI framework for Kotlin Multiplatform",
-   "stars_count": 422,
+   "stars_count": 423,
    "watchers_count": 16,
-   "issues_count": 6,
+   "issues_count": 8,
    "forks_count": 24,
    "license": "unknown",
    "topics": [
@@ -65844,7 +65928,7 @@
    "html_url": "https://github.com/apollographql/apollo-android",
    "description": ":robot: A strongly-typed, caching GraphQL client for the JVM, Android and Kotlin multiplatform",
    "stars_count": 2628,
-   "watchers_count": 100,
+   "watchers_count": 99,
    "issues_count": 115,
    "forks_count": 476,
    "license": "MIT License",
@@ -68859,7 +68943,7 @@
    "description": "Type-safe library for work with Telegram Bot API",
    "stars_count": 27,
    "watchers_count": 1,
-   "issues_count": 6,
+   "issues_count": 7,
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
@@ -69006,7 +69090,7 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 343,
+   "stars_count": 344,
    "watchers_count": 23,
    "issues_count": 55,
    "forks_count": 144,
@@ -69088,7 +69172,7 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 343,
+   "stars_count": 344,
    "watchers_count": 23,
    "issues_count": 55,
    "forks_count": 144,
@@ -70585,7 +70669,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1375,
+   "stars_count": 1376,
    "watchers_count": 13,
    "issues_count": 7,
    "forks_count": 71,
@@ -79827,7 +79911,7 @@
    "full_name": "JetBrains/skiko",
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin MPP bindings to Skia",
-   "stars_count": 345,
+   "stars_count": 346,
    "watchers_count": 28,
    "issues_count": 4,
    "forks_count": 9,
@@ -82386,7 +82470,7 @@
    "full_name": "arkivanov/Decompose",
    "html_url": "https://github.com/arkivanov/Decompose",
    "description": "Kotlin Multiplatform lifecycle-aware business logic components (aka BLoCs) with routing functionality and pluggable UI (Jetpack Compose, SwiftUI, JS React, etc.)",
-   "stars_count": 237,
+   "stars_count": 238,
    "watchers_count": 15,
    "issues_count": 3,
    "forks_count": 10,
@@ -83025,7 +83109,7 @@
    "full_name": "corbella83/PopKorn",
    "html_url": "https://github.com/corbella83/PopKorn",
    "description": "DI can be simple. Forget about modules and components. Just use it!",
-   "stars_count": 59,
+   "stars_count": 60,
    "watchers_count": 3,
    "issues_count": 4,
    "forks_count": 2,
