@@ -21,7 +21,7 @@
   },
   {
     "github": "icerockdev/moko-permissions",
-    "category": "Architecture",
+    "category": "Device",
     "maven": "https://dl.bintray.com/icerockdev/moko/dev/icerock/moko/permissions/"
   },
   {
@@ -92,7 +92,7 @@
   {
     "github": "russhwolf/multiplatform-settings",
     "category": "Storage",
-    "maven": "https://jcenter.bintray.com/com/russhwolf/multiplatform-settings/"
+    "maven": "https://repo1.maven.org/maven2/com/russhwolf/multiplatform-settings/"
   },
   {
     "github": "kuuuurt/multiplatform-paging",
@@ -102,17 +102,17 @@
   {
     "github": "Kotlin/kotlinx.coroutines",
     "category": "Async",
-    "maven": "https://kotlin.bintray.com/kotlinx/org/jetbrains/kotlinx/kotlinx-coroutines-core-native/"
+    "maven": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/"
   },
   {
     "github": "Kotlin/kotlinx.serialization",
     "category": "Serialization",
-    "maven": "https://kotlin.bintray.com/kotlinx/org/jetbrains/kotlinx/kotlinx-serialization-runtime-native/"
+    "maven": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core/"
   },
   {
     "github": "ktorio/ktor",
     "category": "Network",
-    "maven": "https://kotlin.bintray.com/ktor/io/ktor/ktor-client-core-native/"
+    "maven": "https://repo1.maven.org/maven2/io/ktor/ktor-client/"
   },
   {
     "github": "mirego/trikot.foundation",
@@ -311,7 +311,7 @@
   },
   {
     "github": "Reedyuk/blue-falcon",
-    "category": "Device",
+    "category": "Bluetooth",
     "maven": "https://repo1.maven.org/maven2/dev/bluefalcon/library/"
   },
   {
@@ -730,6 +730,11 @@
     "maven": "https://repo1.maven.org/maven2/com/github/hadilq/log4k/"
   },
   {
+    "github": "LighthouseGames/KmLogging",
+    "category": "Logging",
+    "maven": "https://repo1.maven.org/maven2/org/lighthousegames/logging/"
+  },
+  {
     "github": "rsocket/rsocket-kotlin",
     "category": "Network",
     "maven": "https://oss.jfrog.org/artifactory/oss-snapshot-local/io/rsocket/kotlin/rsocket-core/"
@@ -753,6 +758,196 @@
     "github": "corbella83/PopKorn",
     "category": "DI",
     "maven": "https://repo1.maven.org/maven2/cc/popkorn/popkorn/"
+  },
+  {
+    "github": "dss99911/kotlin-simple-architecture",
+    "category": "Architecture",
+    "maven": "https://dl.bintray.com/hyun/kotlin-simple-architecture/kim/jeonghyeon/kotlin-simple-architecture-backend/"
+  },
+  {
+    "github": "dss99911/kotlin-simple-architecture",
+    "category": "Architecture",
+    "maven": "https://dl.bintray.com/hyun/kotlin-simple-architecture/kim/jeonghyeon/kotlin-simple-architecture-client/"
+  },
+  {
+    "github": "dss99911/kotlin-simple-architecture",
+    "category": "Network",
+    "maven": "https://dl.bintray.com/hyun/kotlin-simple-architecture/kim/jeonghyeon/kotlin-simple-api-backend/"
+  },
+  {
+    "github": "dss99911/kotlin-simple-architecture",
+    "category": "Network",
+    "maven": "https://dl.bintray.com/hyun/kotlin-simple-architecture/kim/jeonghyeon/kotlin-simple-api-client/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "UI",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/alerts/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Architecture",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/architecture/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Utils",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/base/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "UI",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/date-time-picker/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "UI",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/hud/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "UI",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/keyboard/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Device",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/location/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Logging",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/logging/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Device",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/permissions/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Resources",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/resources/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Integration",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/review/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Device",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/system/"
+  },
+  {
+    "github": "splendo/kaluga",
+    "category": "Test",
+    "maven": "https://dl.bintray.com/kaluga/com.splendo.kaluga/com/splendo/kaluga/test-utils/"
+  },
+  {
+    "github": "eduayuso/konet",
+    "category": "Network",
+    "maven": "https://dl.bintray.com/eduayuso/kolibs/dev/eduayuso/kolibs/konet/"
+  },
+  {
+    "github": "eliekarouz/feedbacktree",
+    "category": "Architecture",
+    "maven": "https://repo1.maven.org/maven2/com/github/eliekarouz/feedbacktree/feedbacktree/"
+  },
+  {
+    "github": "y9san9/kds",
+    "category": "Storage",
+    "maven": "https://dl.bintray.com/y9san9/kotlingang/com/kotlingang/kds/kds/"
+  },
+  {
+    "github": "JuulLabs/kable",
+    "category": "Bluetooth",
+    "maven": "https://repo1.maven.org/maven2/com/juul/kable/core/"
+  },
+  {
+    "github": "adevone/lagerpeton",
+    "category": "Logging",
+    "maven": "https://dl.bintray.com/summermpp/summer/io/adev/lagerpeton/"
+  },
+  {
+    "github": "Animeshz/keyboard-mouse-kt",
+    "category": "Device",
+    "maven": "https://dl.bintray.com/animeshz/maven/com/github/animeshz/keyboard-kt/"
+  },
+  {
+    "github": "Animeshz/keyboard-mouse-kt",
+    "category": "Device",
+    "maven": "https://dl.bintray.com/animeshz/maven/com/github/animeshz/mouse-kt/"
+  },
+  {
+    "github": "DrewCarlson/qBittorrent-Kotlin",
+    "category": "Integration",
+    "maven": "https://repo1.maven.org/maven2/org/drewcarlson/qbittorrent-client/"
+  },
+  {
+    "github": "Foso/Cabret-Log",
+    "category": "Logging",
+    "maven": "https://repo1.maven.org/maven2/de/jensklingenberg/cabret/cabret-log/"
+  },
+  {
+    "github": "ajalt/clikt",
+    "category": "CLI",
+    "maven": "https://repo1.maven.org/maven2/com/github/ajalt/clikt/clikt/"
+  },
+  {
+    "github": "InsanusMokrassar/MicroUtils",
+    "category": "Utils",
+    "maven": "https://repo1.maven.org/maven2/dev/inmo/micro_utils.common/"
+  },
+  {
+    "github": "InsanusMokrassar/MicroUtils",
+    "category": "Async",
+    "maven": "https://repo1.maven.org/maven2/dev/inmo/micro_utils.coroutines/"
+  },
+  {
+    "github": "InsanusMokrassar/MicroUtils",
+    "category": "Cryptography",
+    "maven": "https://repo1.maven.org/maven2/dev/inmo/micro_utils.crypto/"
+  },
+  {
+    "github": "InsanusMokrassar/MicroUtils",
+    "category": "Network",
+    "maven": "https://repo1.maven.org/maven2/dev/inmo/micro_utils.ktor.common/"
+  },
+  {
+    "github": "InsanusMokrassar/MicroUtils",
+    "category": "Network",
+    "maven": "https://repo1.maven.org/maven2/dev/inmo/micro_utils.ktor.client/"
+  },
+  {
+    "github": "InsanusMokrassar/MicroUtils",
+    "category": "Architecture",
+    "maven": "https://repo1.maven.org/maven2/dev/inmo/micro_utils.repos.common/"
+  },
+  {
+    "github": "InsanusMokrassar/MicroUtils",
+    "category": "Logic",
+    "maven": "https://repo1.maven.org/maven2/dev/inmo/micro_utils.pagination.common/"
+  },
+  {
+    "github": "MrAsterisco/Time",
+    "category": "Time",
+    "maven": "https://dl.bintray.com/mrasterisco/Maven/io/github/mrasterisco/Time/"
+  },
+  {
+    "github": "nacular/doodle",
+    "category": "UI",
+    "maven": "https://repo1.maven.org/maven2/io/nacular/doodle/doodle/"
+  },
+  {
+    "github": "ReactiveCircus/cache4k",
+    "category": "Cache",
+    "maven": "https://repo1.maven.org/maven2/io/github/reactivecircus/cache4k/cache4k/"
+  },
+  {
+    "github": "data2viz/data2viz",
+    "category": "UI",
+    "maven": "https://dl.bintray.com/data2viz/data2viz/io/data2viz/core/"
   },
   {
     "github": "ln12/multiplatform-connectivity-status",
