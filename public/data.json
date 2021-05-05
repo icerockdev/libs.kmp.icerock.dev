@@ -1941,20 +1941,20 @@
    "full_name": "russhwolf/multiplatform-settings",
    "html_url": "https://github.com/russhwolf/multiplatform-settings",
    "description": "A Kotlin Multiplatform library for saving simple key-value data",
-   "stars_count": 515,
+   "stars_count": 516,
    "watchers_count": 9,
-   "issues_count": 23,
+   "issues_count": 24,
    "forks_count": 28,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
     "kotlin-android",
-    "kotlin-ios",
-    "kotlin-js",
-    "kotlin-jvm",
     "kotlin-library",
+    "kotlin-js",
+    "kotlin-native",
+    "kotlin-jvm",
     "kotlin-multiplatform",
-    "kotlin-native"
+    "kotlin-ios"
    ]
   },
   "category": "Storage",
@@ -4191,15 +4191,15 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9223,
+   "stars_count": 9226,
    "watchers_count": 308,
-   "issues_count": 282,
-   "forks_count": 1324,
+   "issues_count": 283,
+   "forks_count": 1325,
    "license": "Apache License 2.0",
    "topics": [
+    "kotlin",
     "async",
-    "coroutines",
-    "kotlin"
+    "coroutines"
    ]
   },
   "category": "Async",
@@ -5150,17 +5150,17 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3001,
-   "watchers_count": 96,
-   "issues_count": 310,
+   "stars_count": 3005,
+   "watchers_count": 97,
+   "issues_count": 308,
    "forks_count": 327,
    "license": "Apache License 2.0",
    "topics": [
-    "cbor",
-    "json",
     "kotlin",
+    "serialization",
+    "json",
     "protobuf",
-    "serialization"
+    "cbor"
    ]
   },
   "category": "Serialization",
@@ -5489,16 +5489,16 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8264,
+   "stars_count": 8270,
    "watchers_count": 175,
-   "issues_count": 401,
+   "issues_count": 402,
    "forks_count": 677,
    "license": "Apache License 2.0",
    "topics": [
-    "async",
-    "asynchronous",
     "kotlin",
     "web",
+    "async",
+    "asynchronous",
     "web-framework"
    ]
   },
@@ -6728,7 +6728,7 @@
    "html_url": "https://github.com/mirego/trikot.foundation",
    "description": "Core utilities for Kotlin Multiplatform",
    "stars_count": 20,
-   "watchers_count": 29,
+   "watchers_count": 30,
    "issues_count": 1,
    "forks_count": 1,
    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -9066,13 +9066,13 @@
    "html_url": "https://github.com/mirego/trikot.http",
    "description": "HTTP networking abstraction for Kotlin Multiplatform",
    "stars_count": 13,
-   "watchers_count": 29,
+   "watchers_count": 30,
    "issues_count": 1,
    "forks_count": 1,
    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
    "topics": [
-    "http",
     "kotlin",
+    "http",
     "kotlin-multiplatform",
     "trikot"
    ]
@@ -10116,13 +10116,13 @@
    "html_url": "https://github.com/mirego/trikot.kword",
    "description": "Localization library for Kotlin Multiplatform. Tailor-made for Accent.",
    "stars_count": 6,
-   "watchers_count": 26,
+   "watchers_count": 27,
    "issues_count": 2,
    "forks_count": 1,
    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
    "topics": [
-    "accent",
     "kotlin",
+    "accent",
     "kotlin-multiplatform",
     "trikot"
    ]
@@ -11734,7 +11734,7 @@
    "html_url": "https://github.com/mirego/trikot.viewmodels",
    "description": "Meta abstraction of visual components for Kotlin Multiplatform",
    "stars_count": 15,
-   "watchers_count": 29,
+   "watchers_count": 30,
    "issues_count": 2,
    "forks_count": 1,
    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -16219,15 +16219,15 @@
    "html_url": "https://github.com/mirego/trikot.streams",
    "description": "Reactive Streams for Kotlin Multiplatform with mutability checks",
    "stars_count": 34,
-   "watchers_count": 28,
+   "watchers_count": 29,
    "issues_count": 0,
    "forks_count": 1,
    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
    "topics": [
     "kotlin",
-    "kotlin-multiplatform",
     "reactive-streams",
     "streams",
+    "kotlin-multiplatform",
     "trikot"
    ]
   },
@@ -17351,12 +17351,12 @@
    "forks_count": 10,
    "license": "MIT License",
    "topics": [
+    "redux",
     "android",
-    "ios",
     "kotlin",
-    "kotlin-multiplatform",
+    "ios",
     "kotlin-native",
-    "redux"
+    "kotlin-multiplatform"
    ]
   },
   "category": "Architecture",
@@ -17871,12 +17871,12 @@
    "forks_count": 9,
    "license": "Apache License 2.0",
    "topics": [
-    "coroutines",
     "kotlin",
-    "kotlin-multiplatform",
+    "unidirectional",
+    "coroutines",
     "multiplatform",
-    "mvu",
-    "unidirectional"
+    "kotlin-multiplatform",
+    "mvu"
    ]
   },
   "category": "Architecture",
@@ -19144,15 +19144,15 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3930,
+   "stars_count": 3932,
    "watchers_count": 115,
-   "issues_count": 91,
+   "issues_count": 93,
    "forks_count": 323,
    "license": "Apache License 2.0",
    "topics": [
-    "kotlin-multiplatform",
     "sql",
-    "sqldelight"
+    "sqldelight",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Storage",
@@ -20115,10 +20115,10 @@
    "forks_count": 19,
    "license": "unknown",
    "topics": [
+    "sqlite",
     "kotlin-library",
-    "kotlin-multiplatform",
     "kotlin-native",
-    "sqlite"
+    "kotlin-multiplatform"
    ]
   },
   "category": "Storage",
@@ -20294,8 +20294,8 @@
    "forks_count": 7,
    "license": "unknown",
    "topics": [
-    "kotlin-multiplatform",
-    "kotlin-native"
+    "kotlin-native",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Storage",
@@ -20415,10 +20415,10 @@
    "license": "MIT License",
    "topics": [
     "kotlin",
-    "kotlin-multiplatform",
-    "kotlin-native",
     "reactivex",
-    "rx"
+    "rx",
+    "kotlin-native",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Reactive",
@@ -21221,12 +21221,12 @@
    "forks_count": 19,
    "license": "Apache License 2.0",
    "topics": [
-    "coroutines",
     "kotlin",
+    "coroutines",
+    "multiplatform",
     "kotlin-coroutines",
-    "kotlin-multiplatform",
     "kotlin-native",
-    "multiplatform"
+    "kotlin-multiplatform"
    ]
   },
   "category": "Concurrency",
@@ -22378,8 +22378,8 @@
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-library",
-    "kotlin-multiplatform",
-    "kotlin-native"
+    "kotlin-native",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Concurrency",
@@ -23614,13 +23614,13 @@
    "forks_count": 3,
    "license": "Apache License 2.0",
    "topics": [
-    "date",
-    "datetime",
     "kotlin",
+    "time",
+    "datetime",
+    "date",
     "kotlin-multiplatform",
-    "kotlinx-datetime",
     "kotlinx-serialization",
-    "time"
+    "kotlinx-datetime"
    ]
   },
   "category": "Time",
@@ -24431,11 +24431,11 @@
    "forks_count": 6,
    "license": "Apache License 2.0",
    "topics": [
-    "date",
     "kotlin",
-    "kotlin-multiplatform",
+    "time",
+    "date",
     "kotlin-native",
-    "time"
+    "kotlin-multiplatform"
    ]
   },
   "category": "Time",
@@ -25702,11 +25702,11 @@
    "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": [
-    "arbitrary-precision",
-    "bigdecimal",
-    "biginteger",
-    "bignum",
     "kotlin",
+    "bignum",
+    "arbitrary-precision",
+    "biginteger",
+    "bigdecimal",
     "kotlin-multiplatform"
    ]
   },
@@ -26769,32 +26769,32 @@
    "full_name": "sellmair/kompass",
    "html_url": "https://github.com/sellmair/kompass",
    "description": "Kotlin Multiplatform Router for Android and iOS",
-   "stars_count": 330,
+   "stars_count": 331,
    "watchers_count": 12,
    "issues_count": 8,
    "forks_count": 11,
    "license": "MIT License",
    "topics": [
     "android",
-    "android-library",
-    "animation",
-    "coordinator",
-    "coordinator-pattern",
-    "custom-transitions",
-    "fragments",
-    "kompass",
     "kotlin",
+    "fragments",
+    "router",
+    "animation",
+    "mvvm",
     "kotlin-android",
     "kotlin-library",
-    "kotlin-mpp",
-    "kotlin-multi-platform",
-    "kotlin-multiplatform",
+    "android-library",
+    "transition",
+    "custom-transitions",
     "multiplatform",
-    "mvvm",
+    "coordinator",
     "mvvm-architecture",
     "mvvmc",
-    "router",
-    "transition"
+    "coordinator-pattern",
+    "kotlin-multiplatform",
+    "kompass",
+    "kotlin-mpp",
+    "kotlin-multi-platform"
    ]
   },
   "category": "Navigation",
@@ -27759,17 +27759,17 @@
    "full_name": "benasher44/uuid",
    "html_url": "https://github.com/benasher44/uuid",
    "description": "Kotlin Multiplatform UUID",
-   "stars_count": 161,
+   "stars_count": 162,
    "watchers_count": 7,
    "issues_count": 5,
    "forks_count": 12,
    "license": "MIT License",
    "topics": [
     "kotlin",
-    "kotlin-multiplatform",
-    "kotlin-native",
+    "uuid",
     "multiplatform",
-    "uuid"
+    "kotlin-native",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Utils",
@@ -28238,7 +28238,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7530,
+   "stars_count": 7532,
    "watchers_count": 280,
    "issues_count": 68,
    "forks_count": 1082,
@@ -31367,8 +31367,8 @@
    "forks_count": 34,
    "license": "unknown",
    "topics": [
-    "atomic",
     "kotlin",
+    "atomic",
     "kotlinx"
    ]
   },
@@ -31850,8 +31850,8 @@
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
-    "kotlin-multiplatform",
-    "kotlin-native"
+    "kotlin-native",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Utils",
@@ -32406,16 +32406,16 @@
    "forks_count": 15,
    "license": "MIT License",
    "topics": [
-    "bot",
-    "java",
     "kotlin",
-    "kotlin-multiplatform",
-    "multiplatform",
-    "sdk-java",
+    "java",
+    "bot",
     "social-network",
     "vk",
+    "multiplatform",
     "vk-api",
-    "vk-sdk"
+    "sdk-java",
+    "vk-sdk",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Social",
@@ -32697,19 +32697,19 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 236,
+   "stars_count": 237,
    "watchers_count": 16,
-   "issues_count": 39,
+   "issues_count": 38,
    "forks_count": 34,
    "license": "Apache License 2.0",
    "topics": [
+    "kotlin",
     "firebase",
     "firebase-auth",
     "firebase-database",
-    "firebase-firestore",
-    "firebase-functions",
-    "kotlin",
     "kotlin-coroutines",
+    "firebase-functions",
+    "firebase-firestore",
     "kotlin-multiplatform"
    ]
   },
@@ -32992,19 +32992,19 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 236,
+   "stars_count": 237,
    "watchers_count": 16,
-   "issues_count": 39,
+   "issues_count": 38,
    "forks_count": 34,
    "license": "Apache License 2.0",
    "topics": [
+    "kotlin",
     "firebase",
     "firebase-auth",
     "firebase-database",
-    "firebase-firestore",
-    "firebase-functions",
-    "kotlin",
     "kotlin-coroutines",
+    "firebase-functions",
+    "firebase-firestore",
     "kotlin-multiplatform"
    ]
   },
@@ -33287,19 +33287,19 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 236,
+   "stars_count": 237,
    "watchers_count": 16,
-   "issues_count": 39,
+   "issues_count": 38,
    "forks_count": 34,
    "license": "Apache License 2.0",
    "topics": [
+    "kotlin",
     "firebase",
     "firebase-auth",
     "firebase-database",
-    "firebase-firestore",
-    "firebase-functions",
-    "kotlin",
     "kotlin-coroutines",
+    "firebase-functions",
+    "firebase-firestore",
     "kotlin-multiplatform"
    ]
   },
@@ -33582,19 +33582,19 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 236,
+   "stars_count": 237,
    "watchers_count": 16,
-   "issues_count": 39,
+   "issues_count": 38,
    "forks_count": 34,
    "license": "Apache License 2.0",
    "topics": [
+    "kotlin",
     "firebase",
     "firebase-auth",
     "firebase-database",
-    "firebase-firestore",
-    "firebase-functions",
-    "kotlin",
     "kotlin-coroutines",
+    "firebase-functions",
+    "firebase-firestore",
     "kotlin-multiplatform"
    ]
   },
@@ -33877,19 +33877,19 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 236,
+   "stars_count": 237,
    "watchers_count": 16,
-   "issues_count": 39,
+   "issues_count": 38,
    "forks_count": 34,
    "license": "Apache License 2.0",
    "topics": [
+    "kotlin",
     "firebase",
     "firebase-auth",
     "firebase-database",
-    "firebase-firestore",
-    "firebase-functions",
-    "kotlin",
     "kotlin-coroutines",
+    "firebase-functions",
+    "firebase-firestore",
     "kotlin-multiplatform"
    ]
   },
@@ -34854,20 +34854,20 @@
    "full_name": "InsanusMokrassar/TelegramBotAPI",
    "html_url": "https://github.com/InsanusMokrassar/TelegramBotAPI",
    "description": "Type-safe library for work with Telegram Bot API",
-   "stars_count": 47,
+   "stars_count": 48,
    "watchers_count": 1,
    "issues_count": 10,
    "forks_count": 8,
    "license": "Apache License 2.0",
    "topics": [
-    "hacktoberfest",
-    "hacktoberfest2020",
     "kotlin",
+    "kotlin-library",
+    "telegram-bot-api",
+    "hacktoberfest",
     "kotlin-js",
     "kotlin-jvm",
-    "kotlin-library",
     "kotlin-multiplatform",
-    "telegram-bot-api",
+    "hacktoberfest2020",
     "telegrambotapi",
     "tgbotapi"
    ]
@@ -36184,15 +36184,15 @@
    "full_name": "touchlab/Kermit",
    "html_url": "https://github.com/touchlab/Kermit",
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
-   "stars_count": 156,
+   "stars_count": 157,
    "watchers_count": 11,
    "issues_count": 11,
    "forks_count": 8,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
-    "kotlin-multiplatform",
-    "kotlin-native"
+    "kotlin-native",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Logging",
@@ -36359,14 +36359,14 @@
    "forks_count": 73,
    "license": "Apache License 2.0",
    "topics": [
-    "argument-parser",
-    "argument-parsing",
+    "kotlin",
     "cli",
     "command-line",
-    "command-line-parser",
-    "kotlin",
+    "argument-parser",
     "kotlin-library",
-    "option-parser"
+    "argument-parsing",
+    "option-parser",
+    "command-line-parser"
    ]
   },
   "category": "Utils",
@@ -36401,13 +36401,13 @@
    "license": "Apache License 2.0",
    "topics": [
     "android",
-    "android-libr",
-    "ios",
-    "ios-library",
     "kotlin",
-    "kotlin-multiplatform",
+    "ios",
+    "tools",
+    "ios-library",
     "kotlin-native",
-    "tools"
+    "kotlin-multiplatform",
+    "android-libr"
    ]
   },
   "category": "Utils",
@@ -37897,13 +37897,13 @@
    "forks_count": 1,
    "license": "Other",
    "topics": [
-    "java",
     "kotlin",
-    "kotlin-multiplatform",
+    "java",
     "tesla",
+    "vehicles",
     "tesla-api",
-    "teslamotors",
-    "vehicles"
+    "kotlin-multiplatform",
+    "teslamotors"
    ]
   },
   "category": "Integration",
@@ -38046,29 +38046,29 @@
    "full_name": "natario1/Egloo",
    "html_url": "https://github.com/natario1/Egloo",
    "description": "A lightweight Kotlin multiplatform framework for OpenGL ES and EGL management based on object-oriented components, inspired by Google's Grafika.",
-   "stars_count": 79,
+   "stars_count": 80,
    "watchers_count": 4,
    "issues_count": 6,
-   "forks_count": 11,
+   "forks_count": 12,
    "license": "MIT License",
    "topics": [
     "android",
-    "android-library",
-    "android-sdk",
-    "egl",
-    "egl-wrapper",
-    "gles",
-    "gles2",
-    "gles3",
-    "google-grafika",
     "kotlin",
-    "kotlin-multiplatform",
-    "multiplatform",
     "native",
-    "opengl-drawing",
+    "android-sdk",
+    "gles",
+    "android-library",
+    "opengles",
     "opengl-es",
+    "multiplatform",
+    "egl",
     "opengl-framework",
-    "opengles"
+    "gles2",
+    "egl-wrapper",
+    "gles3",
+    "kotlin-multiplatform",
+    "opengl-drawing",
+    "google-grafika"
    ]
   },
   "category": "UI",
@@ -38102,11 +38102,11 @@
    "license": "MIT License",
    "topics": [
     "android",
+    "kotlin",
     "android-library",
     "eventbus",
-    "eventbus-library",
-    "kotlin",
     "kotlin-coroutines",
+    "eventbus-library",
     "kotlin-multiplatform"
    ]
   },
@@ -38272,15 +38272,15 @@
    "forks_count": 3,
    "license": "GNU General Public License v3.0",
    "topics": [
-    "finite-state-machine",
-    "fsm-library",
     "kotlin",
+    "open-source",
+    "finite-state-machine",
     "kotlin-dsl",
+    "fsm-library",
     "kotlin-js",
-    "kotlin-mpp",
-    "kotlin-multiplatform",
     "kotlin-native",
-    "open-source"
+    "kotlin-multiplatform",
+    "kotlin-mpp"
    ]
   },
   "category": "Utils",
@@ -40537,8 +40537,8 @@
    "topics": [
     "kotlin",
     "kotlin-android",
-    "kotlin-multiplatform",
-    "kotlin-native"
+    "kotlin-native",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Test",
@@ -40789,10 +40789,10 @@
    "full_name": "Kotlin/kotlinx-datetime",
    "html_url": "https://github.com/Kotlin/kotlinx-datetime",
    "description": "KotlinX multiplatform date/time library",
-   "stars_count": 870,
+   "stars_count": 874,
    "watchers_count": 66,
-   "issues_count": 26,
-   "forks_count": 19,
+   "issues_count": 27,
+   "forks_count": 20,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -40942,10 +40942,10 @@
    "full_name": "JetBrains/skiko",
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin MPP bindings to Skia",
-   "stars_count": 418,
+   "stars_count": 419,
    "watchers_count": 28,
    "issues_count": 13,
-   "forks_count": 16,
+   "forks_count": 17,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -40975,10 +40975,10 @@
    "forks_count": 1,
    "license": "Apache License 2.0",
    "topics": [
-    "java",
-    "jvm",
     "kotlin",
-    "navigation"
+    "java",
+    "navigation",
+    "jvm"
    ]
   },
   "category": "Navigation",
@@ -41007,10 +41007,10 @@
    "forks_count": 1,
    "license": "Apache License 2.0",
    "topics": [
-    "java",
-    "jvm",
     "kotlin",
-    "navigation"
+    "java",
+    "navigation",
+    "jvm"
    ]
   },
   "category": "Navigation",
@@ -41039,10 +41039,10 @@
    "forks_count": 1,
    "license": "Apache License 2.0",
    "topics": [
-    "java",
-    "jvm",
     "kotlin",
-    "navigation"
+    "java",
+    "navigation",
+    "jvm"
    ]
   },
   "category": "Navigation",
@@ -41071,10 +41071,10 @@
    "forks_count": 1,
    "license": "Apache License 2.0",
    "topics": [
-    "java",
-    "jvm",
     "kotlin",
-    "navigation"
+    "java",
+    "navigation",
+    "jvm"
    ]
   },
   "category": "Navigation",
@@ -41155,10 +41155,10 @@
    "forks_count": 5,
    "license": "MIT License",
    "topics": [
-    "bson",
     "kotlin",
-    "kotlinx",
-    "serialization"
+    "serialization",
+    "bson",
+    "kotlinx"
    ]
   },
   "category": "Serialization",
@@ -41199,13 +41199,13 @@
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
-    "kotlin-multiplatform",
+    "tracking",
     "log",
     "log4j",
-    "log4k",
     "logging",
     "track",
-    "tracking"
+    "kotlin-multiplatform",
+    "log4k"
    ]
   },
   "category": "Logging",
@@ -41957,13 +41957,13 @@
    "license": "Apache License 2.0",
    "topics": [
     "android",
-    "async",
-    "coroutines",
     "kotlin",
-    "ktor",
-    "rsocket",
     "tcp",
-    "websocket"
+    "async",
+    "websocket",
+    "coroutines",
+    "ktor",
+    "rsocket"
    ]
   },
   "category": "Network",
@@ -42339,14 +42339,14 @@
    "license": "Apache License 2.0",
    "topics": [
     "android",
+    "kotlin",
+    "java",
     "dependency-injection",
     "injection",
-    "java",
-    "kotlin",
-    "kotlin-dependency-injection",
     "kotlin-library",
+    "multiplatform",
     "kotlin-multiplatform",
-    "multiplatform"
+    "kotlin-dependency-injection"
    ]
   },
   "category": "DI",
@@ -42417,9 +42417,9 @@
    "license": "MIT License",
    "topics": [
     "android",
-    "declarative",
+    "kotlin",
     "flow",
-    "kotlin"
+    "declarative"
    ]
   },
   "category": "Architecture",
@@ -42686,18 +42686,18 @@
    "full_name": "JuulLabs/kable",
    "html_url": "https://github.com/JuulLabs/kable",
    "description": "Kotlin Asynchronous Bluetooth Low-Energy",
-   "stars_count": 221,
+   "stars_count": 222,
    "watchers_count": 15,
-   "issues_count": 20,
+   "issues_count": 21,
    "forks_count": 18,
    "license": "Apache License 2.0",
    "topics": [
+    "javascript",
     "apple",
     "bluetooth-low-energy",
-    "core-bluetooth",
-    "javascript",
     "kotlin-coroutines",
-    "kotlin-multiplatform"
+    "kotlin-multiplatform",
+    "core-bluetooth"
    ]
   },
   "category": "Bluetooth",
@@ -42975,8 +42975,8 @@
    "license": "MIT License",
    "topics": [
     "kotlin",
-    "kotlin-multiplatform",
-    "qbittorrent"
+    "qbittorrent",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Integration",
@@ -43139,12 +43139,12 @@
    "forks_count": 4,
    "license": "Apache License 2.0",
    "topics": [
-    "debuglog",
-    "kotlin-compiler-plugin",
-    "kotlin-ios",
     "kotlin-js",
+    "kotlin-native",
     "kotlin-multiplatform",
-    "kotlin-native"
+    "kotlin-ios",
+    "kotlin-compiler-plugin",
+    "debuglog"
    ]
   },
   "category": "Logging",
@@ -43309,14 +43309,14 @@
    "forks_count": 73,
    "license": "Apache License 2.0",
    "topics": [
-    "argument-parser",
-    "argument-parsing",
+    "kotlin",
     "cli",
     "command-line",
-    "command-line-parser",
-    "kotlin",
+    "argument-parser",
     "kotlin-library",
-    "option-parser"
+    "argument-parsing",
+    "option-parser",
+    "command-line-parser"
    ]
   },
   "category": "CLI",
@@ -43861,15 +43861,15 @@
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
-    "complex-modules",
-    "hacktoberfest",
-    "hacktoberfest2020",
     "kotlin",
     "kotlin-android",
-    "kotlin-js",
     "kotlin-library",
+    "hacktoberfest",
+    "kotlin-js",
     "kotlin-multiplatform",
-    "kotlin-multiplatform-library"
+    "hacktoberfest2020",
+    "kotlin-multiplatform-library",
+    "complex-modules"
    ]
   },
   "category": "Utils",
@@ -44414,15 +44414,15 @@
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
-    "complex-modules",
-    "hacktoberfest",
-    "hacktoberfest2020",
     "kotlin",
     "kotlin-android",
-    "kotlin-js",
     "kotlin-library",
+    "hacktoberfest",
+    "kotlin-js",
     "kotlin-multiplatform",
-    "kotlin-multiplatform-library"
+    "hacktoberfest2020",
+    "kotlin-multiplatform-library",
+    "complex-modules"
    ]
   },
   "category": "Async",
@@ -44967,15 +44967,15 @@
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
-    "complex-modules",
-    "hacktoberfest",
-    "hacktoberfest2020",
     "kotlin",
     "kotlin-android",
-    "kotlin-js",
     "kotlin-library",
+    "hacktoberfest",
+    "kotlin-js",
     "kotlin-multiplatform",
-    "kotlin-multiplatform-library"
+    "hacktoberfest2020",
+    "kotlin-multiplatform-library",
+    "complex-modules"
    ]
   },
   "category": "Cryptography",
@@ -45520,15 +45520,15 @@
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
-    "complex-modules",
-    "hacktoberfest",
-    "hacktoberfest2020",
     "kotlin",
     "kotlin-android",
-    "kotlin-js",
     "kotlin-library",
+    "hacktoberfest",
+    "kotlin-js",
     "kotlin-multiplatform",
-    "kotlin-multiplatform-library"
+    "hacktoberfest2020",
+    "kotlin-multiplatform-library",
+    "complex-modules"
    ]
   },
   "category": "Network",
@@ -46073,15 +46073,15 @@
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
-    "complex-modules",
-    "hacktoberfest",
-    "hacktoberfest2020",
     "kotlin",
     "kotlin-android",
-    "kotlin-js",
     "kotlin-library",
+    "hacktoberfest",
+    "kotlin-js",
     "kotlin-multiplatform",
-    "kotlin-multiplatform-library"
+    "hacktoberfest2020",
+    "kotlin-multiplatform-library",
+    "complex-modules"
    ]
   },
   "category": "Network",
@@ -46626,15 +46626,15 @@
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
-    "complex-modules",
-    "hacktoberfest",
-    "hacktoberfest2020",
     "kotlin",
     "kotlin-android",
-    "kotlin-js",
     "kotlin-library",
+    "hacktoberfest",
+    "kotlin-js",
     "kotlin-multiplatform",
-    "kotlin-multiplatform-library"
+    "hacktoberfest2020",
+    "kotlin-multiplatform-library",
+    "complex-modules"
    ]
   },
   "category": "Architecture",
@@ -47179,15 +47179,15 @@
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
-    "complex-modules",
-    "hacktoberfest",
-    "hacktoberfest2020",
     "kotlin",
     "kotlin-android",
-    "kotlin-js",
     "kotlin-library",
+    "hacktoberfest",
+    "kotlin-js",
     "kotlin-multiplatform",
-    "kotlin-multiplatform-library"
+    "hacktoberfest2020",
+    "kotlin-multiplatform-library",
+    "complex-modules"
    ]
   },
   "category": "Logic",
@@ -47276,20 +47276,20 @@
    "full_name": "nacular/doodle",
    "html_url": "https://github.com/nacular/doodle",
    "description": "A pure Kotlin UI framework for the Web.",
-   "stars_count": 141,
+   "stars_count": 143,
    "watchers_count": 7,
    "issues_count": 1,
    "forks_count": 5,
    "license": "MIT License",
    "topics": [
-    "framework",
     "javascript",
     "kotlin",
-    "kotlin-js",
-    "kotlin-multiplatform",
-    "object-oriented",
+    "framework",
     "web",
-    "webapp"
+    "webapp",
+    "object-oriented",
+    "kotlin-js",
+    "kotlin-multiplatform"
    ]
   },
   "category": "UI",
@@ -47490,12 +47490,12 @@
    "forks_count": 2,
    "license": "Apache License 2.0",
    "topics": [
-    "android",
-    "cache",
-    "ios",
     "javascript",
-    "kotlin-multiplatform",
-    "macos"
+    "android",
+    "macos",
+    "ios",
+    "cache",
+    "kotlin-multiplatform"
    ]
   },
   "category": "Cache",
