@@ -49702,6 +49702,113 @@
   "maven": "https://repo1.maven.org/maven2/app/moviebase/tmdb-api/"
  },
  {
+  "groupId": "dev.atsushieno",
+  "artifactId": "ktmidi",
+  "path": "dev.atsushieno:ktmidi",
+  "latestVersion": "0.2.7.8",
+  "lastUpdated": "20210510164005",
+  "versions": [
+   {
+    "version": "0.2.7",
+    "mpp": true,
+    "gradle": "6.8.2",
+    "kotlin": "1.4.32",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "nativeApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     }
+    }
+   },
+   {
+    "version": "0.2.7.8",
+    "mpp": true,
+    "gradle": "6.8.2",
+    "kotlin": "1.4.32",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "nativeApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "ktmidi",
+   "full_name": "atsushieno/ktmidi",
+   "html_url": "https://github.com/atsushieno/ktmidi",
+   "description": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0 and SMF.",
+   "stars_count": 4,
+   "watchers_count": 1,
+   "issues_count": 4,
+   "forks_count": 0,
+   "license": "MIT License",
+   "topics": []
+  },
+  "category": "Media",
+  "maven": "https://repo1.maven.org/maven2/dev/atsushieno/ktmidi/"
+ },
+ {
   "groupId": "com.suparnatural.kotlin",
   "artifactId": "fs",
   "path": "com.suparnatural.kotlin:fs",
