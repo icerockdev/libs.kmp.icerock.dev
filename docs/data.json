@@ -4439,7 +4439,7 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9298,
+   "stars_count": 9299,
    "watchers_count": 312,
    "issues_count": 281,
    "forks_count": 1333,
@@ -5538,10 +5538,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3046,
+   "stars_count": 3049,
    "watchers_count": 96,
-   "issues_count": 324,
-   "forks_count": 341,
+   "issues_count": 323,
+   "forks_count": 342,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -20994,7 +20994,7 @@
    "full_name": "touchlab-lab/FirestoreKMP",
    "html_url": "https://github.com/touchlab-lab/FirestoreKMP",
    "description": "Firestore KMP Library",
-   "stars_count": 37,
+   "stars_count": 38,
    "watchers_count": 2,
    "issues_count": 6,
    "forks_count": 7,
@@ -33615,7 +33615,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 242,
+   "stars_count": 243,
    "watchers_count": 14,
    "issues_count": 29,
    "forks_count": 35,
@@ -33946,7 +33946,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 242,
+   "stars_count": 243,
    "watchers_count": 14,
    "issues_count": 29,
    "forks_count": 35,
@@ -34277,7 +34277,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 242,
+   "stars_count": 243,
    "watchers_count": 14,
    "issues_count": 29,
    "forks_count": 35,
@@ -34608,7 +34608,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 242,
+   "stars_count": 243,
    "watchers_count": 14,
    "issues_count": 29,
    "forks_count": 35,
@@ -34939,7 +34939,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 242,
+   "stars_count": 243,
    "watchers_count": 14,
    "issues_count": 29,
    "forks_count": 35,
@@ -49700,5 +49700,218 @@
   },
   "category": "Entertainment",
   "maven": "https://repo1.maven.org/maven2/app/moviebase/tmdb-api/"
+ },
+ {
+  "groupId": "com.suparnatural.kotlin",
+  "artifactId": "fs",
+  "path": "com.suparnatural.kotlin:fs",
+  "latestVersion": "1.1.0",
+  "lastUpdated": "20210518155500",
+  "versions": [
+   {
+    "version": "1.1.0",
+    "mpp": true,
+    "gradle": "6.5",
+    "kotlin": "1.4.20",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "kotlin-multiplatform-projects",
+   "full_name": "suparngp/kotlin-multiplatform-projects",
+   "html_url": "https://github.com/suparngp/kotlin-multiplatform-projects",
+   "description": "Kotlin Multiplatform projects.",
+   "stars_count": 76,
+   "watchers_count": 4,
+   "issues_count": 11,
+   "forks_count": 7,
+   "license": "MIT License",
+   "topics": []
+  },
+  "category": "Storage",
+  "maven": "https://repo1.maven.org/maven2/com/suparnatural/kotlin/fs/"
+ },
+ {
+  "groupId": "com.suparnatural.kotlin",
+  "artifactId": "concurrency",
+  "path": "com.suparnatural.kotlin:concurrency",
+  "latestVersion": "1.1.0",
+  "lastUpdated": "20210518190816",
+  "versions": [
+   {
+    "version": "1.1.0",
+    "mpp": true,
+    "gradle": "6.5",
+    "kotlin": "1.4.20",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "kotlin-multiplatform-projects",
+   "full_name": "suparngp/kotlin-multiplatform-projects",
+   "html_url": "https://github.com/suparngp/kotlin-multiplatform-projects",
+   "description": "Kotlin Multiplatform projects.",
+   "stars_count": 76,
+   "watchers_count": 4,
+   "issues_count": 11,
+   "forks_count": 7,
+   "license": "MIT License",
+   "topics": []
+  },
+  "category": "Concurrency",
+  "maven": "https://repo1.maven.org/maven2/com/suparnatural/kotlin/concurrency/"
+ },
+ {
+  "groupId": "com.suparnatural.kotlin",
+  "artifactId": "graphql",
+  "path": "com.suparnatural.kotlin:graphql",
+  "latestVersion": "1.1.0",
+  "lastUpdated": "20210518193855",
+  "versions": [
+   {
+    "version": "1.1.0",
+    "mpp": true,
+    "gradle": "6.5",
+    "kotlin": "1.4.20",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "kotlin-multiplatform-projects",
+   "full_name": "suparngp/kotlin-multiplatform-projects",
+   "html_url": "https://github.com/suparngp/kotlin-multiplatform-projects",
+   "description": "Kotlin Multiplatform projects.",
+   "stars_count": 76,
+   "watchers_count": 4,
+   "issues_count": 11,
+   "forks_count": 7,
+   "license": "MIT License",
+   "topics": []
+  },
+  "category": "Network",
+  "maven": "https://repo1.maven.org/maven2/com/suparnatural/kotlin/graphql/"
  }
 ]
