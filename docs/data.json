@@ -4572,7 +4572,7 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9314,
+   "stars_count": 9318,
    "watchers_count": 312,
    "issues_count": 283,
    "forks_count": 1336,
@@ -5671,10 +5671,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3062,
+   "stars_count": 3065,
    "watchers_count": 97,
-   "issues_count": 324,
-   "forks_count": 345,
+   "issues_count": 325,
+   "forks_count": 344,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -6010,9 +6010,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8349,
+   "stars_count": 8355,
    "watchers_count": 175,
-   "issues_count": 400,
+   "issues_count": 401,
    "forks_count": 683,
    "license": "Apache License 2.0",
    "topics": [
@@ -18704,7 +18704,7 @@
    "full_name": "oolong-kt/oolong",
    "html_url": "https://github.com/oolong-kt/oolong",
    "description": "MVU for Kotlin Multiplatform",
-   "stars_count": 256,
+   "stars_count": 257,
    "watchers_count": 13,
    "issues_count": 5,
    "forks_count": 9,
@@ -19983,9 +19983,9 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3969,
+   "stars_count": 3971,
    "watchers_count": 116,
-   "issues_count": 111,
+   "issues_count": 112,
    "forks_count": 324,
    "license": "Apache License 2.0",
    "topics": [
@@ -20948,7 +20948,7 @@
    "full_name": "touchlab/SQLiter",
    "html_url": "https://github.com/touchlab/SQLiter",
    "description": "Minimal multiplatform sqlite library",
-   "stars_count": 88,
+   "stars_count": 89,
    "watchers_count": 11,
    "issues_count": 22,
    "forks_count": 19,
@@ -23210,7 +23210,7 @@
    "full_name": "touchlab/Stately",
    "html_url": "https://github.com/touchlab/Stately",
    "description": "Kotlin Multiplatform State Library",
-   "stars_count": 302,
+   "stars_count": 303,
    "watchers_count": 15,
    "issues_count": 7,
    "forks_count": 20,
@@ -29253,9 +29253,9 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7548,
+   "stars_count": 7549,
    "watchers_count": 280,
-   "issues_count": 76,
+   "issues_count": 78,
    "forks_count": 1089,
    "license": "Apache License 2.0",
    "topics": []
@@ -37680,7 +37680,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1479,
+   "stars_count": 1480,
    "watchers_count": 13,
    "issues_count": 9,
    "forks_count": 75,
@@ -39444,8 +39444,8 @@
   "groupId": "io.jumpco.open",
   "artifactId": "kfsm",
   "path": "io.jumpco.open:kfsm",
-  "latestVersion": "1.4.32-SNAPSHOT",
-  "lastUpdated": "20210522075837",
+  "latestVersion": "1.4.32",
+  "lastUpdated": "20210523095248",
   "versions": [
    {
     "version": "0.1.0-SNAPSHOT",
@@ -39590,6 +39590,32 @@
    {
     "version": "1.4.32-SNAPSHOT",
     "mpp": false
+   },
+   {
+    "version": "1.4.32",
+    "mpp": true,
+    "gradle": "6.8.2",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "mingwApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -42120,7 +42146,7 @@
    "full_name": "Kotlin/kotlinx-datetime",
    "html_url": "https://github.com/Kotlin/kotlinx-datetime",
    "description": "KotlinX multiplatform date/time library",
-   "stars_count": 935,
+   "stars_count": 939,
    "watchers_count": 65,
    "issues_count": 27,
    "forks_count": 23,
@@ -44737,7 +44763,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1479,
+   "stars_count": 1480,
    "watchers_count": 13,
    "issues_count": 9,
    "forks_count": 75,
@@ -50373,7 +50399,7 @@
    "full_name": "atsushieno/ktmidi",
    "html_url": "https://github.com/atsushieno/ktmidi",
    "description": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0 and SMF.",
-   "stars_count": 4,
+   "stars_count": 5,
    "watchers_count": 1,
    "issues_count": 4,
    "forks_count": 0,
