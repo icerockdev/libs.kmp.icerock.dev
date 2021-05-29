@@ -4572,10 +4572,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9340,
+   "stars_count": 9347,
    "watchers_count": 310,
-   "issues_count": 281,
-   "forks_count": 1339,
+   "issues_count": 280,
+   "forks_count": 1340,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -5673,7 +5673,7 @@
    "description": "Kotlin multiplatform / multi-format serialization ",
    "stars_count": 3085,
    "watchers_count": 97,
-   "issues_count": 320,
+   "issues_count": 322,
    "forks_count": 343,
    "license": "Apache License 2.0",
    "topics": [
@@ -5691,8 +5691,8 @@
   "groupId": "io.ktor",
   "artifactId": "ktor-client",
   "path": "io.ktor:ktor-client",
-  "latestVersion": "1.5.4",
-  "lastUpdated": "20210429205951",
+  "latestVersion": "1.6.0",
+  "lastUpdated": "20210528074704",
   "versions": [
    {
     "version": "1.0.0-rc",
@@ -6003,6 +6003,20 @@
       "platform": "common"
      }
     }
+   },
+   {
+    "version": "1.6.0",
+    "mpp": true,
+    "gradle": "7.0.2",
+    "kotlin": "1.5.10",
+    "targets": {
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
    }
   ],
   "github": {
@@ -6010,10 +6024,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8376,
+   "stars_count": 8381,
    "watchers_count": 176,
-   "issues_count": 391,
-   "forks_count": 684,
+   "issues_count": 392,
+   "forks_count": 688,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -12494,9 +12508,9 @@
    "full_name": "mirego/trikot.viewmodels",
    "html_url": "https://github.com/mirego/trikot.viewmodels",
    "description": "Meta abstraction of visual components for Kotlin Multiplatform",
-   "stars_count": 21,
+   "stars_count": 22,
    "watchers_count": 30,
-   "issues_count": 3,
+   "issues_count": 2,
    "forks_count": 1,
    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
    "topics": [
@@ -19983,7 +19997,7 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 3986,
+   "stars_count": 3992,
    "watchers_count": 116,
    "issues_count": 113,
    "forks_count": 324,
@@ -23210,7 +23224,7 @@
    "full_name": "touchlab/Stately",
    "html_url": "https://github.com/touchlab/Stately",
    "description": "Kotlin Multiplatform State Library",
-   "stars_count": 305,
+   "stars_count": 306,
    "watchers_count": 17,
    "issues_count": 7,
    "forks_count": 20,
@@ -26815,7 +26829,7 @@
    "full_name": "ionspin/kotlin-multiplatform-bignum",
    "html_url": "https://github.com/ionspin/kotlin-multiplatform-bignum",
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
-   "stars_count": 130,
+   "stars_count": 131,
    "watchers_count": 1,
    "issues_count": 6,
    "forks_count": 16,
@@ -29357,7 +29371,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7557,
+   "stars_count": 7559,
    "watchers_count": 280,
    "issues_count": 69,
    "forks_count": 1091,
@@ -32480,7 +32494,7 @@
    "full_name": "Kotlin/kotlinx.atomicfu",
    "html_url": "https://github.com/Kotlin/kotlinx.atomicfu",
    "description": "The idiomatic way to use atomic operations in Kotlin",
-   "stars_count": 407,
+   "stars_count": 408,
    "watchers_count": 44,
    "issues_count": 32,
    "forks_count": 34,
@@ -42430,10 +42444,10 @@
    "full_name": "Kotlin/kotlinx-datetime",
    "html_url": "https://github.com/Kotlin/kotlinx-datetime",
    "description": "KotlinX multiplatform date/time library",
-   "stars_count": 946,
-   "watchers_count": 65,
-   "issues_count": 25,
-   "forks_count": 25,
+   "stars_count": 947,
+   "watchers_count": 66,
+   "issues_count": 24,
+   "forks_count": 24,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -42584,7 +42598,7 @@
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin MPP bindings to Skia",
    "stars_count": 435,
-   "watchers_count": 28,
+   "watchers_count": 27,
    "issues_count": 14,
    "forks_count": 18,
    "license": "Apache License 2.0",
@@ -43591,7 +43605,7 @@
    "full_name": "rsocket/rsocket-kotlin",
    "html_url": "https://github.com/rsocket/rsocket-kotlin",
    "description": "RSocket Kotlin multi-platform implementation",
-   "stars_count": 275,
+   "stars_count": 276,
    "watchers_count": 22,
    "issues_count": 15,
    "forks_count": 24,
@@ -51378,7 +51392,7 @@
    "description": "Kotlin Multiplatform projects.",
    "stars_count": 78,
    "watchers_count": 4,
-   "issues_count": 14,
+   "issues_count": 15,
    "forks_count": 7,
    "license": "MIT License",
    "topics": []
@@ -51443,7 +51457,7 @@
    "description": "Kotlin Multiplatform projects.",
    "stars_count": 78,
    "watchers_count": 4,
-   "issues_count": 14,
+   "issues_count": 15,
    "forks_count": 7,
    "license": "MIT License",
    "topics": []
@@ -51514,7 +51528,7 @@
    "description": "Kotlin Multiplatform projects.",
    "stars_count": 78,
    "watchers_count": 4,
-   "issues_count": 14,
+   "issues_count": 15,
    "forks_count": 7,
    "license": "MIT License",
    "topics": []
