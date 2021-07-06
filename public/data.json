@@ -52275,6 +52275,128 @@
   "maven": "https://repo1.maven.org/maven2/com/suparnatural/kotlin/graphql/"
  },
  {
+  "groupId": "com.shepeliev",
+  "artifactId": "webrtc-kmp",
+  "path": "com.shepeliev:webrtc-kmp",
+  "latestVersion": "0.89.2",
+  "lastUpdated": "20210622173446",
+  "versions": [
+   {
+    "version": "0.89",
+    "mpp": true,
+    "gradle": "6.6.1",
+    "kotlin": "1.4.31",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     }
+    }
+   },
+   {
+    "version": "0.89.1",
+    "mpp": true,
+    "gradle": "7.0.2",
+    "kotlin": "1.4.31",
+    "targets": {
+     "metadataApiElements-published": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     }
+    }
+   },
+   {
+    "version": "0.89.2",
+    "mpp": true,
+    "gradle": "7.0.2",
+    "kotlin": "1.5.10",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "webrtc-kmp",
+   "full_name": "shepeliev/webrtc-kmp",
+   "html_url": "https://github.com/shepeliev/webrtc-kmp",
+   "description": "WebRTC Kotlin Multiplatform SDK",
+   "stars_count": 3,
+   "watchers_count": 1,
+   "issues_count": 2,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": []
+  },
+  "category": "Network",
+  "maven": "https://repo1.maven.org/maven2/com/shepeliev/webrtc-kmp/"
+ },
+ {
   "groupId": "com.liftric",
   "artifactId": "kvault",
   "path": "com.liftric:kvault",
