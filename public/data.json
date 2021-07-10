@@ -2097,8 +2097,8 @@
   "groupId": "org.jetbrains.kotlinx",
   "artifactId": "kotlinx-coroutines-core",
   "path": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
-  "latestVersion": "1.5.0-native-mt",
-  "lastUpdated": "20210516205006",
+  "latestVersion": "1.5.1",
+  "lastUpdated": "20210709131216",
   "versions": [
    {
     "version": "0.19-alpha-4",
@@ -4565,6 +4565,130 @@
       "target": "watchos_x86"
      }
     }
+   },
+   {
+    "version": "1.5.1",
+    "mpp": true,
+    "gradle": "6.8.3",
+    "kotlin": "1.5.20",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "iosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacyApiElements-published": {
+      "platform": "js"
+     },
+     "jsLegacyRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsIrApiElements-published": {
+      "platform": "js"
+     },
+     "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "linuxX64ApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosX64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "mingwX64ApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwX64MetadataElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosX64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosX64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX86ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x86"
+     },
+     "watchosX86MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
    }
   ],
   "github": {
@@ -4572,9 +4696,9 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9521,
+   "stars_count": 9522,
    "watchers_count": 311,
-   "issues_count": 278,
+   "issues_count": 272,
    "forks_count": 1363,
    "license": "Apache License 2.0",
    "topics": [
@@ -5811,10 +5935,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3176,
+   "stars_count": 3178,
    "watchers_count": 99,
-   "issues_count": 345,
-   "forks_count": 362,
+   "issues_count": 347,
+   "forks_count": 363,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -6178,9 +6302,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8544,
+   "stars_count": 8546,
    "watchers_count": 177,
-   "issues_count": 365,
+   "issues_count": 357,
    "forks_count": 696,
    "license": "Apache License 2.0",
    "topics": [
@@ -19244,7 +19368,7 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 181,
+   "stars_count": 182,
    "watchers_count": 8,
    "issues_count": 17,
    "forks_count": 11,
@@ -21043,9 +21167,9 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 4058,
+   "stars_count": 4059,
    "watchers_count": 115,
-   "issues_count": 144,
+   "issues_count": 146,
    "forks_count": 331,
    "license": "Apache License 2.0",
    "topics": [
@@ -22187,7 +22311,7 @@
    "full_name": "touchlab-lab/FirestoreKMP",
    "html_url": "https://github.com/touchlab-lab/FirestoreKMP",
    "description": "Firestore KMP Library",
-   "stars_count": 39,
+   "stars_count": 38,
    "watchers_count": 2,
    "issues_count": 6,
    "forks_count": 7,
@@ -30022,10 +30146,10 @@
    "full_name": "benasher44/uuid",
    "html_url": "https://github.com/benasher44/uuid",
    "description": "Kotlin Multiplatform UUID",
-   "stars_count": 176,
+   "stars_count": 177,
    "watchers_count": 7,
    "issues_count": 5,
-   "forks_count": 13,
+   "forks_count": 14,
    "license": "MIT License",
    "topics": [
     "kotlin",
@@ -30520,7 +30644,7 @@
    "description": "A modern I/O library for Android, Kotlin, and Java.",
    "stars_count": 7615,
    "watchers_count": 283,
-   "issues_count": 73,
+   "issues_count": 74,
    "forks_count": 1094,
    "license": "Apache License 2.0",
    "topics": []
@@ -31737,7 +31861,7 @@
    "full_name": "vksdk/vk-sdk-kotlin",
    "html_url": "https://github.com/vksdk/vk-sdk-kotlin",
    "description": "Unofficial VK SDK, written in Kotlin: make bots, use the API",
-   "stars_count": 56,
+   "stars_count": 57,
    "watchers_count": 2,
    "issues_count": 4,
    "forks_count": 17,
@@ -32142,9 +32266,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 271,
+   "stars_count": 270,
    "watchers_count": 19,
-   "issues_count": 25,
+   "issues_count": 26,
    "forks_count": 38,
    "license": "Apache License 2.0",
    "topics": [
@@ -32545,9 +32669,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 271,
+   "stars_count": 270,
    "watchers_count": 19,
-   "issues_count": 25,
+   "issues_count": 26,
    "forks_count": 38,
    "license": "Apache License 2.0",
    "topics": [
@@ -32948,9 +33072,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 271,
+   "stars_count": 270,
    "watchers_count": 19,
-   "issues_count": 25,
+   "issues_count": 26,
    "forks_count": 38,
    "license": "Apache License 2.0",
    "topics": [
@@ -33351,9 +33475,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 271,
+   "stars_count": 270,
    "watchers_count": 19,
-   "issues_count": 25,
+   "issues_count": 26,
    "forks_count": 38,
    "license": "Apache License 2.0",
    "topics": [
@@ -33754,9 +33878,9 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 271,
+   "stars_count": 270,
    "watchers_count": 19,
-   "issues_count": 25,
+   "issues_count": 26,
    "forks_count": 38,
    "license": "Apache License 2.0",
    "topics": [
@@ -34733,7 +34857,7 @@
    "description": "Type-safe library for work with Telegram Bot API",
    "stars_count": 66,
    "watchers_count": 2,
-   "issues_count": 5,
+   "issues_count": 4,
    "forks_count": 9,
    "license": "Apache License 2.0",
    "topics": [
@@ -36362,7 +36486,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1515,
+   "stars_count": 1516,
    "watchers_count": 13,
    "issues_count": 10,
    "forks_count": 78,
@@ -42092,9 +42216,9 @@
    "full_name": "JuulLabs/kable",
    "html_url": "https://github.com/JuulLabs/kable",
    "description": "Kotlin Asynchronous Bluetooth Low-Energy",
-   "stars_count": 249,
+   "stars_count": 250,
    "watchers_count": 16,
-   "issues_count": 28,
+   "issues_count": 31,
    "forks_count": 24,
    "license": "Apache License 2.0",
    "topics": [
@@ -43037,7 +43161,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1515,
+   "stars_count": 1516,
    "watchers_count": 13,
    "issues_count": 10,
    "forks_count": 78,
@@ -51238,7 +51362,7 @@
    "full_name": "nacular/doodle",
    "html_url": "https://github.com/nacular/doodle",
    "description": "A pure Kotlin UI framework for the Web.",
-   "stars_count": 167,
+   "stars_count": 169,
    "watchers_count": 8,
    "issues_count": 1,
    "forks_count": 9,
