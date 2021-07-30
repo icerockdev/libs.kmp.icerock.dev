@@ -4820,9 +4820,9 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9580,
+   "stars_count": 9583,
    "watchers_count": 308,
-   "issues_count": 281,
+   "issues_count": 275,
    "forks_count": 1382,
    "license": "Apache License 2.0",
    "topics": [
@@ -6059,10 +6059,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3217,
+   "stars_count": 3222,
    "watchers_count": 99,
-   "issues_count": 355,
-   "forks_count": 368,
+   "issues_count": 356,
+   "forks_count": 367,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -6079,8 +6079,8 @@
   "groupId": "io.ktor",
   "artifactId": "ktor-client",
   "path": "io.ktor:ktor-client",
-  "latestVersion": "1.6.1",
-  "lastUpdated": "20210630171640",
+  "latestVersion": "1.6.2",
+  "lastUpdated": "20210729183332",
   "versions": [
    {
     "version": "1.0.0-rc",
@@ -6419,6 +6419,20 @@
       "platform": "jvm"
      }
     }
+   },
+   {
+    "version": "1.6.2",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "kotlin": "1.5.20",
+    "targets": {
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
    }
   ],
   "github": {
@@ -6426,10 +6440,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8608,
+   "stars_count": 8616,
    "watchers_count": 178,
-   "issues_count": 324,
-   "forks_count": 703,
+   "issues_count": 321,
+   "forks_count": 704,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -21474,9 +21488,9 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 4085,
+   "stars_count": 4086,
    "watchers_count": 115,
-   "issues_count": 147,
+   "issues_count": 145,
    "forks_count": 336,
    "license": "Apache License 2.0",
    "topics": [
@@ -30653,7 +30667,7 @@
    "full_name": "benasher44/uuid",
    "html_url": "https://github.com/benasher44/uuid",
    "description": "Kotlin Multiplatform UUID",
-   "stars_count": 179,
+   "stars_count": 180,
    "watchers_count": 7,
    "issues_count": 5,
    "forks_count": 14,
@@ -31533,7 +31547,7 @@
    "description": "Kotlin Multiplatform Statemachine library with nice DSL based on Flow from Kotlin Coroutine's.",
    "stars_count": 210,
    "watchers_count": 11,
-   "issues_count": 24,
+   "issues_count": 29,
    "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": []
@@ -32837,7 +32851,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 279,
+   "stars_count": 280,
    "watchers_count": 18,
    "issues_count": 28,
    "forks_count": 39,
@@ -33276,7 +33290,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 279,
+   "stars_count": 280,
    "watchers_count": 18,
    "issues_count": 28,
    "forks_count": 39,
@@ -33715,7 +33729,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 279,
+   "stars_count": 280,
    "watchers_count": 18,
    "issues_count": 28,
    "forks_count": 39,
@@ -34154,7 +34168,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 279,
+   "stars_count": 280,
    "watchers_count": 18,
    "issues_count": 28,
    "forks_count": 39,
@@ -34593,7 +34607,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 279,
+   "stars_count": 280,
    "watchers_count": 18,
    "issues_count": 28,
    "forks_count": 39,
@@ -37032,7 +37046,7 @@
    "full_name": "touchlab/Kermit",
    "html_url": "https://github.com/touchlab/Kermit",
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
-   "stars_count": 179,
+   "stars_count": 180,
    "watchers_count": 14,
    "issues_count": 10,
    "forks_count": 10,
@@ -37201,7 +37215,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1537,
+   "stars_count": 1538,
    "watchers_count": 13,
    "issues_count": 13,
    "forks_count": 79,
@@ -44008,7 +44022,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1537,
+   "stars_count": 1538,
    "watchers_count": 13,
    "issues_count": 13,
    "forks_count": 79,
