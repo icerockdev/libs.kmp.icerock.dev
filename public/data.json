@@ -2074,7 +2074,7 @@
    "full_name": "russhwolf/multiplatform-settings",
    "html_url": "https://github.com/russhwolf/multiplatform-settings",
    "description": "A Kotlin Multiplatform library for saving simple key-value data",
-   "stars_count": 569,
+   "stars_count": 570,
    "watchers_count": 10,
    "issues_count": 23,
    "forks_count": 28,
@@ -4820,10 +4820,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9597,
+   "stars_count": 9600,
    "watchers_count": 309,
-   "issues_count": 278,
-   "forks_count": 1383,
+   "issues_count": 271,
+   "forks_count": 1385,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -6059,7 +6059,7 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3227,
+   "stars_count": 3232,
    "watchers_count": 99,
    "issues_count": 356,
    "forks_count": 367,
@@ -6440,10 +6440,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8630,
-   "watchers_count": 178,
-   "issues_count": 319,
-   "forks_count": 705,
+   "stars_count": 8634,
+   "watchers_count": 179,
+   "issues_count": 321,
+   "forks_count": 706,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -19616,8 +19616,8 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 186,
-   "watchers_count": 8,
+   "stars_count": 187,
+   "watchers_count": 9,
    "issues_count": 16,
    "forks_count": 10,
    "license": "MIT License",
@@ -21488,10 +21488,10 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 4093,
+   "stars_count": 4095,
    "watchers_count": 116,
-   "issues_count": 145,
-   "forks_count": 337,
+   "issues_count": 143,
+   "forks_count": 338,
    "license": "Apache License 2.0",
    "topics": [
     "sql",
@@ -24831,7 +24831,7 @@
    "full_name": "touchlab/Stately",
    "html_url": "https://github.com/touchlab/Stately",
    "description": "Kotlin Multiplatform State Library",
-   "stars_count": 320,
+   "stars_count": 323,
    "watchers_count": 19,
    "issues_count": 7,
    "forks_count": 20,
@@ -30687,8 +30687,8 @@
   "groupId": "com.squareup.okio",
   "artifactId": "okio",
   "path": "com.squareup.okio:okio",
-  "latestVersion": "3.0.0-alpha.8",
-  "lastUpdated": "20210714003540",
+  "latestVersion": "3.0.0-alpha.9",
+  "lastUpdated": "20210802154021",
   "versions": [
    {
     "version": "0.5.0",
@@ -31184,6 +31184,20 @@
       "platform": "jvm"
      }
     }
+   },
+   {
+    "version": "3.0.0-alpha.9",
+    "mpp": true,
+    "gradle": "6.7.1",
+    "kotlin": "1.5.20",
+    "targets": {
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
    }
   ],
   "github": {
@@ -31191,7 +31205,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7643,
+   "stars_count": 7644,
    "watchers_count": 283,
    "issues_count": 72,
    "forks_count": 1098,
@@ -31545,9 +31559,9 @@
    "full_name": "freeletics/FlowRedux",
    "html_url": "https://github.com/freeletics/FlowRedux",
    "description": "Kotlin Multiplatform Statemachine library with nice DSL based on Flow from Kotlin Coroutine's.",
-   "stars_count": 212,
+   "stars_count": 213,
    "watchers_count": 11,
-   "issues_count": 28,
+   "issues_count": 16,
    "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": []
@@ -32851,10 +32865,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 282,
+   "stars_count": 283,
    "watchers_count": 18,
-   "issues_count": 28,
-   "forks_count": 39,
+   "issues_count": 29,
+   "forks_count": 40,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -33290,10 +33304,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 282,
+   "stars_count": 283,
    "watchers_count": 18,
-   "issues_count": 28,
-   "forks_count": 39,
+   "issues_count": 29,
+   "forks_count": 40,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -33729,10 +33743,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 282,
+   "stars_count": 283,
    "watchers_count": 18,
-   "issues_count": 28,
-   "forks_count": 39,
+   "issues_count": 29,
+   "forks_count": 40,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -34168,10 +34182,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 282,
+   "stars_count": 283,
    "watchers_count": 18,
-   "issues_count": 28,
-   "forks_count": 39,
+   "issues_count": 29,
+   "forks_count": 40,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -34607,10 +34621,10 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 282,
+   "stars_count": 283,
    "watchers_count": 18,
-   "issues_count": 28,
-   "forks_count": 39,
+   "issues_count": 29,
+   "forks_count": 40,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -37048,7 +37062,7 @@
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
    "stars_count": 180,
    "watchers_count": 14,
-   "issues_count": 20,
+   "issues_count": 18,
    "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": [
@@ -37215,9 +37229,9 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1544,
+   "stars_count": 1545,
    "watchers_count": 13,
-   "issues_count": 14,
+   "issues_count": 13,
    "forks_count": 80,
    "license": "Apache License 2.0",
    "topics": [
@@ -39285,7 +39299,7 @@
    "description": "Finite State Machine in Kotlin",
    "stars_count": 53,
    "watchers_count": 2,
-   "issues_count": 1,
+   "issues_count": 2,
    "forks_count": 3,
    "license": "Apache License 2.0",
    "topics": [
@@ -41705,7 +41719,7 @@
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin MPP bindings to Skia",
    "stars_count": 458,
-   "watchers_count": 30,
+   "watchers_count": 29,
    "issues_count": 19,
    "forks_count": 19,
    "license": "Apache License 2.0",
@@ -44022,9 +44036,9 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1544,
+   "stars_count": 1545,
    "watchers_count": 13,
-   "issues_count": 14,
+   "issues_count": 13,
    "forks_count": 80,
    "license": "Apache License 2.0",
    "topics": [
@@ -44045,8 +44059,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.common",
   "path": "dev.inmo:micro_utils.common",
-  "latestVersion": "0.5.16",
-  "lastUpdated": "20210710084435",
+  "latestVersion": "0.5.17",
+  "lastUpdated": "20210802174249",
   "versions": [
    {
     "version": "0.4.24",
@@ -45202,6 +45216,40 @@
       "platform": "js"
      },
      "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.17",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
       "platform": "js"
      },
      "jvmApiElements-published": {
@@ -45242,8 +45290,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.coroutines",
   "path": "dev.inmo:micro_utils.coroutines",
-  "latestVersion": "0.5.16",
-  "lastUpdated": "20210710084444",
+  "latestVersion": "0.5.17",
+  "lastUpdated": "20210802174259",
   "versions": [
    {
     "version": "0.4.24",
@@ -46399,6 +46447,40 @@
       "platform": "js"
      },
      "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.17",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
       "platform": "js"
      },
      "jvmApiElements-published": {
@@ -46439,8 +46521,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.crypto",
   "path": "dev.inmo:micro_utils.crypto",
-  "latestVersion": "0.5.16",
-  "lastUpdated": "20210710084453",
+  "latestVersion": "0.5.17",
+  "lastUpdated": "20210802174310",
   "versions": [
    {
     "version": "0.4.24",
@@ -47596,6 +47678,40 @@
       "platform": "js"
      },
      "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.17",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
       "platform": "js"
      },
      "jvmApiElements-published": {
@@ -47636,8 +47752,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.ktor.common",
   "path": "dev.inmo:micro_utils.ktor.common",
-  "latestVersion": "0.5.16",
-  "lastUpdated": "20210710084532",
+  "latestVersion": "0.5.17",
+  "lastUpdated": "20210802174351",
   "versions": [
    {
     "version": "0.4.24",
@@ -48793,6 +48909,40 @@
       "platform": "js"
      },
      "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.17",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
       "platform": "js"
      },
      "jvmApiElements-published": {
@@ -48833,8 +48983,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.ktor.client",
   "path": "dev.inmo:micro_utils.ktor.client",
-  "latestVersion": "0.5.16",
-  "lastUpdated": "20210710084522",
+  "latestVersion": "0.5.17",
+  "lastUpdated": "20210802174341",
   "versions": [
    {
     "version": "0.4.24",
@@ -49990,6 +50140,40 @@
       "platform": "js"
      },
      "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.17",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
       "platform": "js"
      },
      "jvmApiElements-published": {
@@ -50030,8 +50214,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.repos.common",
   "path": "dev.inmo:micro_utils.repos.common",
-  "latestVersion": "0.5.16",
-  "lastUpdated": "20210710084640",
+  "latestVersion": "0.5.17",
+  "lastUpdated": "20210802174504",
   "versions": [
    {
     "version": "0.4.24",
@@ -51187,6 +51371,40 @@
       "platform": "js"
      },
      "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.17",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
       "platform": "js"
      },
      "jvmApiElements-published": {
@@ -51227,8 +51445,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.pagination.common",
   "path": "dev.inmo:micro_utils.pagination.common",
-  "latestVersion": "0.5.16",
-  "lastUpdated": "20210710084604",
+  "latestVersion": "0.5.17",
+  "lastUpdated": "20210802174425",
   "versions": [
    {
     "version": "0.4.24",
@@ -52384,6 +52602,40 @@
       "platform": "js"
      },
      "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.17",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
       "platform": "js"
      },
      "jvmApiElements-published": {
@@ -54132,7 +54384,7 @@
    "full_name": "atsushieno/ktmidi",
    "html_url": "https://github.com/atsushieno/ktmidi",
    "description": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0 and SMF.",
-   "stars_count": 7,
+   "stars_count": 8,
    "watchers_count": 1,
    "issues_count": 4,
    "forks_count": 0,
