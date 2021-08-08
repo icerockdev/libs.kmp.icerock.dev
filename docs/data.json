@@ -4820,10 +4820,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9629,
+   "stars_count": 9638,
    "watchers_count": 313,
    "issues_count": 270,
-   "forks_count": 1388,
+   "forks_count": 1389,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -6061,8 +6061,8 @@
    "description": "Kotlin multiplatform / multi-format serialization ",
    "stars_count": 3242,
    "watchers_count": 101,
-   "issues_count": 356,
-   "forks_count": 366,
+   "issues_count": 357,
+   "forks_count": 367,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -6440,7 +6440,7 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8649,
+   "stars_count": 8652,
    "watchers_count": 178,
    "issues_count": 321,
    "forks_count": 709,
@@ -19616,7 +19616,7 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 188,
+   "stars_count": 189,
    "watchers_count": 9,
    "issues_count": 16,
    "forks_count": 10,
@@ -20139,7 +20139,7 @@
    "stars_count": 259,
    "watchers_count": 14,
    "issues_count": 5,
-   "forks_count": 9,
+   "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -21488,7 +21488,7 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 4098,
+   "stars_count": 4099,
    "watchers_count": 116,
    "issues_count": 143,
    "forks_count": 339,
@@ -27157,7 +27157,7 @@
    "full_name": "erikc5000/island-time",
    "html_url": "https://github.com/erikc5000/island-time",
    "description": "A Kotlin Multiplatform library for working with dates and times",
-   "stars_count": 63,
+   "stars_count": 64,
    "watchers_count": 2,
    "issues_count": 10,
    "forks_count": 6,
@@ -31205,7 +31205,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7647,
+   "stars_count": 7649,
    "watchers_count": 283,
    "issues_count": 73,
    "forks_count": 1098,
@@ -31561,7 +31561,7 @@
    "description": "Kotlin Multiplatform Statemachine library with nice DSL based on Flow from Kotlin Coroutine's.",
    "stars_count": 216,
    "watchers_count": 11,
-   "issues_count": 15,
+   "issues_count": 17,
    "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": []
@@ -37272,7 +37272,7 @@
    "description": "Multiplatform, pluggable, extensible, and dynamic config library which supports YAML and JSON as a source.",
    "stars_count": 15,
    "watchers_count": 3,
-   "issues_count": 13,
+   "issues_count": 12,
    "forks_count": 1,
    "license": "Apache License 2.0",
    "topics": [
@@ -39122,8 +39122,8 @@
   "groupId": "io.jumpco.open",
   "artifactId": "kfsm",
   "path": "io.jumpco.open:kfsm",
-  "latestVersion": "1.4.32",
-  "lastUpdated": "20210610131831",
+  "latestVersion": "1.5.1",
+  "lastUpdated": "20210807122806",
   "versions": [
    {
     "version": "0.1.0-SNAPSHOT",
@@ -39286,6 +39286,80 @@
       "platform": "jvm"
      },
      "mingwApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     }
+    }
+   },
+   {
+    "version": "1.5.0",
+    "mpp": true,
+    "gradle": "6.8.2",
+    "kotlin": "1.5.10",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "mingwApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwMetadataElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     }
+    }
+   },
+   {
+    "version": "1.5.1",
+    "mpp": true,
+    "gradle": "6.8.2",
+    "kotlin": "1.5.10",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "jsLegacyApiElements-published": {
+      "platform": "js"
+     },
+     "jsLegacyRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsIrApiElements-published": {
+      "platform": "js"
+     },
+     "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "mingwApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwMetadataElements-published": {
       "platform": "native",
       "target": "mingw_x64"
      }
@@ -55685,7 +55759,7 @@
    "stars_count": 9,
    "watchers_count": 4,
    "issues_count": 0,
-   "forks_count": 1,
+   "forks_count": 2,
    "license": "MIT License",
    "topics": [
     "android",
