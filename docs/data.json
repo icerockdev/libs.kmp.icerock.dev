@@ -2077,7 +2077,7 @@
    "stars_count": 573,
    "watchers_count": 10,
    "issues_count": 23,
-   "forks_count": 28,
+   "forks_count": 29,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -4822,8 +4822,8 @@
    "description": "Library support for Kotlin coroutines ",
    "stars_count": 9655,
    "watchers_count": 314,
-   "issues_count": 280,
-   "forks_count": 1390,
+   "issues_count": 281,
+   "forks_count": 1392,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -6059,9 +6059,9 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3252,
+   "stars_count": 3251,
    "watchers_count": 101,
-   "issues_count": 360,
+   "issues_count": 353,
    "forks_count": 369,
    "license": "Apache License 2.0",
    "topics": [
@@ -6440,10 +6440,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8664,
+   "stars_count": 8665,
    "watchers_count": 178,
-   "issues_count": 321,
-   "forks_count": 710,
+   "issues_count": 323,
+   "forks_count": 712,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -21490,7 +21490,7 @@
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
    "stars_count": 4103,
    "watchers_count": 116,
-   "issues_count": 146,
+   "issues_count": 148,
    "forks_count": 340,
    "license": "Apache License 2.0",
    "topics": [
@@ -28606,7 +28606,7 @@
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
    "stars_count": 142,
    "watchers_count": 1,
-   "issues_count": 7,
+   "issues_count": 6,
    "forks_count": 18,
    "license": "Apache License 2.0",
    "topics": [
@@ -31205,7 +31205,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7657,
+   "stars_count": 7656,
    "watchers_count": 284,
    "issues_count": 74,
    "forks_count": 1098,
@@ -37229,7 +37229,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1552,
+   "stars_count": 1553,
    "watchers_count": 14,
    "issues_count": 13,
    "forks_count": 80,
@@ -41792,7 +41792,7 @@
    "full_name": "JetBrains/skiko",
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin MPP bindings to Skia",
-   "stars_count": 462,
+   "stars_count": 463,
    "watchers_count": 29,
    "issues_count": 20,
    "forks_count": 20,
@@ -43238,7 +43238,7 @@
    "stars_count": 262,
    "watchers_count": 16,
    "issues_count": 27,
-   "forks_count": 24,
+   "forks_count": 25,
    "license": "Apache License 2.0",
    "topics": [
     "javascript",
@@ -44180,7 +44180,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1552,
+   "stars_count": 1553,
    "watchers_count": 14,
    "issues_count": 13,
    "forks_count": 80,
@@ -54455,8 +54455,8 @@
   "groupId": "dev.atsushieno",
   "artifactId": "ktmidi",
   "path": "dev.atsushieno:ktmidi",
-  "latestVersion": "0.3.7",
-  "lastUpdated": "20210801090802",
+  "latestVersion": "0.3.8",
+  "lastUpdated": "20210812122542",
   "versions": [
    {
     "version": "0.2.7",
@@ -54997,6 +54997,54 @@
       "target": "linux_x64"
      }
     }
+   },
+   {
+    "version": "0.3.8",
+    "mpp": true,
+    "gradle": "6.8.2",
+    "kotlin": "1.5.21",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsLegacyApiElements-published": {
+      "platform": "js"
+     },
+     "jsLegacyRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsIrApiElements-published": {
+      "platform": "js"
+     },
+     "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "nativeApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -55006,7 +55054,7 @@
    "description": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0 and SMF.",
    "stars_count": 9,
    "watchers_count": 2,
-   "issues_count": 4,
+   "issues_count": 3,
    "forks_count": 0,
    "license": "MIT License",
    "topics": []
@@ -55339,7 +55387,7 @@
    "full_name": "shepeliev/webrtc-kmp",
    "html_url": "https://github.com/shepeliev/webrtc-kmp",
    "description": "WebRTC Kotlin Multiplatform SDK",
-   "stars_count": 3,
+   "stars_count": 8,
    "watchers_count": 1,
    "issues_count": 2,
    "forks_count": 0,
@@ -56064,7 +56112,7 @@
    "full_name": "Liftric/cognito-idp",
    "html_url": "https://github.com/Liftric/cognito-idp",
    "description": "Lightweight AWS Cognito Identity Provider client for Kotlin Multiplatform and Typescript projects.",
-   "stars_count": 9,
+   "stars_count": 10,
    "watchers_count": 4,
    "issues_count": 0,
    "forks_count": 2,
