@@ -4820,10 +4820,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9668,
+   "stars_count": 9672,
    "watchers_count": 314,
-   "issues_count": 286,
-   "forks_count": 1393,
+   "issues_count": 287,
+   "forks_count": 1394,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -6059,9 +6059,9 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3256,
+   "stars_count": 3257,
    "watchers_count": 101,
-   "issues_count": 354,
+   "issues_count": 352,
    "forks_count": 371,
    "license": "Apache License 2.0",
    "topics": [
@@ -6440,10 +6440,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8672,
+   "stars_count": 8679,
    "watchers_count": 178,
    "issues_count": 325,
-   "forks_count": 712,
+   "forks_count": 711,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -21488,9 +21488,9 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 4109,
+   "stars_count": 4110,
    "watchers_count": 116,
-   "issues_count": 151,
+   "issues_count": 150,
    "forks_count": 340,
    "license": "Apache License 2.0",
    "topics": [
@@ -22455,7 +22455,7 @@
    "description": "Minimal multiplatform sqlite library",
    "stars_count": 94,
    "watchers_count": 11,
-   "issues_count": 23,
+   "issues_count": 24,
    "forks_count": 19,
    "license": "unknown",
    "topics": [
@@ -24831,7 +24831,7 @@
    "full_name": "touchlab/Stately",
    "html_url": "https://github.com/touchlab/Stately",
    "description": "Kotlin Multiplatform State Library",
-   "stars_count": 327,
+   "stars_count": 328,
    "watchers_count": 19,
    "issues_count": 7,
    "forks_count": 20,
@@ -28604,7 +28604,7 @@
    "full_name": "ionspin/kotlin-multiplatform-bignum",
    "html_url": "https://github.com/ionspin/kotlin-multiplatform-bignum",
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
-   "stars_count": 142,
+   "stars_count": 143,
    "watchers_count": 1,
    "issues_count": 6,
    "forks_count": 18,
@@ -31389,7 +31389,7 @@
    "full_name": "willowtreeapps/fuzzywuzzy-kotlin",
    "html_url": "https://github.com/willowtreeapps/fuzzywuzzy-kotlin",
    "description": "Fuzzy string matching for Kotlin (JVM, native, JS, Web Assembly) - port of Fuzzy Wuzzy Python lib",
-   "stars_count": 41,
+   "stars_count": 42,
    "watchers_count": 13,
    "issues_count": 3,
    "forks_count": 4,
@@ -35600,7 +35600,7 @@
    "description": "Type-safe library for work with Telegram Bot API",
    "stars_count": 74,
    "watchers_count": 2,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 10,
    "license": "Apache License 2.0",
    "topics": [
@@ -37229,7 +37229,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1554,
+   "stars_count": 1555,
    "watchers_count": 13,
    "issues_count": 12,
    "forks_count": 80,
@@ -44180,7 +44180,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1554,
+   "stars_count": 1555,
    "watchers_count": 13,
    "issues_count": 12,
    "forks_count": 80,
@@ -44203,8 +44203,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.common",
   "path": "dev.inmo:micro_utils.common",
-  "latestVersion": "0.5.19",
-  "lastUpdated": "20210809061601",
+  "latestVersion": "0.5.20",
+  "lastUpdated": "20210816151813",
   "versions": [
    {
     "version": "0.4.24",
@@ -45440,6 +45440,40 @@
    },
    {
     "version": "0.5.19",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.20",
     "mpp": true,
     "gradle": "7.1.1",
     "targets": {
@@ -45502,8 +45536,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.coroutines",
   "path": "dev.inmo:micro_utils.coroutines",
-  "latestVersion": "0.5.19",
-  "lastUpdated": "20210809061612",
+  "latestVersion": "0.5.20",
+  "lastUpdated": "20210816151822",
   "versions": [
    {
     "version": "0.4.24",
@@ -46739,6 +46773,40 @@
    },
    {
     "version": "0.5.19",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.20",
     "mpp": true,
     "gradle": "7.1.1",
     "targets": {
@@ -46801,8 +46869,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.crypto",
   "path": "dev.inmo:micro_utils.crypto",
-  "latestVersion": "0.5.19",
-  "lastUpdated": "20210809061621",
+  "latestVersion": "0.5.20",
+  "lastUpdated": "20210816151831",
   "versions": [
    {
     "version": "0.4.24",
@@ -48038,6 +48106,40 @@
    },
    {
     "version": "0.5.19",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.20",
     "mpp": true,
     "gradle": "7.1.1",
     "targets": {
@@ -48100,8 +48202,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.ktor.common",
   "path": "dev.inmo:micro_utils.ktor.common",
-  "latestVersion": "0.5.19",
-  "lastUpdated": "20210809061701",
+  "latestVersion": "0.5.20",
+  "lastUpdated": "20210816151911",
   "versions": [
    {
     "version": "0.4.24",
@@ -49337,6 +49439,40 @@
    },
    {
     "version": "0.5.19",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.20",
     "mpp": true,
     "gradle": "7.1.1",
     "targets": {
@@ -49399,8 +49535,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.ktor.client",
   "path": "dev.inmo:micro_utils.ktor.client",
-  "latestVersion": "0.5.19",
-  "lastUpdated": "20210809061652",
+  "latestVersion": "0.5.20",
+  "lastUpdated": "20210816151901",
   "versions": [
    {
     "version": "0.4.24",
@@ -50636,6 +50772,40 @@
    },
    {
     "version": "0.5.19",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.20",
     "mpp": true,
     "gradle": "7.1.1",
     "targets": {
@@ -50698,8 +50868,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.repos.common",
   "path": "dev.inmo:micro_utils.repos.common",
-  "latestVersion": "0.5.19",
-  "lastUpdated": "20210809061819",
+  "latestVersion": "0.5.20",
+  "lastUpdated": "20210816152033",
   "versions": [
    {
     "version": "0.4.24",
@@ -51935,6 +52105,40 @@
    },
    {
     "version": "0.5.19",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.20",
     "mpp": true,
     "gradle": "7.1.1",
     "targets": {
@@ -51997,8 +52201,8 @@
   "groupId": "dev.inmo",
   "artifactId": "micro_utils.pagination.common",
   "path": "dev.inmo:micro_utils.pagination.common",
-  "latestVersion": "0.5.19",
-  "lastUpdated": "20210809061743",
+  "latestVersion": "0.5.20",
+  "lastUpdated": "20210816151956",
   "versions": [
    {
     "version": "0.4.24",
@@ -53234,6 +53438,40 @@
    },
    {
     "version": "0.5.19",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "0.5.20",
     "mpp": true,
     "gradle": "7.1.1",
     "targets": {
