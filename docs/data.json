@@ -5352,10 +5352,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 9774,
+   "stars_count": 9779,
    "watchers_count": 314,
-   "issues_count": 290,
-   "forks_count": 1411,
+   "issues_count": 287,
+   "forks_count": 1414,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -6763,10 +6763,10 @@
    "full_name": "Kotlin/kotlinx.serialization",
    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
    "description": "Kotlin multiplatform / multi-format serialization ",
-   "stars_count": 3311,
+   "stars_count": 3313,
    "watchers_count": 98,
-   "issues_count": 335,
-   "forks_count": 385,
+   "issues_count": 331,
+   "forks_count": 384,
    "license": "Apache License 2.0",
    "topics": [
     "cbor",
@@ -7158,10 +7158,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 8749,
+   "stars_count": 8752,
    "watchers_count": 180,
-   "issues_count": 317,
-   "forks_count": 718,
+   "issues_count": 318,
+   "forks_count": 721,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -22316,10 +22316,10 @@
    "full_name": "cashapp/sqldelight",
    "html_url": "https://github.com/cashapp/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 4162,
-   "watchers_count": 115,
-   "issues_count": 167,
-   "forks_count": 345,
+   "stars_count": 4166,
+   "watchers_count": 116,
+   "issues_count": 168,
+   "forks_count": 344,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -31585,7 +31585,7 @@
    "description": "Kotlin Multiplatform UUID",
    "stars_count": 185,
    "watchers_count": 7,
-   "issues_count": 7,
+   "issues_count": 6,
    "forks_count": 15,
    "license": "MIT License",
    "topics": [
@@ -32121,7 +32121,7 @@
    "full_name": "square/okio",
    "html_url": "https://github.com/square/okio",
    "description": "A modern I/O library for Android, Kotlin, and Java.",
-   "stars_count": 7687,
+   "stars_count": 7688,
    "watchers_count": 283,
    "issues_count": 83,
    "forks_count": 1102,
@@ -32915,7 +32915,7 @@
    "full_name": "touchlab/CrashKiOS",
    "html_url": "https://github.com/touchlab/CrashKiOS",
    "description": "Crash reporting for Kotlin/Native iOS applications",
-   "stars_count": 131,
+   "stars_count": 132,
    "watchers_count": 10,
    "issues_count": 10,
    "forks_count": 11,
@@ -33564,8 +33564,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-app",
   "path": "dev.gitlive:firebase-app",
-  "latestVersion": "1.4.1",
-  "lastUpdated": "20210716103040",
+  "latestVersion": "1.4.2",
+  "lastUpdated": "20210907160333",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -33973,6 +33973,43 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.4.2",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "kotlin": "1.5.30",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -33982,7 +34019,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 299,
    "watchers_count": 19,
-   "issues_count": 31,
+   "issues_count": 30,
    "forks_count": 45,
    "license": "Apache License 2.0",
    "topics": [
@@ -34003,8 +34040,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-firestore",
   "path": "dev.gitlive:firebase-firestore",
-  "latestVersion": "1.4.1",
-  "lastUpdated": "20210716103128",
+  "latestVersion": "1.4.2",
+  "lastUpdated": "20210907160411",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -34412,6 +34449,43 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.4.2",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "kotlin": "1.5.30",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -34421,7 +34495,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 299,
    "watchers_count": 19,
-   "issues_count": 31,
+   "issues_count": 30,
    "forks_count": 45,
    "license": "Apache License 2.0",
    "topics": [
@@ -34442,8 +34516,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-auth",
   "path": "dev.gitlive:firebase-auth",
-  "latestVersion": "1.4.1",
-  "lastUpdated": "20210716103050",
+  "latestVersion": "1.4.2",
+  "lastUpdated": "20210907160341",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -34851,6 +34925,43 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.4.2",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "kotlin": "1.5.30",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -34860,7 +34971,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 299,
    "watchers_count": 19,
-   "issues_count": 31,
+   "issues_count": 30,
    "forks_count": 45,
    "license": "Apache License 2.0",
    "topics": [
@@ -34881,8 +34992,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-database",
   "path": "dev.gitlive:firebase-database",
-  "latestVersion": "1.4.1",
-  "lastUpdated": "20210716103119",
+  "latestVersion": "1.4.2",
+  "lastUpdated": "20210907160404",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -35290,6 +35401,43 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.4.2",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "kotlin": "1.5.30",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -35299,7 +35447,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 299,
    "watchers_count": 19,
-   "issues_count": 31,
+   "issues_count": 30,
    "forks_count": 45,
    "license": "Apache License 2.0",
    "topics": [
@@ -35320,8 +35468,8 @@
   "groupId": "dev.gitlive",
   "artifactId": "firebase-functions",
   "path": "dev.gitlive:firebase-functions",
-  "latestVersion": "1.4.1",
-  "lastUpdated": "20210716103138",
+  "latestVersion": "1.4.2",
+  "lastUpdated": "20210907160419",
   "versions": [
    {
     "version": "0.1.0-beta",
@@ -35729,6 +35877,43 @@
       "platform": "js"
      }
     }
+   },
+   {
+    "version": "1.4.2",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "kotlin": "1.5.30",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     }
+    }
    }
   ],
   "github": {
@@ -35738,7 +35923,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 299,
    "watchers_count": 19,
-   "issues_count": 31,
+   "issues_count": 30,
    "forks_count": 45,
    "license": "Apache License 2.0",
    "topics": [
@@ -38365,7 +38550,7 @@
    "full_name": "touchlab/Kermit",
    "html_url": "https://github.com/touchlab/Kermit",
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
-   "stars_count": 191,
+   "stars_count": 192,
    "watchers_count": 14,
    "issues_count": 31,
    "forks_count": 12,
@@ -38534,7 +38719,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1568,
+   "stars_count": 1569,
    "watchers_count": 13,
    "issues_count": 13,
    "forks_count": 80,
@@ -40356,7 +40541,7 @@
    "full_name": "natario1/Egloo",
    "html_url": "https://github.com/natario1/Egloo",
    "description": "A lightweight Kotlin multiplatform framework for OpenGL ES and EGL management based on object-oriented components, inspired by Google's Grafika.",
-   "stars_count": 85,
+   "stars_count": 86,
    "watchers_count": 3,
    "issues_count": 7,
    "forks_count": 15,
@@ -43872,9 +44057,9 @@
    "full_name": "JetBrains/skiko",
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin MPP bindings to Skia",
-   "stars_count": 472,
-   "watchers_count": 27,
-   "issues_count": 23,
+   "stars_count": 473,
+   "watchers_count": 28,
+   "issues_count": 21,
    "forks_count": 23,
    "license": "Apache License 2.0",
    "topics": []
@@ -44348,7 +44533,7 @@
    "full_name": "ajalt/colormath",
    "html_url": "https://github.com/ajalt/colormath",
    "description": "Multiplatform color space conversions for Kotlin",
-   "stars_count": 162,
+   "stars_count": 163,
    "watchers_count": 5,
    "issues_count": 1,
    "forks_count": 6,
@@ -46540,7 +46725,7 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 1568,
+   "stars_count": 1569,
    "watchers_count": 13,
    "issues_count": 13,
    "forks_count": 80,
