@@ -16,6 +16,12 @@ Add in `libraries.json` new object in array:
 ]
 ```
 
+# Fetch info algorithm about library
+1. Look up to `maven-metadata.xml` file to set `groupId`, `artifactId` and library `version`
+2. Open the `version` directory and look to `${artifactId}.module` file
+3. The `dependencies` block contains `module:kotlin-stdlib-common`. There is the Kotlin version located
+4. If there is a url link to `.module` file, follow it and do 2 and 3 steps again
+
 ## License
         
     Copyright 2020 IceRock MAG Inc.
