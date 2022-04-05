@@ -1463,9 +1463,9 @@
    "full_name": "icerockdev/moko-resources",
    "html_url": "https://github.com/icerockdev/moko-resources",
    "description": "Resources access for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 305,
+   "stars_count": 306,
    "watchers_count": 11,
-   "issues_count": 42,
+   "issues_count": 43,
    "forks_count": 33,
    "license": "Apache License 2.0",
    "topics": [
@@ -4061,7 +4061,7 @@
    "full_name": "icerockdev/moko-parcelize",
    "html_url": "https://github.com/icerockdev/moko-parcelize",
    "description": "@Parcelize support for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 39,
+   "stars_count": 40,
    "watchers_count": 4,
    "issues_count": 3,
    "forks_count": 2,
@@ -5176,7 +5176,7 @@
    "full_name": "icerockdev/moko-socket-io",
    "html_url": "https://github.com/icerockdev/moko-socket-io",
    "description": "MOKO SocketIo by IceRock is Socket.IO implementation Kotlin Multiplatform library",
-   "stars_count": 31,
+   "stars_count": 32,
    "watchers_count": 7,
    "issues_count": 3,
    "forks_count": 4,
@@ -8527,7 +8527,7 @@
    "full_name": "korlibs/klock",
    "html_url": "https://github.com/korlibs/klock",
    "description": "Multiplatform Date and time library for Kotlin",
-   "stars_count": 677,
+   "stars_count": 676,
    "watchers_count": 12,
    "issues_count": 19,
    "forks_count": 52,
@@ -11061,7 +11061,7 @@
    "full_name": "russhwolf/multiplatform-settings",
    "html_url": "https://github.com/russhwolf/multiplatform-settings",
    "description": "A Kotlin Multiplatform library for saving simple key-value data",
-   "stars_count": 718,
+   "stars_count": 719,
    "watchers_count": 12,
    "issues_count": 27,
    "forks_count": 35,
@@ -11525,8 +11525,8 @@
   "groupId": "org.jetbrains.kotlinx",
   "artifactId": "kotlinx-coroutines-core",
   "path": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
-  "latestVersion": "1.6.0-native-mt",
-  "lastUpdated": "20211222113015",
+  "latestVersion": "1.6.1",
+  "lastUpdated": "20220404154539",
   "versions": [
    {
     "version": "0.19-alpha-4",
@@ -15313,6 +15313,158 @@
       "target": "watchos_x86"
      }
     }
+   },
+   {
+    "version": "1.6.1",
+    "mpp": true,
+    "gradle": "6.8.3",
+    "kotlin": "1.6.0",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "iosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacyApiElements-published": {
+      "platform": "js"
+     },
+     "jsLegacyRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsIrApiElements-published": {
+      "platform": "js"
+     },
+     "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "linuxX64ApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosX64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "mingwX64ApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosX64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosX64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX86ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x86"
+     },
+     "watchosX86MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
    }
   ],
   "github": {
@@ -15320,9 +15472,9 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 10582,
+   "stars_count": 10585,
    "watchers_count": 304,
-   "issues_count": 249,
+   "issues_count": 241,
    "forks_count": 1546,
    "license": "Apache License 2.0",
    "topics": [
@@ -17724,9 +17876,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 9596,
+   "stars_count": 9602,
    "watchers_count": 183,
-   "issues_count": 263,
+   "issues_count": 262,
    "forks_count": 799,
    "license": "Apache License 2.0",
    "topics": [
@@ -60219,7 +60371,7 @@
    "stars_count": 4523,
    "watchers_count": 121,
    "issues_count": 196,
-   "forks_count": 378,
+   "forks_count": 379,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -64309,7 +64461,7 @@
    "html_url": "https://github.com/touchlab/Stately",
    "description": "Kotlin Multiplatform State Library",
    "stars_count": 385,
-   "watchers_count": 20,
+   "watchers_count": 21,
    "issues_count": 6,
    "forks_count": 22,
    "license": "Apache License 2.0",
@@ -70045,7 +70197,7 @@
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
    "stars_count": 178,
    "watchers_count": 2,
-   "issues_count": 8,
+   "issues_count": 9,
    "forks_count": 22,
    "license": "Apache License 2.0",
    "topics": [
@@ -71361,7 +71513,7 @@
    "full_name": "Kodein-Framework/Kodein-DI",
    "html_url": "https://github.com/Kodein-Framework/Kodein-DI",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 2749,
+   "stars_count": 2754,
    "watchers_count": 47,
    "issues_count": 5,
    "forks_count": 174,
@@ -76697,7 +76849,7 @@
    "full_name": "arkivanov/MVIKotlin",
    "html_url": "https://github.com/arkivanov/MVIKotlin",
    "description": "Extendable MVI framework for Kotlin Multiplatform with powerful debugging tools (logging and time travel)",
-   "stars_count": 255,
+   "stars_count": 256,
    "watchers_count": 7,
    "issues_count": 3,
    "forks_count": 7,
@@ -76869,7 +77021,7 @@
    "description": "Kotlin Multiplatform Statemachine library with nice DSL based on Flow from Kotlin Coroutine's.",
    "stars_count": 341,
    "watchers_count": 16,
-   "issues_count": 12,
+   "issues_count": 14,
    "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": []
@@ -77440,7 +77592,7 @@
    "html_url": "https://github.com/touchlab/CrashKiOS",
    "description": "Crash reporting for Kotlin/Native iOS applications",
    "stars_count": 146,
-   "watchers_count": 12,
+   "watchers_count": 13,
    "issues_count": 2,
    "forks_count": 12,
    "license": "Apache License 2.0",
@@ -78012,7 +78164,7 @@
    "full_name": "h0tk3y/better-parse",
    "html_url": "https://github.com/h0tk3y/better-parse",
    "description": "A nice parser combinator library for Kotlin",
-   "stars_count": 299,
+   "stars_count": 300,
    "watchers_count": 16,
    "issues_count": 26,
    "forks_count": 30,
@@ -78999,7 +79151,7 @@
    "description": ":robot:  A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.",
    "stars_count": 3081,
    "watchers_count": 114,
-   "issues_count": 122,
+   "issues_count": 123,
    "forks_count": 566,
    "license": "MIT License",
    "topics": [
@@ -80187,7 +80339,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 408,
    "watchers_count": 19,
-   "issues_count": 44,
+   "issues_count": 45,
    "forks_count": 75,
    "license": "Apache License 2.0",
    "topics": [
@@ -80745,7 +80897,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 408,
    "watchers_count": 19,
-   "issues_count": 44,
+   "issues_count": 45,
    "forks_count": 75,
    "license": "Apache License 2.0",
    "topics": [
@@ -81303,7 +81455,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 408,
    "watchers_count": 19,
-   "issues_count": 44,
+   "issues_count": 45,
    "forks_count": 75,
    "license": "Apache License 2.0",
    "topics": [
@@ -81861,7 +82013,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 408,
    "watchers_count": 19,
-   "issues_count": 44,
+   "issues_count": 45,
    "forks_count": 75,
    "license": "Apache License 2.0",
    "topics": [
@@ -82419,7 +82571,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 408,
    "watchers_count": 19,
-   "issues_count": 44,
+   "issues_count": 45,
    "forks_count": 75,
    "license": "Apache License 2.0",
    "topics": [
@@ -83540,7 +83692,7 @@
    "description": "Type-safe library for work with Telegram Bot API",
    "stars_count": 125,
    "watchers_count": 4,
-   "issues_count": 13,
+   "issues_count": 15,
    "forks_count": 9,
    "license": "Apache License 2.0",
    "topics": [
@@ -83602,7 +83754,7 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 408,
+   "stars_count": 407,
    "watchers_count": 25,
    "issues_count": 40,
    "forks_count": 176,
@@ -83680,7 +83832,7 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 408,
+   "stars_count": 407,
    "watchers_count": 25,
    "issues_count": 40,
    "forks_count": 176,
@@ -83862,7 +84014,7 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 408,
+   "stars_count": 407,
    "watchers_count": 25,
    "issues_count": 40,
    "forks_count": 176,
@@ -84004,7 +84156,7 @@
    "full_name": "robstoll/atrium",
    "html_url": "https://github.com/robstoll/atrium",
    "description": "A multiplatform assertion library for Kotlin",
-   "stars_count": 408,
+   "stars_count": 407,
    "watchers_count": 25,
    "issues_count": 40,
    "forks_count": 176,
@@ -86762,8 +86914,8 @@
    "html_url": "https://github.com/touchlab/Kermit",
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
    "stars_count": 304,
-   "watchers_count": 17,
-   "issues_count": 20,
+   "watchers_count": 18,
+   "issues_count": 21,
    "forks_count": 17,
    "license": "Apache License 2.0",
    "topics": [
@@ -91930,7 +92082,7 @@
    "html_url": "https://github.com/touchlab/Karmok",
    "description": null,
    "stars_count": 15,
-   "watchers_count": 11,
+   "watchers_count": 12,
    "issues_count": 2,
    "forks_count": 1,
    "license": "Apache License 2.0",
@@ -97190,7 +97342,7 @@
    "html_url": "https://github.com/touchlab/TestHelp",
    "description": "Some Kotlin Multiplatform test utilites",
    "stars_count": 9,
-   "watchers_count": 11,
+   "watchers_count": 12,
    "issues_count": 1,
    "forks_count": 5,
    "license": "Apache License 2.0",
@@ -102403,7 +102555,7 @@
    "description": "KotlinX multiplatform date/time library",
    "stars_count": 1289,
    "watchers_count": 67,
-   "issues_count": 50,
+   "issues_count": 49,
    "forks_count": 48,
    "license": "Apache License 2.0",
    "topics": [
@@ -102561,7 +102713,7 @@
    "description": "Kotlin MPP bindings to Skia",
    "stars_count": 828,
    "watchers_count": 28,
-   "issues_count": 40,
+   "issues_count": 39,
    "forks_count": 44,
    "license": "Apache License 2.0",
    "topics": []
@@ -104505,7 +104657,7 @@
    "full_name": "rsocket/rsocket-kotlin",
    "html_url": "https://github.com/rsocket/rsocket-kotlin",
    "description": "RSocket Kotlin multi-platform implementation",
-   "stars_count": 411,
+   "stars_count": 412,
    "watchers_count": 20,
    "issues_count": 22,
    "forks_count": 34,
@@ -105477,7 +105629,7 @@
    "full_name": "arkivanov/Decompose",
    "html_url": "https://github.com/arkivanov/Decompose",
    "description": "Kotlin Multiplatform lifecycle-aware business logic components (aka BLoCs) with routing functionality and pluggable UI (Jetpack Compose, SwiftUI, JS React, etc.)",
-   "stars_count": 431,
+   "stars_count": 432,
    "watchers_count": 9,
    "issues_count": 2,
    "forks_count": 14,
@@ -108935,7 +109087,7 @@
    "full_name": "JuulLabs/kable",
    "html_url": "https://github.com/JuulLabs/kable",
    "description": "Kotlin Asynchronous Bluetooth Low-Energy",
-   "stars_count": 396,
+   "stars_count": 397,
    "watchers_count": 19,
    "issues_count": 36,
    "forks_count": 40,
@@ -113180,7 +113332,7 @@
    "description": "Collection of tools for coding in Kotlin",
    "stars_count": 6,
    "watchers_count": 2,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
@@ -116043,7 +116195,7 @@
    "description": "Collection of tools for coding in Kotlin",
    "stars_count": 6,
    "watchers_count": 2,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
@@ -118906,7 +119058,7 @@
    "description": "Collection of tools for coding in Kotlin",
    "stars_count": 6,
    "watchers_count": 2,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
@@ -121769,7 +121921,7 @@
    "description": "Collection of tools for coding in Kotlin",
    "stars_count": 6,
    "watchers_count": 2,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
@@ -124632,7 +124784,7 @@
    "description": "Collection of tools for coding in Kotlin",
    "stars_count": 6,
    "watchers_count": 2,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
@@ -127495,7 +127647,7 @@
    "description": "Collection of tools for coding in Kotlin",
    "stars_count": 6,
    "watchers_count": 2,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
@@ -130358,7 +130510,7 @@
    "description": "Collection of tools for coding in Kotlin",
    "stars_count": 6,
    "watchers_count": 2,
-   "issues_count": 3,
+   "issues_count": 4,
    "forks_count": 0,
    "license": "Apache License 2.0",
    "topics": [
@@ -130459,7 +130611,7 @@
    "full_name": "nacular/doodle",
    "html_url": "https://github.com/nacular/doodle",
    "description": "A pure Kotlin UI framework for the Web.",
-   "stars_count": 299,
+   "stars_count": 301,
    "watchers_count": 11,
    "issues_count": 3,
    "forks_count": 12,
@@ -135645,9 +135797,9 @@
    "full_name": "joffrey-bion/krossbow",
    "html_url": "https://github.com/joffrey-bion/krossbow",
    "description": "A Kotlin multiplatform coroutine-based STOMP client over websockets, with built-in conversions.",
-   "stars_count": 63,
+   "stars_count": 64,
    "watchers_count": 3,
-   "issues_count": 8,
+   "issues_count": 9,
    "forks_count": 5,
    "license": "MIT License",
    "topics": [
@@ -135672,8 +135824,8 @@
   "groupId": "com.rickclephas.kmp",
   "artifactId": "kmp-nativecoroutines-core",
   "path": "com.rickclephas.kmp:kmp-nativecoroutines-core",
-  "latestVersion": "0.11.4-new-mm",
-  "lastUpdated": "20220403152619",
+  "latestVersion": "0.12.0-new-mm",
+  "lastUpdated": "20220404200555",
   "versions": [
    {
     "version": "0.1.0",
@@ -140678,6 +140830,272 @@
       "target": "watchos_x64"
      }
     }
+   },
+   {
+    "version": "0.12.0",
+    "mpp": true,
+    "gradle": "7.2",
+    "kotlin": "1.6.20",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacyApiElements-published": {
+      "platform": "js"
+     },
+     "jsLegacyRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsIrApiElements-published": {
+      "platform": "js"
+     },
+     "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "linuxX64ApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosX64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "mingwX64ApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosX64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosX64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     }
+    }
+   },
+   {
+    "version": "0.12.0-new-mm",
+    "mpp": true,
+    "gradle": "7.2",
+    "kotlin": "1.6.20",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsLegacyApiElements-published": {
+      "platform": "js"
+     },
+     "jsLegacyRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsIrApiElements-published": {
+      "platform": "js"
+     },
+     "jsIrRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "linuxX64ApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosX64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "mingwX64ApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosX64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosX64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -140685,9 +141103,9 @@
    "full_name": "rickclephas/KMP-NativeCoroutines",
    "html_url": "https://github.com/rickclephas/KMP-NativeCoroutines",
    "description": "Library to use Kotlin Coroutines from Swift code in KMP apps",
-   "stars_count": 275,
+   "stars_count": 276,
    "watchers_count": 7,
-   "issues_count": 13,
+   "issues_count": 11,
    "forks_count": 14,
    "license": "MIT License",
    "topics": [
