@@ -2712,7 +2712,7 @@
    "full_name": "icerockdev/moko-units",
    "html_url": "https://github.com/icerockdev/moko-units",
    "description": "Composing units into list and show in RecyclerView/UITableView/UICollectionView. Control your lists from common code for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 21,
+   "stars_count": 22,
    "watchers_count": 4,
    "issues_count": 4,
    "forks_count": 13,
@@ -4630,7 +4630,7 @@
    "full_name": "icerockdev/moko-paging",
    "html_url": "https://github.com/icerockdev/moko-paging",
    "description": "Pagination logic in common code for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 18,
+   "stars_count": 19,
    "watchers_count": 4,
    "issues_count": 3,
    "forks_count": 5,
@@ -15624,7 +15624,7 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 10595,
+   "stars_count": 10597,
    "watchers_count": 301,
    "issues_count": 241,
    "forks_count": 1544,
@@ -18028,7 +18028,7 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 9633,
+   "stars_count": 9632,
    "watchers_count": 183,
    "issues_count": 259,
    "forks_count": 801,
@@ -58674,7 +58674,7 @@
    "description": "Kotlin Multiplatform framework for managing state evolution and side-effects",
    "stars_count": 31,
    "watchers_count": 1,
-   "issues_count": 4,
+   "issues_count": 6,
    "forks_count": 3,
    "license": "Apache License 2.0",
    "topics": [
@@ -60522,7 +60522,7 @@
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
    "stars_count": 4529,
    "watchers_count": 120,
-   "issues_count": 193,
+   "issues_count": 189,
    "forks_count": 380,
    "license": "Apache License 2.0",
    "topics": [
@@ -77313,7 +77313,7 @@
    "description": "Kotlin Multiplatform Statemachine library with nice DSL based on Flow from Kotlin Coroutine's.",
    "stars_count": 343,
    "watchers_count": 16,
-   "issues_count": 14,
+   "issues_count": 15,
    "forks_count": 14,
    "license": "Apache License 2.0",
    "topics": []
@@ -77325,8 +77325,8 @@
   "groupId": "co.touchlab",
   "artifactId": "crashkios",
   "path": "co.touchlab:crashkios",
-  "latestVersion": "0.5.0",
-  "lastUpdated": "20211127194038",
+  "latestVersion": "0.6.0",
+  "lastUpdated": "20220408015518",
   "versions": [
    {
     "version": "0.2",
@@ -77876,6 +77876,135 @@
       "target": "watchos_x86"
      }
     }
+   },
+   {
+    "version": "0.6.0",
+    "mpp": true,
+    "gradle": "6.8.2",
+    "kotlin": "1.6.20",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "iosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "macosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosX64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "tvosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosX64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosX64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX86ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x86"
+     },
+     "watchosX86MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
    }
   ],
   "github": {
@@ -77885,7 +78014,7 @@
    "description": "Crash reporting for Kotlin/Native iOS applications",
    "stars_count": 146,
    "watchers_count": 13,
-   "issues_count": 2,
+   "issues_count": 1,
    "forks_count": 12,
    "license": "Apache License 2.0",
    "topics": [
@@ -79443,7 +79572,7 @@
    "description": ":robot:  A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.",
    "stars_count": 3084,
    "watchers_count": 113,
-   "issues_count": 121,
+   "issues_count": 122,
    "forks_count": 568,
    "license": "MIT License",
    "topics": [
@@ -89730,7 +89859,7 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
-   "stars_count": 7356,
+   "stars_count": 7357,
    "watchers_count": 108,
    "issues_count": 104,
    "forks_count": 555,
@@ -106327,7 +106456,7 @@
    "stars_count": 433,
    "watchers_count": 9,
    "issues_count": 4,
-   "forks_count": 14,
+   "forks_count": 15,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -142717,5 +142846,169 @@
   },
   "category": "Analytics",
   "maven": "https://repo1.maven.org/maven2/com/myunidays/segmenkt/"
+ },
+ {
+  "groupId": "com.doublesymmetry",
+  "artifactId": "multiplatform-viewmodel",
+  "path": "com.doublesymmetry:multiplatform-viewmodel",
+  "latestVersion": "0.0.1",
+  "lastUpdated": "20220407121325",
+  "versions": [
+   {
+    "version": "0.0.1",
+    "mpp": true,
+    "gradle": "7.1.1",
+    "kotlin": "1.6.10",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "commonMainMetadataElements": {
+      "platform": "common"
+     },
+     "debugApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "debugRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "releaseRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm32"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "macosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosX64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "macosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_x64"
+     },
+     "tvosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosX64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "tvosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_x64"
+     },
+     "watchosArm32ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm32MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm32"
+     },
+     "watchosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosX64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x64"
+     },
+     "watchosX86ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_x86"
+     },
+     "watchosX86MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_x86"
+     }
+    }
+   }
+  ],
+  "github": {
+   "name": "multiplatform-viewmodel",
+   "full_name": "doublesymmetry/multiplatform-viewmodel",
+   "html_url": "https://github.com/doublesymmetry/multiplatform-viewmodel",
+   "description": "Shared ViewModel in Kotlin Multiplatform",
+   "stars_count": 1,
+   "watchers_count": 1,
+   "issues_count": 0,
+   "forks_count": 0,
+   "license": "Apache License 2.0",
+   "topics": [
+    "kotlin-multiplatform",
+    "kotlin-multiplatform-mobile"
+   ]
+  },
+  "category": "Architecture",
+  "maven": "https://repo1.maven.org/maven2/com/doublesymmetry/multiplatform-viewmodel/"
  }
 ]
