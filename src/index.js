@@ -128,8 +128,8 @@ function LibraryCard(library, latestVersion, targets) {
       <Typography style={descriptionStyle}>{library.github.description}</Typography>
       <Table>
         <TableRow><TableCell><Typography>Category</Typography></TableCell><TableCell><Typography>{library.category}</Typography></TableCell></TableRow>
-        <TableRow><TableCell><Typography>Dependency name</Typography></TableCell><TableCell><Typography>{library.path}</Typography></TableCell></TableRow>
-        <TableRow><TableCell><Typography>Latest version</Typography></TableCell><TableCell><Typography>{latestVersion.version}</Typography></TableCell></TableRow>
+        <TableRow><TableCell><Typography>Dependency</Typography></TableCell><TableCell><Typography>{library.path}</Typography></TableCell></TableRow>
+        <TableRow><TableCell><Typography>Version</Typography></TableCell><TableCell><Typography>{latestVersion.version}</Typography></TableCell></TableRow>
         <TableRow><TableCell><Typography>Kotlin</Typography></TableCell><TableCell><Typography>{latestVersion.kotlin}</Typography></TableCell></TableRow>
         <TableRow><TableCell><Typography>Targets</Typography></TableCell><TableCell><Typography>{targets}</Typography></TableCell></TableRow>
       </Table>
