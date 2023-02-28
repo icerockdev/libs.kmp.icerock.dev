@@ -20,6 +20,7 @@ import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import GitHubButton from 'react-github-btn';
 import StackGrid from "react-stack-grid";
+import {Table, TableCell, TableRow} from "@material-ui/core";
 
 function Copyright() {
   return (
@@ -125,10 +126,13 @@ function LibraryCard(library, latestVersion, targets) {
         <Typography variant="subtitle1">★ {library.github.stars_count}</Typography>
       </Typography>
       <Typography style={descriptionStyle}>{library.github.description}</Typography>
-      <Typography>Category: {library.category}</Typography>
-      <Typography>Gradle: {library.path + ":" + latestVersion.version}</Typography>
-      <Typography>Kotlin: {latestVersion.kotlin}</Typography>
-      <Typography>Targets: {targets}</Typography>
+      <Table>
+        <TableRow><TableCell><Typography>Category</Typography></TableCell><TableCell><Typography>{library.category}</Typography></TableCell></TableRow>
+        <TableRow><TableCell><Typography>Dependency</Typography></TableCell><TableCell><Typography>{library.path}</Typography></TableCell></TableRow>
+        <TableRow><TableCell><Typography>Version</Typography></TableCell><TableCell><Typography>{latestVersion.version}</Typography></TableCell></TableRow>
+        <TableRow><TableCell><Typography>Kotlin</Typography></TableCell><TableCell><Typography>{latestVersion.kotlin}</Typography></TableCell></TableRow>
+        <TableRow><TableCell><Typography>Targets</Typography></TableCell><TableCell><Typography>{targets}</Typography></TableCell></TableRow>
+      </Table>
     </CardContent>
     <CardActions>
       <Button size="small" color="primary" href={library.github.html_url} target={"_blank"}>
