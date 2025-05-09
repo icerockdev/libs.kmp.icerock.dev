@@ -1,0 +1,243 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.tyczj",
+    "module": "tweedle",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "74zcsojdgfha5hy3ue6upotuiu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.2-native-mt",
+            "requires": "1.4.2-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tweedle-metadata-0.3.1-all.jar",
+          "url": "tweedle-0.3.1-all.jar",
+          "size": 35415,
+          "sha512": "687dcccb6957726eece128feac2f127f2c86d60fb70eae669f11d6db5ac78875939c85c7cbf6f0592873ac1a5232d13181a45dbc1022dd2deffd15719e1e7849",
+          "sha256": "a2026ec25a80b7deaa4fdd2ccafcfa54fc02bcdb5943ad5d7478fe01f0ddb9d2",
+          "sha1": "1275bc93299d2923024a7f78950bd06752638398",
+          "md5": "da42ffaed17b24e52dd64681acf6b70e"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tweedle-0.3.1.jar",
+          "url": "tweedle-0.3.1.jar",
+          "size": 76047,
+          "sha512": "b7b168278cefcb87d85732e0e8f049477e8f3a7bb254f6af1d7c6111a0e62fa5859a6986815c239e55d53d6b9e1cc2fdd62a0008adaed408c9c3e2d54361dded",
+          "sha256": "ae60db4baf2229366d470c5aab413a8ba76108ad466a807a6df82091749dd5f9",
+          "sha1": "ff5df6e6d19717c0d6578d10711c53fa8d6e7bab",
+          "md5": "895fafd96ac2cc8fbcb6e64bca313546"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tweedle-android-debug/0.3.1/tweedle-android-debug-0.3.1.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle-android-debug",
+        "version": "0.3.1"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tweedle-android-debug/0.3.1/tweedle-android-debug-0.3.1.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle-android-debug",
+        "version": "0.3.1"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tweedle-android/0.3.1/tweedle-android-0.3.1.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle-android",
+        "version": "0.3.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tweedle-android/0.3.1/tweedle-android-0.3.1.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle-android",
+        "version": "0.3.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../tweedle-iosarm64/0.3.1/tweedle-iosarm64-0.3.1.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle-iosarm64",
+        "version": "0.3.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../tweedle-iosarm64/0.3.1/tweedle-iosarm64-0.3.1.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle-iosarm64",
+        "version": "0.3.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../tweedle-iosx64/0.3.1/tweedle-iosx64-0.3.1.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle-iosx64",
+        "version": "0.3.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../tweedle-iosx64/0.3.1/tweedle-iosx64-0.3.1.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle-iosx64",
+        "version": "0.3.1"
+      }
+    }
+  ]
+}
