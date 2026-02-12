@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tweedle/0.3.4/tweedle-0.3.4.module",
+    "group": "io.github.tyczj",
+    "module": "tweedle",
+    "version": "0.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "j3qxdeuq2bbmtk265fazutxyom"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.2-native-mt",
+            "requires": "1.4.2-native-mt"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "1.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tweedle.klib",
+          "url": "tweedle-iosx64-0.3.4.klib",
+          "size": 261282,
+          "sha512": "feecd22128b1841af3f9a0344281649df4c80bf6fb496cdfe037a94c51f17fe9f3573e248eeeca0e30eb3c12f903aa220753caa05f7311acfea8365443f4813d",
+          "sha256": "0e3d24c48ca7f5e5cd940a7c0682f677356c9144a70a9a6e1fd60d0a4ccd5b39",
+          "sha1": "0fd3ce2ae06fbdd532df3a431fff58b50e269b5c",
+          "md5": "2b2138845b90417da4458b5c53379045"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.2-native-mt",
+            "requires": "1.4.2-native-mt"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "1.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tweedle-iosx64-0.3.4-metadata.jar",
+          "url": "tweedle-iosx64-0.3.4-metadata.jar",
+          "size": 5330,
+          "sha512": "600d0a9d61e1bb21b3686ef44c4bbb28642b6d0ffb2da94d525c6862530047c27d43f37411ad2fdafe083615f97a72be39588905e01dda270db4abbde579a058",
+          "sha256": "26f05aa1b19d91dccbb1850593fd642705a05a4a4a475e83bf016200090649a0",
+          "sha1": "a446278888ced319fa461d63228ba46b578bcb4c",
+          "md5": "450f7b73c1aee2d25d4ca813b85a2c99"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../tweedle/0.3.4/tweedle-0.3.4.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle",
+        "version": "0.3.4"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../tweedle/0.3.4/tweedle-0.3.4.module",
+        "group": "io.github.tyczj",
+        "module": "tweedle",
+        "version": "0.3.4"
+      }
+    }
+  ]
+}
