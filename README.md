@@ -1,39 +1,67 @@
-# Summary
-List of Kotlin Multiplatform libraries - https://libs.kmp.icerock.dev/. 
+# Kotlin Multiplatform libraries list
 
-All info about libraries automatically fetch from maven everyday by GitHub Scheduled Action.
+[![Website](https://img.shields.io/badge/site-libs.kmp.icerock.dev-1f6feb)](https://libs.kmp.icerock.dev/)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE.md)
 
-# How to add own lib
-Add in `libraries.json` new object in array:
-```json
-[
-  ...,
-  {
-    "github": "org/name",
-    "category": "category name",
-    "maven": "url to your metadata artifact on maven repo"
-  }
-]
+A searchable catalog of Kotlin Multiplatform libraries with metadata fetched automatically from Maven and GitHub. The site helps Kotlin teams discover reusable KMP packages by category, repository health, supported Kotlin version, and release activity.
+
+## Table of contents
+- [What this project does](#what-this-project-does)
+- [How it works](#how-it-works)
+- [Run locally](#run-locally)
+- [Add your library](#add-your-library)
+- [Repository layout](#repository-layout)
+- [License](#license)
+
+## What this project does
+This repository powers <https://libs.kmp.icerock.dev/>, a public index of Kotlin Multiplatform libraries.
+
+It is useful when you want to:
+- browse KMP libraries by category
+- compare package freshness and ecosystem metadata
+- contribute a missing library to the public catalog
+- rebuild the generated dataset locally
+
+## How it works
+1. `libraries.json` stores the source list of tracked libraries.
+2. `src/fetchLibs.js` pulls Maven metadata and enriches it with GitHub information.
+3. Generated library data is written to `public/data.json`.
+4. The React app reads that dataset and builds the static site published in `docs/`.
+
+## Run locally
+```bash
+npm install
+npm run fetch
+npm start
 ```
 
-# Fetch info algorithm about library
-1. Look up to `maven-metadata.xml` file to set `groupId`, `artifactId` and library `version`
-2. Open the `version` directory and look to `${artifactId}.module` file
-3. The `dependencies` block contains `module:kotlin-stdlib-common`. There is the Kotlin version located
-4. If there is a url link to `.module` file, follow it and do 2 and 3 steps again
+To build the published site locally:
+
+```bash
+npm run build
+```
+
+## Add your library
+Add a new object to `libraries.json` with:
+- `github` , repository in `owner/name` format
+- `category` , the group where the library should appear
+- `maven` , the Maven metadata directory URL for the artifact
+
+Example:
+
+```json
+{
+  "github": "org/name",
+  "category": "category name",
+  "maven": "url to your metadata artifact on maven repo"
+}
+```
+
+## Repository layout
+- `src/` , React app and metadata fetch logic
+- `public/` , static assets and generated `data.json`
+- `docs/` , built site published via GitHub Pages
+- `.github/workflows/update-data.yml` , scheduled refresh automation
 
 ## License
-        
-    Copyright 2020 IceRock MAG Inc.
-    
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    
-       http://www.apache.org/licenses/LICENSE-2.0
-    
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Licensed under the [Apache License 2.0](LICENSE.md).
