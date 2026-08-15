@@ -36782,9 +36782,9 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 13802,
+   "stars_count": 13803,
    "watchers_count": 289,
-   "issues_count": 336,
+   "issues_count": 338,
    "forks_count": 1944,
    "license": "Apache License 2.0",
    "topics": [
@@ -198218,7 +198218,7 @@
    "full_name": "sqldelight/sqldelight",
    "html_url": "https://github.com/sqldelight/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 6854,
+   "stars_count": 6855,
    "watchers_count": 120,
    "issues_count": 373,
    "forks_count": 576,
@@ -199378,8 +199378,8 @@
    "html_url": "https://github.com/touchlab/SQLiter",
    "description": "Minimal multiplatform sqlite library",
    "stars_count": 213,
-   "watchers_count": 15,
-   "issues_count": 38,
+   "watchers_count": 14,
+   "issues_count": 15,
    "forks_count": 47,
    "license": "Apache License 2.0",
    "topics": [
@@ -204062,7 +204062,7 @@
    "description": "Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use.",
    "stars_count": 107,
    "watchers_count": 3,
-   "issues_count": 6,
+   "issues_count": 4,
    "forks_count": 7,
    "license": "Apache License 2.0",
    "topics": [
@@ -233789,7 +233789,7 @@
    "description": "A modern I/O library for Android, Java, and Kotlin Multiplatform.",
    "stars_count": 9026,
    "watchers_count": 260,
-   "issues_count": 103,
+   "issues_count": 104,
    "forks_count": 1235,
    "license": "Apache License 2.0",
    "topics": [
@@ -234670,7 +234670,7 @@
    "description": "Crash reporting for Kotlin/Native iOS applications",
    "stars_count": 338,
    "watchers_count": 15,
-   "issues_count": 17,
+   "issues_count": 12,
    "forks_count": 17,
    "license": "Apache License 2.0",
    "topics": [
@@ -241545,8 +241545,8 @@
    "description": ":rocket:  A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.",
    "stars_count": 3970,
    "watchers_count": 108,
-   "issues_count": 110,
-   "forks_count": 695,
+   "issues_count": 114,
+   "forks_count": 696,
    "license": "MIT License",
    "topics": [
     "android",
@@ -272860,7 +272860,7 @@
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
    "stars_count": 1019,
    "watchers_count": 12,
-   "issues_count": 13,
+   "issues_count": 11,
    "forks_count": 50,
    "license": "Apache License 2.0",
    "topics": [
@@ -290037,7 +290037,7 @@
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform",
    "stars_count": 10014,
    "watchers_count": 105,
-   "issues_count": 82,
+   "issues_count": 79,
    "forks_count": 787,
    "license": "Apache License 2.0",
    "topics": [
@@ -296824,7 +296824,7 @@
    "full_name": "ACINQ/bitcoin-kmp",
    "html_url": "https://github.com/ACINQ/bitcoin-kmp",
    "description": "Kotlin Multiplatform Bitcoin Library",
-   "stars_count": 88,
+   "stars_count": 89,
    "watchers_count": 9,
    "issues_count": 5,
    "forks_count": 16,
@@ -313973,8 +313973,8 @@
    "description": "Kotlin Multiplatform bindings to Skia",
    "stars_count": 2168,
    "watchers_count": 32,
-   "issues_count": 18,
-   "forks_count": 197,
+   "issues_count": 17,
+   "forks_count": 199,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -323362,7 +323362,7 @@
    "description": "Kotlin Asynchronous Bluetooth Low-Energy",
    "stars_count": 1181,
    "watchers_count": 20,
-   "issues_count": 60,
+   "issues_count": 59,
    "forks_count": 113,
    "license": "Apache License 2.0",
    "topics": [
@@ -398376,7 +398376,7 @@
    "full_name": "xxfast/KStore",
    "html_url": "https://github.com/xxfast/KStore",
    "description": "A tiny Kotlin multiplatform library that assists in saving and restoring objects to and from disk using kotlinx.coroutines, kotlinx.serialisation and kotlinx.io",
-   "stars_count": 671,
+   "stars_count": 672,
    "watchers_count": 3,
    "issues_count": 18,
    "forks_count": 27,
@@ -449951,7 +449951,7 @@
    "description": "Kotlin Multiplatform  Push Notification Library targetting android, iOS, Desktop and Web (JS and Wasm)",
    "stars_count": 653,
    "watchers_count": 4,
-   "issues_count": 31,
+   "issues_count": 18,
    "forks_count": 45,
    "license": "Apache License 2.0",
    "topics": [
@@ -449976,8 +449976,8 @@
   "groupId": "io.github.mirzemehdi",
   "artifactId": "kmpauth-core",
   "path": "io.github.mirzemehdi:kmpauth-core",
-  "latestVersion": "3.0.4",
-  "lastUpdated": "20260806130530",
+  "latestVersion": "3.0.5",
+  "lastUpdated": "20260814125145",
   "versions": [
    {
     "version": "0.0.3",
@@ -452629,6 +452629,80 @@
       "platform": "wasm"
      }
     }
+   },
+   {
+    "version": "3.0.5",
+    "mpp": true,
+    "gradle": "9.6.1",
+    "kotlin": "2.4.0",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "androidApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "androidRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "androidSourcesElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsSourcesElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "jvmSourcesElements-published": {
+      "platform": "jvm"
+     },
+     "wasmJsApiElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsRuntimeElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsSourcesElements-published": {
+      "platform": "wasm"
+     }
+    }
    }
   ],
   "github": {
@@ -452638,7 +452712,7 @@
    "description": "Kotlin Multiplatform Authentication Library targetting android, iOS, desktop and web",
    "stars_count": 547,
    "watchers_count": 3,
-   "issues_count": 3,
+   "issues_count": 1,
    "forks_count": 52,
    "license": "Apache License 2.0",
    "topics": [
