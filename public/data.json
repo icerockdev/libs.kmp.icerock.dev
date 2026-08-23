@@ -6699,7 +6699,7 @@
    "stars_count": 1352,
    "watchers_count": 14,
    "issues_count": 174,
-   "forks_count": 137,
+   "forks_count": 138,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -36782,10 +36782,10 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 13804,
+   "stars_count": 13805,
    "watchers_count": 288,
    "issues_count": 339,
-   "forks_count": 1946,
+   "forks_count": 1947,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -38517,7 +38517,7 @@
    "stars_count": 14501,
    "watchers_count": 169,
    "issues_count": 176,
-   "forks_count": 1294,
+   "forks_count": 1295,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -198218,7 +198218,7 @@
    "full_name": "sqldelight/sqldelight",
    "html_url": "https://github.com/sqldelight/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 6861,
+   "stars_count": 6862,
    "watchers_count": 119,
    "issues_count": 365,
    "forks_count": 576,
@@ -215364,7 +215364,7 @@
    "full_name": "ionspin/kotlin-multiplatform-bignum",
    "html_url": "https://github.com/ionspin/kotlin-multiplatform-bignum",
    "description": "A Kotlin multiplatform library for arbitrary precision arithmetics",
-   "stars_count": 477,
+   "stars_count": 478,
    "watchers_count": 3,
    "issues_count": 42,
    "forks_count": 49,
@@ -223317,7 +223317,7 @@
    "full_name": "kosi-libs/Kodein",
    "html_url": "https://github.com/kosi-libs/Kodein",
    "description": "Painless Kotlin Dependency Injection",
-   "stars_count": 3334,
+   "stars_count": 3335,
    "watchers_count": 46,
    "issues_count": 8,
    "forks_count": 177,
@@ -233787,7 +233787,7 @@
    "full_name": "lysine-dev/okio",
    "html_url": "https://github.com/lysine-dev/okio",
    "description": "A modern I/O library for Android, Java, and Kotlin Multiplatform.",
-   "stars_count": 9034,
+   "stars_count": 9035,
    "watchers_count": 260,
    "issues_count": 103,
    "forks_count": 1235,
@@ -241744,7 +241744,7 @@
    "full_name": "apollographql/apollo-kotlin",
    "html_url": "https://github.com/apollographql/apollo-kotlin",
    "description": ":rocket:  A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.",
-   "stars_count": 3972,
+   "stars_count": 3973,
    "watchers_count": 108,
    "issues_count": 108,
    "forks_count": 696,
@@ -273171,7 +273171,7 @@
    "full_name": "touchlab/Kermit",
    "html_url": "https://github.com/touchlab/Kermit",
    "description": "Kermit by Touchlab is a Kotlin Multiplatform centralized logging utility. ",
-   "stars_count": 1022,
+   "stars_count": 1023,
    "watchers_count": 12,
    "issues_count": 12,
    "forks_count": 51,
@@ -314284,7 +314284,7 @@
    "full_name": "JetBrains/skiko",
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin Multiplatform bindings to Skia",
-   "stars_count": 2172,
+   "stars_count": 2173,
    "watchers_count": 32,
    "issues_count": 17,
    "forks_count": 200,
@@ -323676,7 +323676,7 @@
    "stars_count": 1184,
    "watchers_count": 20,
    "issues_count": 57,
-   "forks_count": 112,
+   "forks_count": 113,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -343874,7 +343874,7 @@
    "stars_count": 315,
    "watchers_count": 5,
    "issues_count": 19,
-   "forks_count": 59,
+   "forks_count": 60,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -444108,8 +444108,8 @@
   "groupId": "ovh.plrapps",
   "artifactId": "mapcompose-mp",
   "path": "ovh.plrapps:mapcompose-mp",
-  "latestVersion": "1.1.1",
-  "lastUpdated": "20260619070531",
+  "latestVersion": "1.1.2",
+  "lastUpdated": "20260822083718",
   "versions": [
    {
     "version": "0.9.1",
@@ -445420,6 +445420,82 @@
     "mpp": true,
     "gradle": "9.4.1",
     "kotlin": "2.4.0",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "androidApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "androidRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "androidSourcesElements-published": {
+      "platform": "androidJvm"
+     },
+     "desktopApiElements-published": {
+      "platform": "jvm"
+     },
+     "desktopRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "desktopSourcesElements-published": {
+      "platform": "jvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64ResourcesElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64ResourcesElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "wasmJsApiElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsRuntimeElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsSourcesElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsResourcesElements-published": {
+      "platform": "wasm"
+     }
+    }
+   },
+   {
+    "version": "1.1.2",
+    "mpp": true,
+    "gradle": "9.5.0",
+    "kotlin": "2.4.10",
     "targets": {
      "metadataApiElements": {
       "platform": "common"
@@ -448221,7 +448297,7 @@
    "stars_count": 35,
    "watchers_count": 4,
    "issues_count": 0,
-   "forks_count": 5,
+   "forks_count": 4,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -450492,7 +450568,7 @@
    "full_name": "mirzemehdi/KMPNotifier",
    "html_url": "https://github.com/mirzemehdi/KMPNotifier",
    "description": "Kotlin Multiplatform  Push Notification Library targetting android, iOS, Desktop and Web (JS and Wasm)",
-   "stars_count": 655,
+   "stars_count": 656,
    "watchers_count": 4,
    "issues_count": 18,
    "forks_count": 45,
