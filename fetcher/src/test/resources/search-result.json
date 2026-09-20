@@ -1,0 +1,75 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 4,
+    "params": {
+      "q": "l:metadata",
+      "core": "",
+      "indent": "off",
+      "fl": "id,g,a,v,p,ec,timestamp,tags",
+      "start": "0",
+      "sort": "score desc,timestamp desc,g asc,a asc,v desc",
+      "rows": "20",
+      "wt": "json",
+      "version": "2.2"
+    }
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "docs": [
+      {
+        "id": "io.github.tyczj:tweedle-iosx64:0.3.4",
+        "g": "io.github.tyczj",
+        "a": "tweedle-iosx64",
+        "v": "0.3.4",
+        "p": "klib",
+        "timestamp": 1622337970000,
+        "ec": [
+          ".klib",
+          "-metadata.jar",
+          ".module.asc.sha256",
+          "-metadata.jar.asc.sha512",
+          "-metadata.jar.sha512",
+          ".pom.asc.sha512",
+          ".pom.sha256",
+          "-sources.jar.sha256",
+          "-javadoc.jar.asc.sha512",
+          ".klib.sha512",
+          ".module.asc.sha512",
+          ".pom",
+          "-metadata.jar.sha256",
+          "-sources.jar.asc.sha256",
+          ".pom.asc.sha256",
+          "-javadoc.jar",
+          "-sources.jar",
+          "-metadata.jar.asc.sha256",
+          ".module",
+          "-javadoc.jar.asc.sha256",
+          "-javadoc.jar.sha512",
+          "-sources.jar.sha512",
+          ".module.sha512",
+          ".klib.asc.sha512",
+          ".klib.sha256",
+          ".module.sha256",
+          "-sources.jar.asc.sha512",
+          ".klib.asc.sha256",
+          ".pom.sha512",
+          "-javadoc.jar.sha256"
+        ],
+        "tags": [
+          "twitter",
+          "using",
+          "kotlin",
+          "android",
+          "library",
+          "tweedle",
+          "built",
+          "fully",
+          "coroutines",
+          "around"
+        ]
+      }
+    ]
+  }
+}
