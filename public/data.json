@@ -37379,7 +37379,7 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 13818,
+   "stars_count": 13820,
    "watchers_count": 290,
    "issues_count": 344,
    "forks_count": 1950,
@@ -39134,10 +39134,10 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 14536,
+   "stars_count": 14537,
    "watchers_count": 171,
    "issues_count": 200,
-   "forks_count": 1313,
+   "forks_count": 1315,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -201570,7 +201570,7 @@
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
    "stars_count": 6887,
    "watchers_count": 119,
-   "issues_count": 370,
+   "issues_count": 371,
    "forks_count": 582,
    "license": "Apache License 2.0",
    "topics": [
@@ -207412,7 +207412,7 @@
    "description": "Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use.",
    "stars_count": 109,
    "watchers_count": 3,
-   "issues_count": 3,
+   "issues_count": 2,
    "forks_count": 7,
    "license": "Apache License 2.0",
    "topics": [
@@ -227497,7 +227497,7 @@
    "description": "Kotlin Multiplatform BLE library for iOS, Android, macos, windows and javascript",
    "stars_count": 488,
    "watchers_count": 4,
-   "issues_count": 12,
+   "issues_count": 22,
    "forks_count": 65,
    "license": "Apache License 2.0",
    "topics": []
@@ -237367,7 +237367,7 @@
    "full_name": "lysine-dev/okio",
    "html_url": "https://github.com/lysine-dev/okio",
    "description": "A modern I/O library for Android, Java, and Kotlin Multiplatform.",
-   "stars_count": 9046,
+   "stars_count": 9048,
    "watchers_count": 266,
    "issues_count": 106,
    "forks_count": 1238,
@@ -269580,7 +269580,7 @@
    "description": "Type-safe library for work with Telegram Bot API",
    "stars_count": 442,
    "watchers_count": 4,
-   "issues_count": 18,
+   "issues_count": 22,
    "forks_count": 37,
    "license": "Apache License 2.0",
    "topics": [
@@ -295772,7 +295772,7 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform",
-   "stars_count": 10022,
+   "stars_count": 10023,
    "watchers_count": 105,
    "issues_count": 72,
    "forks_count": 791,
@@ -319807,7 +319807,7 @@
    "full_name": "JetBrains/skiko",
    "html_url": "https://github.com/JetBrains/skiko",
    "description": "Kotlin Multiplatform bindings to Skia",
-   "stars_count": 2191,
+   "stars_count": 2190,
    "watchers_count": 32,
    "issues_count": 21,
    "forks_count": 206,
@@ -335276,8 +335276,8 @@
    "description": "Multiplatform command line interface parsing for Kotlin",
    "stars_count": 3014,
    "watchers_count": 11,
-   "issues_count": 37,
-   "forks_count": 136,
+   "issues_count": 38,
+   "forks_count": 137,
    "license": "Apache License 2.0",
    "topics": [
     "argument-parser",
@@ -394173,7 +394173,7 @@
    "description": "Library to use Kotlin Coroutines from Swift code in KMP apps",
    "stars_count": 1326,
    "watchers_count": 15,
-   "issues_count": 12,
+   "issues_count": 13,
    "forks_count": 50,
    "license": "MIT License",
    "topics": [
@@ -443560,8 +443560,8 @@
   "groupId": "eu.vendeli",
   "artifactId": "telegram-bot",
   "path": "eu.vendeli:telegram-bot",
-  "latestVersion": "9.6.0",
-  "lastUpdated": "20260714151549",
+  "latestVersion": "9.7.0",
+  "lastUpdated": "20261004174744",
   "versions": [
    {
     "version": "1.3.1",
@@ -448064,6 +448064,74 @@
       "target": "mingw_x64"
      }
     }
+   },
+   {
+    "version": "9.7.0",
+    "mpp": true,
+    "gradle": "9.8.0",
+    "kotlin": "2.4.20",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsSourcesElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "jvmSourcesElements-published": {
+      "platform": "jvm"
+     },
+     "linuxArm64ApiElements-published": {
+      "platform": "native",
+      "target": "linux_arm64"
+     },
+     "linuxArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "linux_arm64"
+     },
+     "linuxX64ApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "linuxX64SourcesElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "mingwX64ApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwX64SourcesElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     }
+    }
    }
   ],
   "github": {
@@ -448073,7 +448141,7 @@
    "description": "Telegram Bot API wrapper with handy Kotlin DSL.",
    "stars_count": 249,
    "watchers_count": 2,
-   "issues_count": 4,
+   "issues_count": 5,
    "forks_count": 19,
    "license": "Apache License 2.0",
    "topics": [
@@ -466220,7 +466288,7 @@
    "full_name": "Kamel-Media/Kamel",
    "html_url": "https://github.com/Kamel-Media/Kamel",
    "description": "Kotlin asynchronous media loading and caching library for Compose. ",
-   "stars_count": 796,
+   "stars_count": 795,
    "watchers_count": 12,
    "issues_count": 31,
    "forks_count": 30,
