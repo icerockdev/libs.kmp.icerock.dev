@@ -37379,9 +37379,9 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 13825,
+   "stars_count": 13824,
    "watchers_count": 290,
-   "issues_count": 347,
+   "issues_count": 348,
    "forks_count": 1954,
    "license": "Apache License 2.0",
    "topics": [
@@ -199360,7 +199360,7 @@
    "full_name": "reduxkotlin/redux-kotlin",
    "html_url": "https://github.com/reduxkotlin/redux-kotlin",
    "description": "Redux implementation for Kotlin (supports multiplatform JVM, native, JS, WASM)",
-   "stars_count": 511,
+   "stars_count": 512,
    "watchers_count": 7,
    "issues_count": 34,
    "forks_count": 37,
@@ -202116,7 +202116,7 @@
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
    "stars_count": 6899,
    "watchers_count": 119,
-   "issues_count": 371,
+   "issues_count": 372,
    "forks_count": 581,
    "license": "Apache License 2.0",
    "topics": [
@@ -216438,8 +216438,8 @@
    "description": "Logging library for Kotlin Multiplatform",
    "stars_count": 1003,
    "watchers_count": 14,
-   "issues_count": 30,
-   "forks_count": 42,
+   "issues_count": 31,
+   "forks_count": 43,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-js",
@@ -228044,7 +228044,7 @@
    "stars_count": 489,
    "watchers_count": 4,
    "issues_count": 1,
-   "forks_count": 65,
+   "forks_count": 64,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -237913,9 +237913,9 @@
    "full_name": "lysine-dev/okio",
    "html_url": "https://github.com/lysine-dev/okio",
    "description": "A modern I/O library for Android, Java, and Kotlin Multiplatform.",
-   "stars_count": 9053,
-   "watchers_count": 266,
-   "issues_count": 109,
+   "stars_count": 9051,
+   "watchers_count": 265,
+   "issues_count": 105,
    "forks_count": 1240,
    "license": "Apache License 2.0",
    "topics": [
@@ -246071,9 +246071,9 @@
    "full_name": "apollographql/apollo-kotlin",
    "html_url": "https://github.com/apollographql/apollo-kotlin",
    "description": ":rocket:  A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.",
-   "stars_count": 3978,
+   "stars_count": 3977,
    "watchers_count": 109,
-   "issues_count": 115,
+   "issues_count": 113,
    "forks_count": 700,
    "license": "MIT License",
    "topics": [
@@ -249959,7 +249959,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 1731,
+   "stars_count": 1732,
    "watchers_count": 21,
    "issues_count": 103,
    "forks_count": 198,
@@ -253217,7 +253217,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 1731,
+   "stars_count": 1732,
    "watchers_count": 21,
    "issues_count": 103,
    "forks_count": 198,
@@ -256104,7 +256104,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 1731,
+   "stars_count": 1732,
    "watchers_count": 21,
    "issues_count": 103,
    "forks_count": 198,
@@ -259362,7 +259362,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 1731,
+   "stars_count": 1732,
    "watchers_count": 21,
    "issues_count": 103,
    "forks_count": 198,
@@ -262620,7 +262620,7 @@
    "full_name": "GitLiveApp/firebase-kotlin-sdk",
    "html_url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
    "description": "A Kotlin-first SDK for Firebase",
-   "stars_count": 1731,
+   "stars_count": 1732,
    "watchers_count": 21,
    "issues_count": 103,
    "forks_count": 198,
@@ -270264,8 +270264,8 @@
   "groupId": "ch.tutteli.atrium",
   "artifactId": "atrium-core",
   "path": "ch.tutteli.atrium:atrium-core",
-  "latestVersion": "1.3.0-alpha-2",
-  "lastUpdated": "20250614215530",
+  "latestVersion": "1.3.0",
+  "lastUpdated": "20261021074319",
   "versions": [
    {
     "version": "0.17.0-RC1",
@@ -270539,6 +270539,38 @@
     "version": "1.3.0-alpha-2",
     "mpp": true,
     "gradle": "8.12",
+    "kotlin": "2.0.21",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsSourcesElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "jvmSourcesElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "1.3.0",
+    "mpp": true,
+    "gradle": "8.14.6",
     "kotlin": "2.0.21",
     "targets": {
      "metadataApiElements": {
@@ -296429,19 +296461,23 @@
    "name": "koin",
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
-   "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform",
-   "stars_count": 10022,
+   "description": "Koin - pragmatic dependency injection for Kotlin & Kotlin Multiplatform. Koin DSL or Koin Annotations (JSR-330), compile safe with the Koin Compiler Plugin.",
+   "stars_count": 10021,
    "watchers_count": 106,
    "issues_count": 75,
    "forks_count": 791,
    "license": "Apache License 2.0",
    "topics": [
     "android",
+    "compose-multiplatform",
     "dependency-injection",
     "injection",
+    "jsr-330",
+    "koin",
     "kotlin",
     "kotlin-multiplatform",
     "kotlin-multiplatform-library",
+    "ktor",
     "library"
    ]
   },
@@ -320457,7 +320493,7 @@
    "description": "Kotlin Multiplatform bindings to Skia",
    "stars_count": 2192,
    "watchers_count": 31,
-   "issues_count": 21,
+   "issues_count": 20,
    "forks_count": 208,
    "license": "Apache License 2.0",
    "topics": []
@@ -330222,7 +330258,7 @@
    "description": "Kotlin Asynchronous Bluetooth Low-Energy",
    "stars_count": 1202,
    "watchers_count": 20,
-   "issues_count": 78,
+   "issues_count": 77,
    "forks_count": 113,
    "license": "Apache License 2.0",
    "topics": [
@@ -335922,10 +335958,10 @@
    "full_name": "ajalt/clikt",
    "html_url": "https://github.com/ajalt/clikt",
    "description": "Multiplatform command line interface parsing for Kotlin",
-   "stars_count": 3019,
+   "stars_count": 3018,
    "watchers_count": 11,
    "issues_count": 40,
-   "forks_count": 140,
+   "forks_count": 137,
    "license": "Apache License 2.0",
    "topics": [
     "argument-parser",
@@ -341053,7 +341089,7 @@
    "full_name": "ReactiveCircus/cache4k",
    "html_url": "https://github.com/ReactiveCircus/cache4k",
    "description": "In-memory Cache for Kotlin Multiplatform.",
-   "stars_count": 377,
+   "stars_count": 378,
    "watchers_count": 6,
    "issues_count": 12,
    "forks_count": 22,
@@ -359464,7 +359500,7 @@
    "description": "A Kotlin multiplatform coroutine-based STOMP client over websockets, with built-in conversions.",
    "stars_count": 277,
    "watchers_count": 3,
-   "issues_count": 13,
+   "issues_count": 14,
    "forks_count": 14,
    "license": "MIT License",
    "topics": [
@@ -449853,7 +449889,7 @@
    "description": "Telegram Bot API wrapper with handy Kotlin DSL.",
    "stars_count": 249,
    "watchers_count": 2,
-   "issues_count": 5,
+   "issues_count": 4,
    "forks_count": 19,
    "license": "Apache License 2.0",
    "topics": [
@@ -459020,7 +459056,7 @@
    "full_name": "mirzemehdi/KMPNotifier",
    "html_url": "https://github.com/mirzemehdi/KMPNotifier",
    "description": "Kotlin Multiplatform  Push Notification Library targetting android, iOS, Desktop and Web (JS and Wasm)",
-   "stars_count": 663,
+   "stars_count": 665,
    "watchers_count": 4,
    "issues_count": 20,
    "forks_count": 45,
@@ -461855,7 +461891,7 @@
    "full_name": "mirzemehdi/KMPAuth",
    "html_url": "https://github.com/mirzemehdi/KMPAuth",
    "description": "Kotlin Multiplatform Authentication Library targetting android, iOS, desktop and web",
-   "stars_count": 558,
+   "stars_count": 560,
    "watchers_count": 3,
    "issues_count": 4,
    "forks_count": 54,
@@ -472153,7 +472189,7 @@
    "full_name": "fleeksoft/ksoup",
    "html_url": "https://github.com/fleeksoft/ksoup",
    "description": "Ksoup is a Kotlin Multiplatform library for working with HTML and XML. It's a port of the renowned Java library Jsoup.",
-   "stars_count": 567,
+   "stars_count": 568,
    "watchers_count": 4,
    "issues_count": 5,
    "forks_count": 20,
