@@ -37379,7 +37379,7 @@
    "full_name": "Kotlin/kotlinx.coroutines",
    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
    "description": "Library support for Kotlin coroutines ",
-   "stars_count": 13823,
+   "stars_count": 13824,
    "watchers_count": 288,
    "issues_count": 348,
    "forks_count": 1951,
@@ -39134,7 +39134,7 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 14552,
+   "stars_count": 14554,
    "watchers_count": 171,
    "issues_count": 133,
    "forks_count": 1319,
@@ -202116,7 +202116,7 @@
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
    "stars_count": 6899,
    "watchers_count": 118,
-   "issues_count": 372,
+   "issues_count": 371,
    "forks_count": 581,
    "license": "Apache License 2.0",
    "topics": [
@@ -237913,7 +237913,7 @@
    "full_name": "lysine-dev/okio",
    "html_url": "https://github.com/lysine-dev/okio",
    "description": "A modern I/O library for Android, Java, and Kotlin Multiplatform.",
-   "stars_count": 9051,
+   "stars_count": 9052,
    "watchers_count": 260,
    "issues_count": 104,
    "forks_count": 1240,
@@ -249961,7 +249961,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 1733,
    "watchers_count": 21,
-   "issues_count": 103,
+   "issues_count": 104,
    "forks_count": 199,
    "license": "Apache License 2.0",
    "topics": [
@@ -253219,7 +253219,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 1733,
    "watchers_count": 21,
-   "issues_count": 103,
+   "issues_count": 104,
    "forks_count": 199,
    "license": "Apache License 2.0",
    "topics": [
@@ -256106,7 +256106,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 1733,
    "watchers_count": 21,
-   "issues_count": 103,
+   "issues_count": 104,
    "forks_count": 199,
    "license": "Apache License 2.0",
    "topics": [
@@ -259364,7 +259364,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 1733,
    "watchers_count": 21,
-   "issues_count": 103,
+   "issues_count": 104,
    "forks_count": 199,
    "license": "Apache License 2.0",
    "topics": [
@@ -262622,7 +262622,7 @@
    "description": "A Kotlin-first SDK for Firebase",
    "stars_count": 1733,
    "watchers_count": 21,
-   "issues_count": 103,
+   "issues_count": 104,
    "forks_count": 199,
    "license": "Apache License 2.0",
    "topics": [
@@ -303357,7 +303357,7 @@
    "stars_count": 93,
    "watchers_count": 9,
    "issues_count": 7,
-   "forks_count": 18,
+   "forks_count": 19,
    "license": "Apache License 2.0",
    "topics": [
     "bitcoin",
@@ -320494,7 +320494,7 @@
    "stars_count": 2192,
    "watchers_count": 31,
    "issues_count": 23,
-   "forks_count": 208,
+   "forks_count": 209,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -330256,7 +330256,7 @@
    "full_name": "JuulLabs/kable",
    "html_url": "https://github.com/JuulLabs/kable",
    "description": "Kotlin Asynchronous Bluetooth Low-Energy",
-   "stars_count": 1202,
+   "stars_count": 1203,
    "watchers_count": 20,
    "issues_count": 80,
    "forks_count": 113,
@@ -421754,8 +421754,8 @@
   "groupId": "com.github.guilhe.kmp",
   "artifactId": "kmp-composeuiviewcontroller-annotations",
   "path": "com.github.guilhe.kmp:kmp-composeuiviewcontroller-annotations",
-  "latestVersion": "2.4.20-1.12.0",
-  "lastUpdated": "20260907114917",
+  "latestVersion": "2.5.0-Beta2-1.12.2",
+  "lastUpdated": "20261026000804",
   "versions": [
    {
     "version": "1.0.0-ALPHA-1",
@@ -439067,6 +439067,167 @@
       "target": "watchos_simulator_arm64"
      }
     }
+   },
+   {
+    "version": "2.5.0-Beta2-1.12.2",
+    "mpp": true,
+    "gradle": "9.8.0",
+    "kotlin": "2.5.0-Beta2",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsSourcesElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "jvmSourcesElements-published": {
+      "platform": "jvm"
+     },
+     "linuxArm64ApiElements-published": {
+      "platform": "native",
+      "target": "linux_arm64"
+     },
+     "linuxArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "linux_arm64"
+     },
+     "linuxX64ApiElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "linuxX64SourcesElements-published": {
+      "platform": "native",
+      "target": "linux_x64"
+     },
+     "macosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "macosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "macos_arm64"
+     },
+     "mingwX64ApiElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "mingwX64SourcesElements-published": {
+      "platform": "native",
+      "target": "mingw_x64"
+     },
+     "tvosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_arm64"
+     },
+     "tvosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosSimulatorArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "tvosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "tvos_simulator_arm64"
+     },
+     "wasmJsApiElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsRuntimeElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsSourcesElements-published": {
+      "platform": "wasm"
+     },
+     "watchosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_arm64"
+     },
+     "watchosDeviceArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_device_arm64"
+     },
+     "watchosDeviceArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "watchos_device_arm64"
+     },
+     "watchosDeviceArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_device_arm64"
+     },
+     "watchosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosSimulatorArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     },
+     "watchosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "watchos_simulator_arm64"
+     }
+    }
    }
   ],
   "github": {
@@ -439076,7 +439237,7 @@
    "description": "KSP library and Gradle plugin for generating ComposeUIViewController and UIViewControllerRepresentable files when using Compose Multiplatform for iOS",
    "stars_count": 93,
    "watchers_count": 1,
-   "issues_count": 1,
+   "issues_count": 0,
    "forks_count": 2,
    "license": "Apache License 2.0",
    "topics": [
@@ -449889,7 +450050,7 @@
    "description": "Telegram Bot API wrapper with handy Kotlin DSL.",
    "stars_count": 249,
    "watchers_count": 2,
-   "issues_count": 4,
+   "issues_count": 5,
    "forks_count": 19,
    "license": "Apache License 2.0",
    "topics": [
@@ -452376,8 +452537,8 @@
   "groupId": "ovh.plrapps",
   "artifactId": "mapcompose-mp",
   "path": "ovh.plrapps:mapcompose-mp",
-  "latestVersion": "1.1.4",
-  "lastUpdated": "20261017131321",
+  "latestVersion": "1.1.5",
+  "lastUpdated": "20261025150800",
   "versions": [
    {
     "version": "0.9.1",
@@ -453986,6 +454147,82 @@
       "platform": "wasm"
      }
     }
+   },
+   {
+    "version": "1.1.5",
+    "mpp": true,
+    "gradle": "9.6.0",
+    "kotlin": "2.4.21",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "androidApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "androidRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "androidSourcesElements-published": {
+      "platform": "androidJvm"
+     },
+     "desktopApiElements-published": {
+      "platform": "jvm"
+     },
+     "desktopRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "desktopSourcesElements-published": {
+      "platform": "jvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64ResourcesElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64ResourcesElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "wasmJsApiElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsRuntimeElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsSourcesElements-published": {
+      "platform": "wasm"
+     },
+     "wasmJsResourcesElements-published": {
+      "platform": "wasm"
+     }
+    }
    }
   ],
   "github": {
@@ -454007,8 +454244,8 @@
   "groupId": "eu.lepicekmichal.signalrkore",
   "artifactId": "signalrkore",
   "path": "eu.lepicekmichal.signalrkore:signalrkore",
-  "latestVersion": "0.9.16",
-  "lastUpdated": "20260929122800",
+  "latestVersion": "1.0.0",
+  "lastUpdated": "20261025171257",
   "versions": [
    {
     "version": "0.0.1",
@@ -456123,6 +456360,74 @@
       "platform": "jvm"
      }
     }
+   },
+   {
+    "version": "1.0.0",
+    "mpp": true,
+    "gradle": "9.8.2",
+    "kotlin": "2.4.20",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "androidApiElements-published": {
+      "platform": "androidJvm"
+     },
+     "androidRuntimeElements-published": {
+      "platform": "androidJvm"
+     },
+     "androidSourcesElements-published": {
+      "platform": "androidJvm"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "jvmSourcesElements-published": {
+      "platform": "jvm"
+     }
+    }
    }
   ],
   "github": {
@@ -456132,7 +456437,7 @@
    "description": "A Kotlin multiplatform coroutine-based SignalR client.",
    "stars_count": 63,
    "watchers_count": 6,
-   "issues_count": 3,
+   "issues_count": 2,
    "forks_count": 12,
    "license": "Apache License 2.0",
    "topics": [
