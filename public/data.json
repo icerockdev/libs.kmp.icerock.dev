@@ -26857,7 +26857,7 @@
    "full_name": "russhwolf/multiplatform-settings",
    "html_url": "https://github.com/russhwolf/multiplatform-settings",
    "description": "A Kotlin Multiplatform library for saving simple key-value data",
-   "stars_count": 2251,
+   "stars_count": 2252,
    "watchers_count": 17,
    "issues_count": 43,
    "forks_count": 83,
@@ -37381,8 +37381,8 @@
    "description": "Library support for Kotlin coroutines ",
    "stars_count": 13823,
    "watchers_count": 286,
-   "issues_count": 348,
-   "forks_count": 1948,
+   "issues_count": 349,
+   "forks_count": 1949,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -39157,9 +39157,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 14559,
+   "stars_count": 14562,
    "watchers_count": 170,
-   "issues_count": 131,
+   "issues_count": 129,
    "forks_count": 1324,
    "license": "Apache License 2.0",
    "topics": [
@@ -199401,663 +199401,6 @@
   "maven": "https://repo1.maven.org/maven2/org/reduxkotlin/redux-kotlin/"
  },
  {
-  "groupId": "org.oolong-kt",
-  "artifactId": "oolong",
-  "path": "org.oolong-kt:oolong",
-  "latestVersion": "2.1.1",
-  "lastUpdated": "20220804233041",
-  "versions": [
-   {
-    "version": "2.0.0",
-    "mpp": true,
-    "gradle": "5.1.1",
-    "kotlin": "1.3.30",
-    "targets": {
-     "ios-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macOS-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "2.0.1",
-    "mpp": true,
-    "gradle": "5.1.1",
-    "kotlin": "1.3.40",
-    "targets": {
-     "ios-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macOS-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "2.0.2",
-    "mpp": true,
-    "gradle": "6.0.1",
-    "kotlin": "1.3.61",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "2.0.3",
-    "mpp": true,
-    "gradle": "6.3",
-    "kotlin": "1.3.72",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "2.0.4",
-    "mpp": true,
-    "gradle": "6.3",
-    "kotlin": "1.3.72",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "2.0.5",
-    "mpp": true,
-    "gradle": "6.5",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "2.0.6",
-    "mpp": true,
-    "gradle": "6.5",
-    "kotlin": "1.3.72",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "2.0.7",
-    "mpp": true,
-    "gradle": "6.6",
-    "kotlin": "1.4.0",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "2.1.0",
-    "mpp": true,
-    "gradle": "6.6",
-    "kotlin": "1.4.10",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "2.1.1",
-    "mpp": true,
-    "gradle": "7.5",
-    "kotlin": "1.7.10",
-    "targets": {
-     "metadataApiElements": {
-      "platform": "common"
-     },
-     "iosArm32ApiElements-published": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm32MetadataElements-published": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64ApiElements-published": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosArm64MetadataElements-published": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosSimulatorArm64ApiElements-published": {
-      "platform": "native",
-      "target": "ios_simulator_arm64"
-     },
-     "iosSimulatorArm64MetadataElements-published": {
-      "platform": "native",
-      "target": "ios_simulator_arm64"
-     },
-     "iosX64ApiElements-published": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "iosX64MetadataElements-published": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "jvmApiElements-published": {
-      "platform": "jvm"
-     },
-     "jvmRuntimeElements-published": {
-      "platform": "jvm"
-     },
-     "linuxX64ApiElements-published": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosArm64ApiElements-published": {
-      "platform": "native",
-      "target": "macos_arm64"
-     },
-     "macosArm64MetadataElements-published": {
-      "platform": "native",
-      "target": "macos_arm64"
-     },
-     "macosX64ApiElements-published": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "macosX64MetadataElements-published": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "mingwX64ApiElements-published": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64ApiElements-published": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosArm64MetadataElements-published": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosSimulatorArm64ApiElements-published": {
-      "platform": "native",
-      "target": "tvos_simulator_arm64"
-     },
-     "tvosSimulatorArm64MetadataElements-published": {
-      "platform": "native",
-      "target": "tvos_simulator_arm64"
-     },
-     "tvosX64ApiElements-published": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "tvosX64MetadataElements-published": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32ApiElements-published": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm32MetadataElements-published": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64ApiElements-published": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosArm64MetadataElements-published": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosSimulatorArm64ApiElements-published": {
-      "platform": "native",
-      "target": "watchos_simulator_arm64"
-     },
-     "watchosSimulatorArm64MetadataElements-published": {
-      "platform": "native",
-      "target": "watchos_simulator_arm64"
-     },
-     "watchosX64ApiElements-published": {
-      "platform": "native",
-      "target": "watchos_x64"
-     },
-     "watchosX64MetadataElements-published": {
-      "platform": "native",
-      "target": "watchos_x64"
-     },
-     "watchosX86ApiElements-published": {
-      "platform": "native",
-      "target": "watchos_x86"
-     },
-     "watchosX86MetadataElements-published": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   }
-  ],
-  "github": {
-   "name": "oolong",
-   "full_name": "oolong-kt/oolong",
-   "html_url": "https://github.com/oolong-kt/oolong",
-   "description": "MVU for Kotlin Multiplatform",
-   "stars_count": 299,
-   "watchers_count": 10,
-   "issues_count": 5,
-   "forks_count": 13,
-   "license": "Apache License 2.0",
-   "topics": [
-    "coroutines",
-    "kotlin",
-    "kotlin-multiplatform",
-    "multiplatform",
-    "mvu",
-    "unidirectional"
-   ]
-  },
-  "category": "Architecture",
-  "maven": "https://repo1.maven.org/maven2/org/oolong-kt/oolong/"
- },
- {
   "groupId": "org.drewcarlson",
   "artifactId": "mobius-core",
   "path": "org.drewcarlson:mobius-core",
@@ -202794,10 +202137,10 @@
    "full_name": "sqldelight/sqldelight",
    "html_url": "https://github.com/sqldelight/sqldelight",
    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
-   "stars_count": 6900,
+   "stars_count": 6901,
    "watchers_count": 118,
-   "issues_count": 372,
-   "forks_count": 580,
+   "issues_count": 377,
+   "forks_count": 579,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-multiplatform",
@@ -208636,7 +207979,7 @@
    "full_name": "vendelieu/re.this",
    "html_url": "https://github.com/vendelieu/re.this",
    "description": "Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use.",
-   "stars_count": 109,
+   "stars_count": 110,
    "watchers_count": 3,
    "issues_count": 5,
    "forks_count": 7,
@@ -238596,7 +237939,7 @@
    "stars_count": 9053,
    "watchers_count": 261,
    "issues_count": 105,
-   "forks_count": 1242,
+   "forks_count": 1243,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin",
@@ -238605,1382 +237948,6 @@
   },
   "category": "Utils",
   "maven": "https://repo1.maven.org/maven2/com/squareup/okio/okio/"
- },
- {
-  "groupId": "org.jetbrains.kotlinx",
-  "artifactId": "atomicfu-native",
-  "path": "org.jetbrains.kotlinx:atomicfu-native",
-  "latestVersion": "0.14.3-1.4-M1",
-  "lastUpdated": "20200330090916",
-  "versions": [
-   {
-    "version": "0.11.0",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.1",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.1-native-mt",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.2",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.3",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.4",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.5",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.6",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.7",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.7-eap13",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.9",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "debugIos_arm32Link": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "debugIos_x64Link": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "debugMacos_x64Link": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "debugLinux_x64Link": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "debugMingw_x64Link": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.11.9-eap13",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "debugIos_arm32Link": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "debugIos_x64Link": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "debugMacos_x64Link": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "debugLinux_x64Link": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "debugMingw_x64Link": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.11.10",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {},
-     "debugIos_arm32Link": {},
-     "debugIos_x64Link": {},
-     "debugMacos_x64Link": {},
-     "debugLinux_x64Link": {},
-     "debugMingw_x64Link": {},
-     "releaseIos_arm64Link": {},
-     "releaseIos_arm32Link": {},
-     "releaseIos_x64Link": {},
-     "releaseMacos_x64Link": {},
-     "releaseLinux_x64Link": {},
-     "releaseMingw_x64Link": {}
-    }
-   },
-   {
-    "version": "0.11.10-eap13",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "debugIos_arm32Link": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "debugIos_x64Link": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "debugMacos_x64Link": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "debugLinux_x64Link": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "debugMingw_x64Link": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.11.11",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "debugIos_arm32Link": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "debugIos_x64Link": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "debugMacos_x64Link": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "debugLinux_x64Link": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "debugMingw_x64Link": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.11.12",
-    "mpp": true,
-    "gradle": "4.7",
-    "targets": {
-     "debugIos_arm64Link": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "debugIos_arm32Link": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "debugIos_x64Link": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "debugMacos_x64Link": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "debugLinux_x64Link": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "debugMingw_x64Link": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.1",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.20",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.2",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.20",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.2-eap13",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.30-eap-11",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.3",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.30",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.4",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.30",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.5",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.30",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.6",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.30",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.7",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.30",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.8",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.30",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.9",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.40",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.10",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.50",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.11",
-    "mpp": true,
-    "gradle": "4.10",
-    "kotlin": "1.3.50",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.12.11-gradle561",
-    "mpp": true,
-    "gradle": "5.6.1",
-    "kotlin": "1.3.50",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.13.0",
-    "mpp": true,
-    "gradle": "5.6.1",
-    "kotlin": "1.3.50",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.13.1",
-    "mpp": true,
-    "gradle": "5.6.1",
-    "kotlin": "1.3.50",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linux64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macos64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "windows64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     }
-    }
-   },
-   {
-    "version": "0.14.1",
-    "mpp": true,
-    "gradle": "5.6.1",
-    "kotlin": "1.3.60",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "0.14.2",
-    "mpp": true,
-    "gradle": "5.6.1",
-    "kotlin": "1.3.70",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "0.14.3",
-    "mpp": true,
-    "gradle": "5.6.1",
-    "kotlin": "1.3.71",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "metadata-commonMainMetadataElements": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   },
-   {
-    "version": "0.14.3-1.4-M1",
-    "mpp": true,
-    "gradle": "5.6.1",
-    "kotlin": "1.4-M1",
-    "targets": {
-     "iosArm32-api": {
-      "platform": "native",
-      "target": "ios_arm32"
-     },
-     "iosArm64-api": {
-      "platform": "native",
-      "target": "ios_arm64"
-     },
-     "iosX64-api": {
-      "platform": "native",
-      "target": "ios_x64"
-     },
-     "js-api": {
-      "platform": "js"
-     },
-     "js-runtime": {
-      "platform": "js"
-     },
-     "jsIr-api": {
-      "platform": "js"
-     },
-     "jsIr-runtime": {
-      "platform": "js"
-     },
-     "jvm-api": {
-      "platform": "jvm"
-     },
-     "jvm-runtime": {
-      "platform": "jvm"
-     },
-     "linuxX64-api": {
-      "platform": "native",
-      "target": "linux_x64"
-     },
-     "macosX64-api": {
-      "platform": "native",
-      "target": "macos_x64"
-     },
-     "metadata-api": {
-      "platform": "common"
-     },
-     "metadata-commonMainMetadataElements": {
-      "platform": "common"
-     },
-     "mingwX64-api": {
-      "platform": "native",
-      "target": "mingw_x64"
-     },
-     "tvosArm64-api": {
-      "platform": "native",
-      "target": "tvos_arm64"
-     },
-     "tvosX64-api": {
-      "platform": "native",
-      "target": "tvos_x64"
-     },
-     "watchosArm32-api": {
-      "platform": "native",
-      "target": "watchos_arm32"
-     },
-     "watchosArm64-api": {
-      "platform": "native",
-      "target": "watchos_arm64"
-     },
-     "watchosX86-api": {
-      "platform": "native",
-      "target": "watchos_x86"
-     }
-    }
-   }
-  ],
-  "github": {
-   "name": "kotlinx-atomicfu",
-   "full_name": "Kotlin/kotlinx-atomicfu",
-   "html_url": "https://github.com/Kotlin/kotlinx-atomicfu",
-   "description": "The idiomatic way to use atomic operations in Kotlin",
-   "stars_count": 1115,
-   "watchers_count": 30,
-   "issues_count": 60,
-   "forks_count": 87,
-   "license": "Other",
-   "topics": [
-    "atomic",
-    "kotlin",
-    "kotlinx"
-   ]
-  },
-  "category": "Utils",
-  "maven": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/atomicfu-native/"
  },
  {
   "groupId": "com.freeletics.flowredux",
@@ -240142,7 +238109,7 @@
    "full_name": "freeletics/FlowRedux",
    "html_url": "https://github.com/freeletics/FlowRedux",
    "description": "Kotlin Multiplatform Statemachine library with nice DSL based on Flow from Kotlin Coroutine's.",
-   "stars_count": 787,
+   "stars_count": 788,
    "watchers_count": 26,
    "issues_count": 17,
    "forks_count": 27,
@@ -273516,8 +271483,8 @@
    "description": "A multiplatform expectation library for Kotlin",
    "stars_count": 632,
    "watchers_count": 23,
-   "issues_count": 43,
-   "forks_count": 230,
+   "issues_count": 47,
+   "forks_count": 231,
    "license": "European Union Public License 1.2",
    "topics": [
     "assert",
@@ -273602,8 +271569,8 @@
    "description": "A multiplatform expectation library for Kotlin",
    "stars_count": 632,
    "watchers_count": 23,
-   "issues_count": 43,
-   "forks_count": 230,
+   "issues_count": 47,
+   "forks_count": 231,
    "license": "European Union Public License 1.2",
    "topics": [
     "assert",
@@ -273801,8 +271768,8 @@
    "description": "A multiplatform expectation library for Kotlin",
    "stars_count": 632,
    "watchers_count": 23,
-   "issues_count": 43,
-   "forks_count": 230,
+   "issues_count": 47,
+   "forks_count": 231,
    "license": "European Union Public License 1.2",
    "topics": [
     "assert",
@@ -273956,8 +271923,8 @@
    "description": "A multiplatform expectation library for Kotlin",
    "stars_count": 632,
    "watchers_count": 23,
-   "issues_count": 43,
-   "forks_count": 230,
+   "issues_count": 47,
+   "forks_count": 231,
    "license": "European Union Public License 1.2",
    "topics": [
     "assert",
@@ -299592,9 +297559,9 @@
    "full_name": "InsertKoinIO/koin",
    "html_url": "https://github.com/InsertKoinIO/koin",
    "description": "Koin - pragmatic dependency injection for Kotlin & Kotlin Multiplatform. Koin DSL or Koin Annotations (JSR-330), compile safe with the Koin Compiler Plugin.",
-   "stars_count": 10023,
+   "stars_count": 10025,
    "watchers_count": 105,
-   "issues_count": 84,
+   "issues_count": 83,
    "forks_count": 793,
    "license": "Apache License 2.0",
    "topics": [
@@ -301873,8 +299840,8 @@
    "description": "Lightweight Multiplatform logging framework for Kotlin. A convenient and performant logging facade.",
    "stars_count": 3114,
    "watchers_count": 18,
-   "issues_count": 2,
-   "forks_count": 131,
+   "issues_count": 8,
+   "forks_count": 130,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -323548,7 +321515,7 @@
    "stars_count": 2824,
    "watchers_count": 60,
    "issues_count": 43,
-   "forks_count": 136,
+   "forks_count": 135,
    "license": "Apache License 2.0",
    "topics": [
     "date",
@@ -323624,7 +321591,7 @@
    "stars_count": 2190,
    "watchers_count": 31,
    "issues_count": 27,
-   "forks_count": 211,
+   "forks_count": 210,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -339320,8 +337287,8 @@
    "description": "Multiplatform command line interface parsing for Kotlin",
    "stars_count": 3020,
    "watchers_count": 11,
-   "issues_count": 40,
-   "forks_count": 134,
+   "issues_count": 44,
+   "forks_count": 135,
    "license": "Apache License 2.0",
    "topics": [
     "argument-parser",
@@ -344470,8 +342437,8 @@
   "groupId": "app.moviebase",
   "artifactId": "tmdb-api",
   "path": "app.moviebase:tmdb-api",
-  "latestVersion": "1.16.3",
-  "lastUpdated": "20260913083743",
+  "latestVersion": "1.16.5",
+  "lastUpdated": "20261107073750",
   "versions": [
    {
     "version": "0.1.0",
@@ -347309,6 +345276,74 @@
     "mpp": true,
     "gradle": "9.6.1",
     "kotlin": "2.4.10",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "iosArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_arm64"
+     },
+     "iosSimulatorArm64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosSimulatorArm64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_simulator_arm64"
+     },
+     "iosX64ApiElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64SourcesElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "iosX64MetadataElements-published": {
+      "platform": "native",
+      "target": "ios_x64"
+     },
+     "jsApiElements-published": {
+      "platform": "js"
+     },
+     "jsRuntimeElements-published": {
+      "platform": "js"
+     },
+     "jsSourcesElements-published": {
+      "platform": "js"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "jvmSourcesElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "1.16.5",
+    "mpp": true,
+    "gradle": "9.8.2",
+    "kotlin": "2.4.21",
     "targets": {
      "metadataApiElements": {
       "platform": "common"
@@ -398506,7 +396541,7 @@
    "stars_count": 1330,
    "watchers_count": 15,
    "issues_count": 13,
-   "forks_count": 50,
+   "forks_count": 49,
    "license": "MIT License",
    "topics": [
     "combine",
@@ -463652,10 +461687,10 @@
    "full_name": "mirzemehdi/KMPNotifier",
    "html_url": "https://github.com/mirzemehdi/KMPNotifier",
    "description": "Kotlin Multiplatform  Push Notification Library targetting android, iOS, Desktop and Web (JS and Wasm)",
-   "stars_count": 668,
+   "stars_count": 669,
    "watchers_count": 4,
    "issues_count": 19,
-   "forks_count": 46,
+   "forks_count": 47,
    "license": "Apache License 2.0",
    "topics": [
     "android",
@@ -466487,7 +464522,7 @@
    "full_name": "mirzemehdi/KMPAuth",
    "html_url": "https://github.com/mirzemehdi/KMPAuth",
    "description": "Kotlin Multiplatform Authentication Library targetting android, iOS, desktop and web",
-   "stars_count": 559,
+   "stars_count": 560,
    "watchers_count": 3,
    "issues_count": 4,
    "forks_count": 54,
@@ -479249,7 +477284,7 @@
    "full_name": "Ivy-Apps/di",
    "html_url": "https://github.com/Ivy-Apps/di",
    "description": "A simple DI library for Kotlin Multiplatform apps.",
-   "stars_count": 39,
+   "stars_count": 40,
    "watchers_count": 0,
    "issues_count": 1,
    "forks_count": 7,
