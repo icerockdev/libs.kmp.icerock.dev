@@ -12595,7 +12595,7 @@
    "full_name": "icerockdev/moko-tensorflow",
    "html_url": "https://github.com/icerockdev/moko-tensorflow",
    "description": "Tensorflow Lite bindings for mobile (android & ios) Kotlin Multiplatform development",
-   "stars_count": 40,
+   "stars_count": 39,
    "watchers_count": 4,
    "issues_count": 3,
    "forks_count": 3,
@@ -37382,7 +37382,7 @@
    "stars_count": 13817,
    "watchers_count": 288,
    "issues_count": 350,
-   "forks_count": 1952,
+   "forks_count": 1954,
    "license": "Apache License 2.0",
    "topics": [
     "async",
@@ -37398,7 +37398,7 @@
   "artifactId": "ktor-client",
   "path": "io.ktor:ktor-client",
   "latestVersion": "3.6.2",
-  "lastUpdated": "20261125122511",
+  "lastUpdated": "20261126143931",
   "versions": [
    {
     "version": "1.0.0-rc",
@@ -39037,6 +39037,29 @@
     }
    },
    {
+    "version": "3.4.4",
+    "mpp": true,
+    "gradle": "9.4.0",
+    "kotlin": "2.3.0",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "jvmSourcesElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
     "version": "3.5.0",
     "mpp": true,
     "gradle": "9.4.1",
@@ -39084,6 +39107,29 @@
    },
    {
     "version": "3.5.2",
+    "mpp": true,
+    "gradle": "9.6.1",
+    "kotlin": "2.3.21",
+    "targets": {
+     "metadataApiElements": {
+      "platform": "common"
+     },
+     "metadataSourcesElements": {
+      "platform": "common"
+     },
+     "jvmApiElements-published": {
+      "platform": "jvm"
+     },
+     "jvmRuntimeElements-published": {
+      "platform": "jvm"
+     },
+     "jvmSourcesElements-published": {
+      "platform": "jvm"
+     }
+    }
+   },
+   {
+    "version": "3.5.3",
     "mpp": true,
     "gradle": "9.6.1",
     "kotlin": "2.3.21",
@@ -39180,9 +39226,9 @@
    "full_name": "ktorio/ktor",
    "html_url": "https://github.com/ktorio/ktor",
    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
-   "stars_count": 14578,
+   "stars_count": 14580,
    "watchers_count": 176,
-   "issues_count": 132,
+   "issues_count": 136,
    "forks_count": 1328,
    "license": "Apache License 2.0",
    "topics": [
@@ -209753,8 +209799,8 @@
    "description": "Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use.",
    "stars_count": 110,
    "watchers_count": 3,
-   "issues_count": 4,
-   "forks_count": 7,
+   "issues_count": 5,
+   "forks_count": 8,
    "license": "Apache License 2.0",
    "topics": [
     "coroutines",
@@ -218234,7 +218280,7 @@
    "stars_count": 1001,
    "watchers_count": 10,
    "issues_count": 30,
-   "forks_count": 42,
+   "forks_count": 43,
    "license": "Apache License 2.0",
    "topics": [
     "kotlin-js",
@@ -230057,7 +230103,7 @@
    "description": "Kotlin Multiplatform BLE library for iOS, Android, macos, windows and javascript",
    "stars_count": 489,
    "watchers_count": 4,
-   "issues_count": 13,
+   "issues_count": 5,
    "forks_count": 65,
    "license": "Apache License 2.0",
    "topics": []
@@ -241302,7 +241348,7 @@
    "full_name": "Kotlin/kotlinx-atomicfu",
    "html_url": "https://github.com/Kotlin/kotlinx-atomicfu",
    "description": "The idiomatic way to use atomic operations in Kotlin",
-   "stars_count": 1113,
+   "stars_count": 1114,
    "watchers_count": 30,
    "issues_count": 59,
    "forks_count": 87,
@@ -275453,7 +275499,7 @@
    "description": "A multiplatform expectation library for Kotlin",
    "stars_count": 634,
    "watchers_count": 22,
-   "issues_count": 46,
+   "issues_count": 36,
    "forks_count": 233,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -275539,7 +275585,7 @@
    "description": "A multiplatform expectation library for Kotlin",
    "stars_count": 634,
    "watchers_count": 22,
-   "issues_count": 46,
+   "issues_count": 36,
    "forks_count": 233,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -275738,7 +275784,7 @@
    "description": "A multiplatform expectation library for Kotlin",
    "stars_count": 634,
    "watchers_count": 22,
-   "issues_count": 46,
+   "issues_count": 36,
    "forks_count": 233,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -275893,7 +275939,7 @@
    "description": "A multiplatform expectation library for Kotlin",
    "stars_count": 634,
    "watchers_count": 22,
-   "issues_count": 46,
+   "issues_count": 36,
    "forks_count": 233,
    "license": "European Union Public License 1.2",
    "topics": [
@@ -325590,7 +325636,7 @@
    "full_name": "Kotlin/kotlinx-datetime",
    "html_url": "https://github.com/Kotlin/kotlinx-datetime",
    "description": "KotlinX multiplatform date/time library",
-   "stars_count": 2824,
+   "stars_count": 2823,
    "watchers_count": 61,
    "issues_count": 43,
    "forks_count": 136,
@@ -325668,8 +325714,8 @@
    "description": "Kotlin Multiplatform bindings to Skia",
    "stars_count": 2193,
    "watchers_count": 31,
-   "issues_count": 26,
-   "forks_count": 211,
+   "issues_count": 27,
+   "forks_count": 212,
    "license": "Apache License 2.0",
    "topics": []
   },
@@ -335886,9 +335932,9 @@
    "full_name": "JuulLabs/kable",
    "html_url": "https://github.com/JuulLabs/kable",
    "description": "Kotlin Asynchronous Bluetooth Low-Energy",
-   "stars_count": 1205,
+   "stars_count": 1206,
    "watchers_count": 21,
-   "issues_count": 63,
+   "issues_count": 64,
    "forks_count": 115,
    "license": "Apache License 2.0",
    "topics": [
@@ -425120,7 +425166,7 @@
    "full_name": "ltttttttttttt/ComposeViews",
    "html_url": "https://github.com/ltttttttttttt/ComposeViews",
    "description": "Compose Multiplatform views, in to Android, Web, Desktop, iOS: Pager, Banner, Indicator, Refresh Layout, Flow Layout, Menu Floating Action Button, Pull To Refresh, Chain Scrollable Component, Scrollable App Bar(Nested Scroll View),Date Selector(Time Selector Date Picker), Swipe To Dismiss, Image viewer, ZoomLayout, Star Bar and more",
-   "stars_count": 567,
+   "stars_count": 566,
    "watchers_count": 3,
    "issues_count": 2,
    "forks_count": 40,
